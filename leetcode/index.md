@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Mon, 19 May 2025 18:49:11 +0530"
+Last Edited: "Mon, 19 May 2025 20:06:15 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -28,6 +28,13 @@ Solved problems organized by topic and language.
 - **232. Implement Queue using Stacks**  
   Topics: `stack`, `design`, `queue`  
   Solutions: [C](./stacks/232-implement-queue-using-stacks/c/queue_using_stacks.c)  
+
+### Queues
+
+- **641. Design Circular Deque**  
+  Topics: `array`, `linked-list`, `design`, `queue`  
+  Solutions: [C](./queues/641-design-circular-deque/c/fixed_capacity_deque.c)  
+  [Index](./queues/641-design-circular-deque/index.md)
 
 ---
 
