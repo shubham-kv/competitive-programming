@@ -1,7 +1,7 @@
 ---
 Title: 20. Valid Parentheses
 Created: "Mon, 19 May 2025 10:05:47 +0530"
-Last Edited: "Mon, 19 May 2025 17:45:13 +0530"
+Last Edited: "Mon, 19 May 2025 17:46:49 +0530"
 ---
 
 > **Difficulty**: Easy  
@@ -27,7 +27,8 @@ and check for matching parentheses.
 
 ### Implementations
 
-- [C](./c/) — Modular, uses `stack.{h,c}` and `parentheses.{h,c}`
+- [C](./c/parentheses_validator.c)
+- [Typescript](./ts/parentheses_validator.ts)
 
 ---
 
