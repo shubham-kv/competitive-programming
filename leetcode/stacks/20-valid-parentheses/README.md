@@ -1,13 +1,13 @@
 ---
 Title: 20. Valid Parentheses
 Created: "Mon, 19 May 2025 10:05:47 +0530"
-Last Edited: "Mon, 19 May 2025 13:12:35 +0530"
+Last Edited: "Mon, 19 May 2025 17:45:13 +0530"
 ---
 
 > **Difficulty**: Easy  
 > **Topics**: `string`, `stack`  
 > **Link**: [20. Valid Parentheses | LeetCode](https://leetcode.com/problems/valid-parentheses)  
-> **Status**: Attempted
+> **Status**: Solved
 
 ### Problem Statement
 

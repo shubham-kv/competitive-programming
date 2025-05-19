@@ -7,57 +7,51 @@ bool isValid(char *s)
 {
   // Variables
   char *currentChar = s;
-  bool isClosingBracketMatching = true;
-  uint32_t count = 0;
+  bool isBalanced = true;
+  bool didEnter = false;
 
   // Create the stack
   void *parenthesesStack = stackCreate();
 
   // Loop through individual characters
-  while (*currentChar != '\0')
+  while (currentChar != NULL && *currentChar != '\0')
   {
     if (*currentChar == '(' || *currentChar == '{' || *currentChar == '[')
     {
       char *openingBracket = calloc(2, sizeof(char));
       openingBracket[0] = *currentChar;
       stackPush(parenthesesStack, openingBracket);
-      ++count;
+      didEnter = true;
     }
-    else if (*currentChar == ')')
+    else if (*currentChar == ')' || *currentChar == '}' || *currentChar == ']')
     {
-      char *lastOpeningBracket = stackPop(parenthesesStack);
-      if (lastOpeningBracket[0] != '(')
+      didEnter = true;
+
+      if (IS_STACK_EMPTY(parenthesesStack))
       {
-        isClosingBracketMatching = false;
+        isBalanced = false;
         break;
       }
-      ++count;
-    }
-    else if (*currentChar == '}')
-    {
-      char *lastOpeningBracket = stackPop(parenthesesStack);
-      if (lastOpeningBracket[0] != '{')
+      else
       {
-        isClosingBracketMatching = false;
-        break;
+        char *lastOpeningBracket = stackPop(parenthesesStack);
+
+        if (
+            (*currentChar == ')' && *lastOpeningBracket != '(') ||
+            (*currentChar == '}' && *lastOpeningBracket != '{') ||
+            (*currentChar == ']' && *lastOpeningBracket != '['))
+        {
+          isBalanced = false;
+          break;
+        }
       }
-      ++count;
     }
-    else if (*currentChar == ']')
-    {
-      char *lastOpeningBracket = stackPop(parenthesesStack);
-      if (lastOpeningBracket[0] != '[')
-      {
-        isClosingBracketMatching = false;
-        break;
-      }
-      ++count;
-    }
+
     currentChar++;
   }
 
   // Return the result
-  bool result = IS_STACK_EMPTY(parenthesesStack) && count > 0 ? isClosingBracketMatching : false;
+  bool result = IS_STACK_EMPTY(parenthesesStack) && didEnter && isBalanced;
 
   // Memory cleanup
   while (!IS_STACK_EMPTY(parenthesesStack))
