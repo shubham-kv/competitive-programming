@@ -6,7 +6,7 @@ Last Edited: "Mon, 19 May 2025 13:12:35 +0530"
 
 > **Difficulty**: Medium  
 > **Topics**: `stack`, `design`  
-> **Link**: [155. Min Stack](https://leetcode.com/problems/min-stack/)  
+> **Link**: [155. Min Stack | Leetcode](https://leetcode.com/problems/min-stack/)  
 > **Status**: Solved
 
 ### Problem Statement

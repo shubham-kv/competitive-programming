@@ -6,7 +6,7 @@ Last Edited: "Mon, 19 May 2025 17:52:35 +0530"
 
 > **Difficulty**: Medium  
 > **Topics**: `linked-list`, `hash-table`  
-> **Link**: [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer)  
+> **Link**: [138. Copy List with Random Pointer | Leetcode](https://leetcode.com/problems/copy-list-with-random-pointer)  
 > **Status**: Solved
 
 ### Problem Statement

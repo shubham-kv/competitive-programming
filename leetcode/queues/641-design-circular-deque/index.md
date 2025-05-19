@@ -1,12 +1,12 @@
 ---
 Title: 641. Design Circular Deque
 Created: "Mon, 19 May 2025 19:19:04 +0530"
-Last Edited: "Mon, 19 May 2025 20:06:15 +0530"
+Last Edited: "Mon, 19 May 2025 20:12:56 +0530"
 ---
 
 > **Difficulty**: Medium  
 > **Topics**: `array`, `linked-list`, `design`, `queue`  
-> **Link**: [641. Design Circular Deque](https://leetcode.com/problems/design-circular-deque)  
+> **Link**: [641. Design Circular Deque | Leetcode](https://leetcode.com/problems/design-circular-deque)  
 > **Status**: Solved
 
 ### Problem Statement
