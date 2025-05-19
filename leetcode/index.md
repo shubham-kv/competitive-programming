@@ -1,10 +1,17 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Mon, 19 May 2025 13:12:35 +0530"
+Last Edited: "Mon, 19 May 2025 17:23:33 +0530"
 ---
 
 Solved problems organized by topic and language.
+
+### Linked Lists
+
+- **138. Copy List with Random Pointer**  
+  Topics: `#linked-list`, `#hash-table`  
+  Solutions: [Typescript](./linked-lists/138-copy-list-with-random-pointer/ts/copy-random-list.ts)  
+  [Readme](./linked-lists/138-copy-list-with-random-pointer/README.md)
 
 ### Stacks
 
