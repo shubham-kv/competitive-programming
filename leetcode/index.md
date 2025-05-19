@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Mon, 19 May 2025 17:54:58 +0530"
+Last Edited: "Mon, 19 May 2025 18:49:11 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -28,3 +28,7 @@ Solved problems organized by topic and language.
 - **232. Implement Queue using Stacks**  
   Topics: `stack`, `design`, `queue`  
   Solutions: [C](./stacks/232-implement-queue-using-stacks/c/queue_using_stacks.c)  
+
+---
+
+[<< Go Back](../../index.md)
