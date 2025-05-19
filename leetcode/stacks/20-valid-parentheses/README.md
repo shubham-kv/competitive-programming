@@ -1,7 +1,7 @@
 ---
 Title: 20. Valid Parentheses
 Created: "Mon, 19 May 2025 10:05:47 +0530"
-Last Edited: "Mon, 19 May 2025 10:55:47 +0530"
+Last Edited: "Mon, 19 May 2025 13:12:35 +0530"
 ---
 
 > **Difficulty**: Easy  
@@ -9,10 +9,10 @@ Last Edited: "Mon, 19 May 2025 10:55:47 +0530"
 > **Link**: [20. Valid Parentheses | LeetCode](https://leetcode.com/problems/valid-parentheses)  
 > **Status**: Attempted
 
-## Problem
+### Problem Statement
 
-> Given a string s containing just the characters '(', ')', '{', '}', '[' and
-> ']', determine if the input string is valid.  
+> Given a string s containing just the characters `(`, `)`, `{`, `}`, `[` and
+> `]`, determine if the input string is valid.  
 
 ### Approach
 
@@ -28,3 +28,7 @@ and check for matching parentheses.
 ### Implementations
 
 - [C](./c/) — Modular, uses `stack.{h,c}` and `parentheses.{h,c}`
+
+---
+
+[<< Go Back to Index](../../index.md)

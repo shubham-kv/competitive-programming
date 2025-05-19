@@ -1,12 +1,12 @@
 ---
 Title: 155. Min Stack
 Created: "Mon, 19 May 2025 11:45:29 +0530"
-Last Edited: "Mon, 19 May 2025 12:57:47 +0530"
+Last Edited: "Mon, 19 May 2025 13:12:35 +0530"
 ---
 
-> **Problem**: [155. Min Stack](https://leetcode.com/problems/min-stack/)  
 > **Difficulty**: Medium  
 > **Topics**: `stack`, `design`  
+> **Link**: [155. Min Stack](https://leetcode.com/problems/min-stack/)  
 > **Status**: Solved
 
 ### Problem Statement
@@ -45,10 +45,15 @@ at that node level in the stack.
 
 ### Notes
 
-I was initially worried about the order of the minimum items / items in
+- Need to be careful about not wasting time.
+- I was initially worried about the order of the minimum items / items in
 ascending order from the top of the stack. Wasted time in the beginning trying
 to think how would popping items work while maintaining their ascending oder.
 
 ### Implementations
 
 - [C](./c/min_stack.c) — Modular, uses `min_stack.{h,c}`
+
+---
+
+[<< Go Back to Index](../../index.md)
