@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Mon, 19 May 2025 20:12:56 +0530"
+Last Edited: "Tue, 20 May 2025 11:07:57 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -25,6 +25,10 @@ Solved problems organized by topic and language.
 - **232. Implement Queue using Stacks**  
   Topics: `stack`, `design`, `queue`  
   Solutions: [C](./stacks/232-implement-queue-using-stacks/c/queue_using_stacks.c)  
+
+- [**234. Palindrome Linked List**](./stacks/234-palindrome-linked-list/index.md)  
+  Topics: `linked-list`, `two-pointers`, `stack`, `recursion`  
+  Solutions: [C](./stacks/234-palindrome-linked-list/c/palindrome_validator.c)  
 
 ### Queues
 
