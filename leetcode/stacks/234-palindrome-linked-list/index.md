@@ -1,13 +1,13 @@
 ---
 Title: 234. Palindrome Linked List
 Created: "Tue, 20 May 2025 09:55:01 +0530"
-Last Edited: "Tue, 20 May 2025 13:11:33 +0530"
+Last Edited: "Tue, 20 May 2025 17:29:02 +0530"
 ---
 
 > **Difficulty**: Easy  
 > **Topics**: `linked-list`, `two-pointers`, `stack`, `recursion`  
 > **Link**: [234. Palindrome Linked List | Leetcode](https://leetcode.com/problems/palindrome-linked-list/)  
-> **Status**: Attempting
+> **Status**: Solved
 
 ### Problem Statement
 
