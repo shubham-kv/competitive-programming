@@ -1,5 +1,7 @@
 #include <stdbool.h>
+#include <stdio.h>
 #include <stdlib.h>
+
 #include "linked_list.h"
 #include "stack.h"
 
@@ -15,13 +17,15 @@ bool isPalindrome(struct ListNode *head)
   struct Stack stack;
 
   // Early return
-  if (IS_NULL(head)) {
+  if (IS_NULL(head))
     return false;
-  }
 
   // Calculate the size of the linked list
   for (fastPointer = head; IS_NOT_NULL(fastPointer); fastPointer = fastPointer->next)
     listSize++;
+
+  if (listSize == 1)
+    return true;
 
   stackInit(&stack);
 
@@ -31,36 +35,46 @@ bool isPalindrome(struct ListNode *head)
       fastPointer = head, slowPointer = head;
       IS_NOT_NULL(fastPointer) && IS_NOT_NULL(slowPointer);)
   {
-    struct Node node = {.data = slowPointer->val};
-    stackPush(&stack, &node);
+    stackPush(&stack, slowPointer->val);
 
+    // Increment
     slowPointer = slowPointer->next;
 
-    if (IS_NULL(fastPointer->next))
-    {
+    if (IS_NOT_NULL(fastPointer->next))
+      fastPointer = fastPointer->next->next;
+    else
       break;
-    }
-
-    fastPointer = fastPointer->next->next;
   }
 
-  // Pop the middle node
-  if (listSize > 0)
+  // Pop the middle node for odd sized lists
+  if (listSize > 0 && listSize % 2 == 1) {
     stackPop(&stack);
+  }
 
   // Start popping items and compare them
   for (; IS_NOT_NULL(slowPointer); slowPointer = slowPointer->next)
   {
-    struct Node *topNode = stackPop(&stack);
-
-    if (slowPointer->val != topNode->data)
+    if (slowPointer->val != stackPop(&stack))
     {
       doesSecondHalfMatch = false;
       break;
     }
   }
 
+  bool result = IS_STACK_EMPTY(&stack) && doesSecondHalfMatch;
   stackClear(&stack);
 
-  return doesSecondHalfMatch;
+  return result;
+}
+
+int main(int argc, char const *argv[])
+{
+  struct ListNode node5 = {.val = 1, .next = NULL};
+  struct ListNode node4 = {.val = 1, .next = NULL};
+  struct ListNode node3 = {.val = 2, .next = &node4};
+  struct ListNode node2 = {.val = 2, .next = &node3};
+  struct ListNode node1 = {.val = 1, .next = &node2};
+  printf("Is the list palindrome ? %s\n", isPalindrome(&node1) ? "Yes" : "No");
+
+  return 0;
 }

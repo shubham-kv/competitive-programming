@@ -21,8 +21,8 @@ struct Stack
 void stackInit(struct Stack *stack);
 void stackClear(struct Stack *stack);
 
-void stackPush(struct Stack *stack, struct Node *node);
-struct Node *stackPop(struct Stack *stack);
+void stackPush(struct Stack *stack, int data);
+int stackPop(struct Stack *stack);
 
 #define STACK_SIZE(p) (((struct Stack *) p)->size)
 #define IS_STACK_EMPTY(p) (((struct Stack *) p)->top == NULL)
