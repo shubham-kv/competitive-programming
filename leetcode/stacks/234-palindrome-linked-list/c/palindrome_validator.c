@@ -14,7 +14,7 @@ bool isPalindrome(struct ListNode *head)
   uint32_t listSize = 0;
   bool doesSecondHalfMatch = true;
   struct ListNode *fastPointer, *slowPointer;
-  struct Stack stack;
+  struct StackNode stack;
 
   // Early return
   if (IS_NULL(head))

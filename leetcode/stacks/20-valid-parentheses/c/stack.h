@@ -9,17 +9,17 @@ struct Node
   struct Node *next;
 };
 
-struct Stack
+struct StackNode
 {
   uint32_t size;
   struct Node *top;
 };
 
-struct Stack *stackCreate();
-void stackDelete(struct Stack *stack);
+struct StackNode *stackCreate();
+void stackDelete(struct StackNode *stack);
 
-void stackPush(struct Stack *stack, void *item);
-void *stackPop(struct Stack *stack);
+void stackPush(struct StackNode *stack, void *item);
+void *stackPop(struct StackNode *stack);
 
 #define STACK_SIZE(p) (((struct Stack *)p)->size)
 #define IS_STACK_EMPTY(p) (((struct Stack *)p)->size == 0)

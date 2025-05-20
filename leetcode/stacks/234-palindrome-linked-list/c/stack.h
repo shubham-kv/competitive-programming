@@ -9,7 +9,7 @@ struct Node
   struct Node *next;
 };
 
-struct Stack
+struct StackNode
 {
   uint32_t size;
   struct Node *top;
@@ -18,11 +18,11 @@ struct Stack
 // One of the goals with this implementation where `stackInit()` takes in a
 // pointer is to use less storage in heap
 
-void stackInit(struct Stack *stack);
-void stackClear(struct Stack *stack);
+void stackInit(struct StackNode *stack);
+void stackClear(struct StackNode *stack);
 
-void stackPush(struct Stack *stack, int data);
-int stackPop(struct Stack *stack);
+void stackPush(struct StackNode *stack, int data);
+int stackPop(struct StackNode *stack);
 
 #define STACK_SIZE(p) (((struct Stack *) p)->size)
 #define IS_STACK_EMPTY(p) (((struct Stack *) p)->top == NULL)

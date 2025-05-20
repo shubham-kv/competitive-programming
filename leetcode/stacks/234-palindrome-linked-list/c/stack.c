@@ -1,13 +1,13 @@
 #include <stdlib.h>
 #include "stack.h"
 
-void stackInit(struct Stack *stack)
+void stackInit(struct StackNode *stack)
 {
   stack->size = 0;
   stack->top = NULL;
 }
 
-void stackClear(struct Stack *stack)
+void stackClear(struct StackNode *stack)
 {
   while (!IS_STACK_EMPTY(stack))
     stackPop(stack);
@@ -16,7 +16,7 @@ void stackClear(struct Stack *stack)
   stack->top = NULL;
 }
 
-void stackPush(struct Stack *stack, int data)
+void stackPush(struct StackNode *stack, int data)
 {
   struct Node *newNode = calloc(1, sizeof(struct Node));
   newNode->data = data;
@@ -26,7 +26,7 @@ void stackPush(struct Stack *stack, int data)
   stack->size++;
 }
 
-int stackPop(struct Stack *stack)
+int stackPop(struct StackNode *stack)
 {
   if (IS_STACK_EMPTY(stack))
     return -1;

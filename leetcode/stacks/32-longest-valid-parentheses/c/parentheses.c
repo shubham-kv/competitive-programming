@@ -55,6 +55,11 @@ bool isValid(char *s)
   return result;
 }
 
+struct StackNode {
+  char ch;
+  int index;
+};
+
 int longestValidParentheses(char *s)
 {
   int inputLength = strlen(s);
@@ -62,11 +67,11 @@ int longestValidParentheses(char *s)
   if (inputLength <= 0)
     return 0;
 
-  char stack[inputLength];
+  struct StackNode stack[inputLength];
   uint32_t stackSize = 0;
 
   bool substringStarted = false;
-  uint32_t longestValidSubstringLength = 0, curValidSubstringLength = 0;
+  int32_t longestValidSubstringLength = 0, curValidSubstringLength = 0;
 
   for (int i = 0; i < inputLength; i++)
   {
@@ -75,7 +80,11 @@ int longestValidParentheses(char *s)
     if (currentChar == '(')
     {
       // Push onto stack
-      stack[stackSize++] = currentChar;
+      stack[stackSize].ch = currentChar;
+      stack[stackSize].index = i;
+      stackSize++;
+
+      printf("Pushing '%c' with index %d onto stack\n", stack[stackSize - 1].ch, stack[stackSize - 1].index);
 
       // Start a substring sequence if not already started
       if (!substringStarted) {
@@ -89,10 +98,12 @@ int longestValidParentheses(char *s)
     else if (currentChar == ')')
     {
       // Peek the parentheses stack for '('
-      if (stackSize > 0 && stack[stackSize - 1] == '(')
+      if (stackSize > 0 && stack[stackSize - 1].ch == '(')
       {
         // Pop from stack
-        stack[--stackSize] = '\0';
+        stack[stackSize - 1].ch = '\0';
+        stack[stackSize - 1].index = -1;
+        --stackSize;
 
         // Increment current substring's length because it's valid
         curValidSubstringLength++;
@@ -113,7 +124,10 @@ int longestValidParentheses(char *s)
   }
 
   if (stackSize > 0) {
-    curValidSubstringLength -= stackSize;
+    int lastStackItemIndex = stack[stackSize - 1].index;
+    printf("stackSize: %d\n", stackSize);
+    printf("laststackitemindex: %d\n", lastStackItemIndex);
+    curValidSubstringLength = curValidSubstringLength - (lastStackItemIndex + 1);
   }
 
   longestValidSubstringLength =
