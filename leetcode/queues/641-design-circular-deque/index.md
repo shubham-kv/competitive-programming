@@ -1,12 +1,12 @@
 ---
 Title: 641. Design Circular Deque
 Created: "Mon, 19 May 2025 19:19:04 +0530"
-Last Edited: "Mon, 19 May 2025 20:12:56 +0530"
+Last Edited: "Tue, 20 May 2025 17:40:23 +0530"
 ---
 
 > **Difficulty**: Medium  
 > **Topics**: `array`, `linked-list`, `design`, `queue`  
-> **Link**: [641. Design Circular Deque | Leetcode](https://leetcode.com/problems/design-circular-deque)  
+> **Link**: [641. Design Circular Deque | Leetcode][leetcode-641]  
 > **Status**: Solved
 
 ### Problem Statement
@@ -35,3 +35,5 @@ Implement Fixed capacity Deque by using Doubly linked lists.
 ---
 
 [<< Go Back](../../index.md)
+
+[leetcode-641]: https://leetcode.com/problems/design-circular-deque

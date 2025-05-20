@@ -1,12 +1,12 @@
 ---
 Title: 155. Min Stack
 Created: "Mon, 19 May 2025 11:45:29 +0530"
-Last Edited: "Mon, 19 May 2025 13:12:35 +0530"
+Last Edited: "Tue, 20 May 2025 17:40:23 +0530"
 ---
 
 > **Difficulty**: Medium  
 > **Topics**: `stack`, `design`  
-> **Link**: [155. Min Stack | Leetcode](https://leetcode.com/problems/min-stack/)  
+> **Link**: [155. Min Stack | Leetcode][leetcode-155]  
 > **Status**: Solved
 
 ### Problem Statement
@@ -57,3 +57,5 @@ to think how would popping items work while maintaining their ascending oder.
 ---
 
 [<< Go Back to Index](../../index.md)
+
+[leetcode-155]: https://leetcode.com/problems/min-stack/

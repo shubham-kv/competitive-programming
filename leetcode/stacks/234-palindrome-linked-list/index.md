@@ -1,12 +1,12 @@
 ---
 Title: 234. Palindrome Linked List
 Created: "Tue, 20 May 2025 09:55:01 +0530"
-Last Edited: "Tue, 20 May 2025 17:29:02 +0530"
+Last Edited: "Tue, 20 May 2025 17:40:23 +0530"
 ---
 
 > **Difficulty**: Easy  
 > **Topics**: `linked-list`, `two-pointers`, `stack`, `recursion`  
-> **Link**: [234. Palindrome Linked List | Leetcode](https://leetcode.com/problems/palindrome-linked-list/)  
+> **Link**: [234. Palindrome Linked List | Leetcode][leetcode-234]  
 > **Status**: Solved
 
 ### Problem Statement
@@ -36,3 +36,9 @@ So I looked up into the solutions forum trying to find a better approach.
 
 - [C](./c/palindrome_validator.c)
 - [Typescript](./ts/palindrome-validator.ts)
+
+---
+
+[<< Go Back](../../index.md)
+
+[leetcode-234]: https://leetcode.com/problems/palindrome-linked-list/

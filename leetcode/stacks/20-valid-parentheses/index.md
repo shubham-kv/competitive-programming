@@ -1,12 +1,12 @@
 ---
 Title: 20. Valid Parentheses
 Created: "Mon, 19 May 2025 10:05:47 +0530"
-Last Edited: "Mon, 19 May 2025 17:46:49 +0530"
+Last Edited: "Tue, 20 May 2025 17:40:23 +0530"
 ---
 
 > **Difficulty**: Easy  
 > **Topics**: `string`, `stack`  
-> **Link**: [20. Valid Parentheses | LeetCode](https://leetcode.com/problems/valid-parentheses)  
+> **Link**: [20. Valid Parentheses | LeetCode][leetcode-20]  
 > **Status**: Solved
 
 ### Problem Statement
@@ -33,3 +33,5 @@ and check for matching parentheses.
 ---
 
 [<< Go Back to Index](../../index.md)
+
+[leetcode-20]: https://leetcode.com/problems/valid-parentheses

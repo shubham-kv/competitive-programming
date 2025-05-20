@@ -1,12 +1,12 @@
 ---
 Title: 138. Copy List with Random Pointer
 Created: "Mon, 19 May 2025 10:05:47 +0530"
-Last Edited: "Mon, 19 May 2025 17:52:35 +0530"
+Last Edited: "Tue, 20 May 2025 17:40:23 +0530"
 ---
 
 > **Difficulty**: Medium  
 > **Topics**: `linked-list`, `hash-table`  
-> **Link**: [138. Copy List with Random Pointer | Leetcode](https://leetcode.com/problems/copy-list-with-random-pointer)  
+> **Link**: [138. Copy List with Random Pointer | Leetcode][leetcode-138]  
 > **Status**: Solved
 
 ### Problem Statement
@@ -37,3 +37,5 @@ pointer of the copy node.
 ---
 
 [<< Go Back to Index](../../index.md)
+
+[leetcode-138]: https://leetcode.com/problems/copy-list-with-random-pointer
