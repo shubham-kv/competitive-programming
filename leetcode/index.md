@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Tue, 20 May 2025 15:32:28 +0530"
+Last Edited: "Wed, 21 May 2025 11:15:01 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -39,6 +39,12 @@ Solved problems organized by topic and language.
 - [**641. Design Circular Deque**](./queues/641-design-circular-deque/index.md)  
   Topics: `array`, `linked-list`, `design`, `queue`  
   Solutions: [C](./queues/641-design-circular-deque/c/fixed_capacity_deque.c)  
+
+### Search
+
+- [**704. Binary Search**](./searching/704-binary-search/index.md)  
+  Topics: `array`, `binary-search`  
+  Solutions: [C](./searching/704-binary-search/c/binary_seach.c)  
 
 ---
 
