@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sat, 24 May 2025 20:51:35 +0530"
+Last Edited: "Sat, 24 May 2025 21:08:53 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -47,6 +47,10 @@ Solved problems organized by topic and language.
   Solutions: [C](./searching/704-binary-search/c/binary_seach.c)  
 
 ### Graphs
+
+- [**547. Number of Provinces**](./graphs/547-number-of-provinces/index.md)  
+  Topics: `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
+  Solutions: [Typescript](./graphs/547-number-of-provinces/ts/number-of-provinces.ts)  
 
 - [**684. Redundant Connection**](./graphs/684-redundant-connection/index.md)  
   Topics: `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
