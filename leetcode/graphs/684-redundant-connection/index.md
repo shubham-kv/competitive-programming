@@ -1,7 +1,7 @@
 ---
 Title: 684. Redundant Connection
 Created: "Sat, 24 May 2025 19:26:54 +0530"
-Last Edited: "Sat, 24 May 2025 20:51:35 +0530"
+Last Edited: "Sat, 24 May 2025 21:10:26 +0530"
 ---
 
 > **Difficulty**: Medium  
@@ -31,7 +31,7 @@ Solve this with Weighted quick union.
 
 ### Implementations
 
-- [C](./c/redundant_connection.c), [Typescript](./ts/redundant-connectin.ts)
+- [C](./c/redundant_connection.c), [Typescript](./ts/redundant-connection.ts)
 
 ---
 
