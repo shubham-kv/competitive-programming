@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Wed, 21 May 2025 11:15:01 +0530"
+Last Edited: "Sat, 24 May 2025 19:36:25 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -45,6 +45,12 @@ Solved problems organized by topic and language.
 - [**704. Binary Search**](./searching/704-binary-search/index.md)  
   Topics: `array`, `binary-search`  
   Solutions: [C](./searching/704-binary-search/c/binary_seach.c)  
+
+### Graphs
+
+- [**684. Redundant Connection**](./graphs/684-redundant-connection/index.md)  
+  Topics: `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
+  Solutions: [Typescript](./graphs/684-redundant-connection/ts/redundant-connection.ts)  
 
 ---
 
