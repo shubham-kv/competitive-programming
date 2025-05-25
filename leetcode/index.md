@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sat, 24 May 2025 21:08:53 +0530"
+Last Edited: "Sun, 25 May 2025 12:20:36 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -55,6 +55,10 @@ Solved problems organized by topic and language.
 - [**684. Redundant Connection**](./graphs/684-redundant-connection/index.md)  
   Topics: `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
   Solutions: [C](./graphs/684-redundant-connection/c/redundant_connection.c), [Typescript](./graphs/684-redundant-connection/ts/redundant-connection.ts)  
+
+- [**1319. Number of Operations to Make Network Connected**](./graphs/1319-number-of-operations-to-make-network-connected/)  
+  Topics: `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
+  Solutions: [Typescript](./graphs/1319-number-of-operations-to-make-network-connected/ts/solution.ts)  
 
 ---
 
