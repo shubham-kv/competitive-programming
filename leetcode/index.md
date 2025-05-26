@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Mon, 26 May 2025 11:59:38 +0530"
+Last Edited: "Mon, 26 May 2025 12:37:32 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -24,7 +24,7 @@ Solved problems organized by topic and language.
 
 - [**155. Min Stack**](./stacks/155-min-stack/index.md)  
   Topics: `stack`, `design`  
-  Solutions: [C](./stacks/155-min-stack/c/min_stack.c)  
+  Solutions: C ([Attempt 2](./stacks/155-min-stack/c-02/min_stack.c), [Attempt 1](./stacks/155-min-stack/c-01/min_stack.c))
 
 - **232. Implement Queue using Stacks**  
   Topics: `stack`, `design`, `queue`  

@@ -1,7 +1,7 @@
 ---
 Title: 155. Min Stack
 Created: "Mon, 19 May 2025 11:45:29 +0530"
-Last Edited: "Tue, 20 May 2025 17:40:23 +0530"
+Last Edited: "Mon, 26 May 2025 12:37:32 +0530"
 ---
 
 > **Difficulty**: Medium  
@@ -52,10 +52,10 @@ to think how would popping items work while maintaining their ascending oder.
 
 ### Implementations
 
-- [C](./c/min_stack.c) — Modular, uses `min_stack.{h,c}`
+- C ([Attempt 2](./c-02/min_stack.c), [Attempt 1](./c-01/min_stack.c)) — Modular, uses `min_stack.{h,c}`
 
 ---
 
-[<< Go Back to Index](../../index.md)
+[<< Go Back](../../index.md)
 
 [leetcode-155]: https://leetcode.com/problems/min-stack/
