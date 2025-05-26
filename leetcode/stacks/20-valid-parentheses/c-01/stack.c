@@ -1,15 +1,15 @@
 #include <stdlib.h>
 #include "stack.h"
 
-struct StackNode *stackCreate()
+struct Stack *stackCreate()
 {
-  struct StackNode *stack = calloc(1, sizeof(struct StackNode));
+  struct Stack *stack = calloc(1, sizeof(struct Stack));
   stack->size = 0;
   stack->top = NULL;
   return stack;
 }
 
-void stackDelete(struct StackNode *stack)
+void stackDelete(struct Stack *stack)
 {
   while (!IS_STACK_EMPTY(stack))
     stackPop(stack);
@@ -17,7 +17,7 @@ void stackDelete(struct StackNode *stack)
   free(stack);
 }
 
-void stackPush(struct StackNode *stack, void *item)
+void stackPush(struct Stack *stack, void *item)
 {
   struct Node *newTopNode = calloc(1, sizeof(struct Node));
   newTopNode->item = item;
@@ -27,7 +27,7 @@ void stackPush(struct StackNode *stack, void *item)
   stack->size++;
 }
 
-void *stackPop(struct StackNode *stack)
+void *stackPop(struct Stack *stack)
 {
   if (IS_STACK_EMPTY(stack))
     return NULL;
