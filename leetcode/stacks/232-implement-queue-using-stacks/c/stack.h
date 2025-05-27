@@ -13,7 +13,7 @@ typedef struct
 {
   uint32_t size;
   Node *top;
-} StackNode;
+} Stack;
 
 Stack *stackCreate();
 void stackDelete(Stack *stack);
