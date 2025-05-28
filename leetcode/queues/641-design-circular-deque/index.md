@@ -1,7 +1,7 @@
 ---
 Title: 641. Design Circular Deque
 Created: "Mon, 19 May 2025 19:19:04 +0530"
-Last Edited: "Tue, 20 May 2025 17:40:23 +0530"
+Last Edited: "Wed, 28 May 2025 15:13:25 +0530"
 ---
 
 > **Difficulty**: Medium  
@@ -28,9 +28,9 @@ Last Edited: "Tue, 20 May 2025 17:40:23 +0530"
 
 Implement Fixed capacity Deque by using Doubly linked lists.
 
-### Implementations
+### Solutions
 
-- [C](./c/fixed_capacity_deque.c)
+- [C](./c/fixed_capacity_deque.c), [Typescript](./ts/linked-list-deque.ts)
 
 ---
 
