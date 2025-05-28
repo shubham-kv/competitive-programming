@@ -1,7 +1,7 @@
 ---
 Title: 704. Binary Search
 Created: "Wed, 21 May 2025 11:06:10 +0530"
-Last Edited: "Wed, 21 May 2025 11:15:01 +0530"
+Last Edited: "Wed, 28 May 2025 15:30:16 +0530"
 ---
 
 > **Difficulty**: Easy  
@@ -22,10 +22,10 @@ Last Edited: "Wed, 21 May 2025 11:15:01 +0530"
 
 ### Solutions
 
-- [C](./c/binary_seach.c)
+- [C](./c/binary_seach.c), [Typescript](./ts/binary-search.ts)
 
 ---
 
-[<< Go Back to Index](../../index.md)
+[<< Go Back](../../index.md)
 
 [leetcode-704]: https://leetcode.com/problems/binary-search/
