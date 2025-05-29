@@ -1,7 +1,7 @@
 ---
 Title: 684. Redundant Connection
 Created: "Sat, 24 May 2025 19:26:54 +0530"
-Last Edited: "Sat, 24 May 2025 21:10:26 +0530"
+Last Edited: "Thu, 29 May 2025 12:59:30 +0530"
 ---
 
 > **Difficulty**: Medium  
@@ -35,6 +35,6 @@ Solve this with Weighted quick union.
 
 ---
 
-[<< Go Back to Index](../../index.md)
+[<< Go Back](../../index.md)
 
 [leetcode-684]: https://leetcode.com/problems/redundant-connection/

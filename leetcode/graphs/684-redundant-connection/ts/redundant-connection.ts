@@ -2,45 +2,52 @@ class WeightedQuickUnion {
   private entries: number[];
   private sizes: number[];
 
-  constructor(size: number) {
+  constructor(nOfVertices: number) {
     this.entries = [];
-    
-    for (let i = 0; i < size; i++) {
+    for (let i = 0; i < nOfVertices; i++) {
       this.entries.push(i);
     }
 
-    this.sizes = Array(size).fill(1);
+    this.sizes = [];
+    for (let i = 0; i < nOfVertices; i++) {
+      this.sizes.push(1);
+    }
   }
 
-  find(a: number): number {
-    if (a > this.entries.length) {
+  findRootIndex(objIndex: number): number {
+    if (objIndex < 0 || objIndex >= this.entries.length) {
       return -1;
     }
 
-    while (this.entries[a] != a) {
-      a = this.entries[a];
+    while (objIndex != this.entries[objIndex]) {
+      this.entries[objIndex] = this.entries[this.entries[objIndex]]; // path compression
+      objIndex = this.entries[objIndex];
     }
-    return a;
+
+    return objIndex;
   }
 
-  connect(a: number, b: number): boolean {
-    const i = this.find(a);
-    const j = this.find(b);
+  union(objAIndex: number, objBIndex: number): boolean | null {
+    const rootAIndex = this.findRootIndex(objAIndex);
+    const rootBIndex = this.findRootIndex(objBIndex);
 
-    if (i === -1 || j === -1) {
+    if (rootAIndex === -1 || rootBIndex === -1) {
+      return null;
+    }
+
+    if (rootAIndex === rootBIndex) {
       return false;
     }
 
-    if (i === j) {
-      return false;
-    }
+    const treeASize = this.sizes[rootAIndex];
+    const treeBSize = this.sizes[rootBIndex];
 
-    if (this.sizes[i] < this.sizes[j]) {
-      this.entries[i] = j;
-      this.sizes[j] += this.sizes[i];
+    if (treeASize < treeBSize) {
+      this.entries[rootAIndex] = rootBIndex;
+      this.sizes[rootBIndex] += treeASize;
     } else {
-      this.entries[j] = i;
-      this.sizes[i] += this.sizes[j];
+      this.entries[rootBIndex] = rootAIndex;
+      this.sizes[rootAIndex] += treeBSize;
     }
 
     return true;
@@ -48,17 +55,16 @@ class WeightedQuickUnion {
 }
 
 function findRedundantConnection(edges: number[][]): number[] {
-  const flattened = edges.flat();
-  const max = Math.max(...flattened);
+  // Calculate the number of vertices
+  const nOfVertices = Math.max(...edges.flat()) + 1;
+  const unionFind = new WeightedQuickUnion(nOfVertices);
 
-  const qu = new WeightedQuickUnion(max);
-  let redundantConnections: number[] = [];
+  // CHeck for redundancy
+  let redundantConnections: number[] = []
 
-  for (const edge of edges) {
-    const didConnect = qu.connect(edge[0], edge[1]);
-
-    if (!didConnect) {
-      redundantConnections = [edge[0], edge[1]];
+  for (const [vertexA, vertexB] of edges) {
+    if (!unionFind.union(vertexA, vertexB)) {
+      redundantConnections = [vertexA, vertexB];
     }
   }
 
