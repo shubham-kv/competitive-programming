@@ -14,36 +14,38 @@ function isPalindrome(head: ListNode | null): boolean {
     return true;
   }
 
-  // Find the middle node
+  // Get to the middle of the node with fast & slow pointers
   let fast: ListNode | null = head;
   let slow: ListNode | null = head;
 
-  while (fast != null && fast.next != null) {
-    slow = slow!.next;
+  while(fast && fast.next) {
+    slow = slow?.next ?? null;
     fast = fast.next.next;
   }
 
-  // Beak the list from middle & reverse the second half of the list
+  // Reverse the list from middle
   let prev: ListNode | null = null;
   let cur: ListNode | null = slow;
+  let next: ListNode | null = null;
 
-  while (cur != null) {
-    const next = cur.next;
+  while (cur) {
+    next = cur.next;
     cur.next = prev;
     prev = cur;
     cur = next;
   }
 
-  // Compare the two halved linked lists from each sides
-  let first: ListNode | null = head;
-  let second: ListNode | null = prev;
+  // Compare the two halved lists
+  let curFromStart: ListNode | null = head;
+  let curFromEnd: ListNode | null = prev;
 
-  while (first != null && second != null) {
-    if (first.val != second.val) {
+  while (curFromStart && curFromEnd) {
+    if (curFromStart.val !== curFromEnd.val) {
       return false;
     }
-    first = first.next;
-    second = second.next;
+
+    curFromStart = curFromStart.next;
+    curFromEnd = curFromEnd.next;
   }
 
   return true;
