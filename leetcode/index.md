@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Fri, 30 May 2025 15:30:57 +0530"
+Last Edited: "Fri, 30 May 2025 15:42:06 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -69,6 +69,10 @@ Solved problems organized by topic and language.
 - [**94. Binary Tree Inorder Traversal**](./trees/94-binary-tree-inorder-traversal/index.md)  
   Topics: `stack`, `tree`, `depth-first-search`, `binary-tree`  
   Solutions: [Typescript](./trees/94-binary-tree-inorder-traversal/ts/solution.ts)  
+
+- [**144. Binary Tree Preorder Traversal**](./trees/144-binary-tree-preorder-traversal/index.md)  
+  Topics: `stack`, `tree`, `depth-first-search`, `binary-tree`  
+  Solutions: [Typescript](./trees/144-binary-tree-preorder-traversal/ts/solution.ts)  
 
 ---
 
