@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Wed, 28 May 2025 15:30:16 +0530"
+Last Edited: "Fri, 30 May 2025 15:30:57 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -63,6 +63,12 @@ Solved problems organized by topic and language.
 - [**1319. Number of Operations to Make Network Connected**](./graphs/1319-number-of-operations-to-make-network-connected/index.md)  
   Topics: `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
   Solutions: [Typescript](./graphs/1319-number-of-operations-to-make-network-connected/ts/solution.ts)  
+
+### Trees
+
+- [**94. Binary Tree Inorder Traversal**](./trees/94-binary-tree-inorder-traversal/index.md)  
+  Topics: `stack`, `tree`, `depth-first-search`, `binary-tree`  
+  Solutions: [Typescript](./trees/94-binary-tree-inorder-traversal/ts/solution.ts)  
 
 ---
 
