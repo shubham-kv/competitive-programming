@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Fri, 30 May 2025 15:42:06 +0530"
+Last Edited: "Sat, 31 May 2025 12:30:46 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -21,6 +21,10 @@ Solved problems organized by topic and language.
 - [**32. Longest Valid Parentheses**](./stacks/32-longest-valid-parentheses/index.md)  
   Topics: `string`, `stack`  
   Solutions: [C](./stacks/32-longest-valid-parentheses/c/parentheses.c)
+
+- [**150. Evaluate Reverse Polish Notation**](./stacks/150-evaluate-reverse-polish-notation/index.md)  
+  Topics: `array`, `math`, `stack`  
+  Solutions: [Typescript](./stacks/150-evaluate-reverse-polish-notation/ts/solution.ts)
 
 - [**155. Min Stack**](./stacks/155-min-stack/index.md)  
   Topics: `stack`, `design`  
