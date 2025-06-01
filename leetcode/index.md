@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sat, 31 May 2025 12:30:46 +0530"
+Last Edited: "Sun, 01 Jun 2025 11:36:04 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -37,6 +37,10 @@ Solved problems organized by topic and language.
 - [**234. Palindrome Linked List**](./stacks/234-palindrome-linked-list/index.md)  
   Topics: `linked-list`, `two-pointers`, `stack`, `recursion`  
   Solutions: [C](./stacks/234-palindrome-linked-list/c/palindrome_validator.c)  
+
+- [**682. Baseball Game**](./stacks/682-baseball-game/index.md)  
+  Topics: `array`, `stack`, `simulation`  
+  Solutions: [Typescript](./stacks/682-baseball-game/ts/solution.ts)
 
 ### Queues
 
