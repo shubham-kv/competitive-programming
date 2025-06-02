@@ -1,7 +1,7 @@
 ---
 Title: 225. Implement Stack using Queues
 Created: "Mon, 02 Jun 2025 11:06:07 +0530"
-Last Edited: "Mon, 02 Jun 2025 12:20:11 +0530"
+Last Edited: "Mon, 02 Jun 2025 13:10:19 +0530"
 ---
 
 > **Difficulty**: Easy  
@@ -19,7 +19,7 @@ Last Edited: "Mon, 02 Jun 2025 12:20:11 +0530"
 
 ### Solutions
 
-- [Typescript](./ts/my-stack.ts)
+- [C](./c/my_stack.c), [Typescript](./ts/my-stack.ts)
 
 ---
 
