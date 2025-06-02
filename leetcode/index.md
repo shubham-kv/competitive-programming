@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sun, 01 Jun 2025 12:19:01 +0530"
+Last Edited: "Mon, 02 Jun 2025 12:20:11 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -43,6 +43,10 @@ Solved problems organized by topic and language.
   Solutions: [Typescript](./stacks/682-baseball-game/ts/solution.ts)
 
 ### Queues
+
+- [**225. Implement Stack using Queues**](./queues/225-implement-stack-using-queues/index.md)  
+  Topics: `stack`, `design`, `queue`  
+  Solutions: [Typescript](./queues/225-implement-stack-using-queues/ts/my-stack.ts)  
 
 - [**641. Design Circular Deque**](./queues/641-design-circular-deque/index.md)  
   Topics: `array`, `linked-list`, `design`, `queue`  
