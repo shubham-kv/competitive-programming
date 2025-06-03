@@ -1,10 +1,16 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Mon, 02 Jun 2025 13:10:19 +0530"
+Last Edited: "Tue, 03 Jun 2025 12:24:43 +0530"
 ---
 
 Solved problems organized by topic and language.
+
+### Array
+
+- [**200. Number of Islands**](./array/200-number-of-islands/index.md)  
+  Topics: `array`, `depth-first-search`, `breadth-first-search`, `union-find`, `matrix`  
+  Solutions: [Javascript](./array/200-number-of-islands/js/solution.js)  
 
 ### Linked Lists
 
