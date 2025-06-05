@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Tue, 03 Jun 2025 12:24:43 +0530"
+Last Edited: "Thu, 05 Jun 2025 12:51:14 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -63,6 +63,12 @@ Solved problems organized by topic and language.
 - [**704. Binary Search**](./searching/704-binary-search/index.md)  
   Topics: `array`, `binary-search`  
   Solutions: [C](./searching/704-binary-search/c/binary_seach.c), [Typescript](./searching/704-binary-search/ts/binary-search.ts)  
+
+### Sorting
+
+- [**912. Sort an Array**](./sorting/912-sort-an-array/index.md)  
+  Topics: `array`, `divide-and-conquer`, `sorting`, `Heap-(priority-queue)`, `merge-sort`, `bucket-sort`, `radix-sort`, `Counting-sort`  
+  Solutions: [Javascript](./sorting/912-sort-an-array/js/top-down-merge-sort.js)  
 
 ### Graphs
 
