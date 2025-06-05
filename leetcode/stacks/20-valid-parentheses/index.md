@@ -1,12 +1,12 @@
 ---
 Title: 20. Valid Parentheses
 Created: "Mon, 19 May 2025 10:05:47 +0530"
-Last Edited: "Mon, 26 May 2025 11:59:38 +0530"
+Last Edited: "Thu, 05 Jun 2025 13:18:29 +0530"
 ---
 
 > **Difficulty**: Easy  
 > **Topics**: `string`, `stack`  
-> **Link**: [20. Valid Parentheses | LeetCode][leetcode-20]  
+> **LeetCode**: [20. Valid Parentheses][leetcode-20]  
 > **Status**: Solved
 
 ### Problem Statement
@@ -29,9 +29,10 @@ and check for matching parentheses.
 
 - C ([Attempt 2](./c-02/parentheses_validator.c), [Attempt 1](./c-01/parentheses_validator.c))
 - [Typescript](./ts/parentheses_validator.ts)
+- [Javascript](./js/parentheses-validator.js)
 
 ---
 
-[<< Go Back to Index](../../index.md)
+[<< Go Back](../../index.md)
 
 [leetcode-20]: https://leetcode.com/problems/valid-parentheses
