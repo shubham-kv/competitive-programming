@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Thu, 05 Jun 2025 13:18:29 +0530"
+Last Edited: "Fri, 06 Jun 2025 13:28:31 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -79,6 +79,10 @@ Solved problems organized by topic and language.
 - [**684. Redundant Connection**](./graphs/684-redundant-connection/index.md)  
   Topics: `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
   Solutions: [C](./graphs/684-redundant-connection/c/redundant_connection.c), [Typescript](./graphs/684-redundant-connection/ts/redundant-connection.ts)  
+
+- [**695. Max Area of Island**](./graphs/695-max-area-of-island/index.md)  
+  Topics: `array`, `depth-first-search`, `breadth-first-search`, `union-find`, `matrix`  
+  Solutions: [Javascript](./graphs/695-max-area-of-island/js/solution.js)  
 
 - [**990. Satisfiability of Equality Equations**](./graphs/990-satisfiability-of-equality-equations/index.md)  
   **Topics**: `array`, `string`, `union-find`, `graph`  
