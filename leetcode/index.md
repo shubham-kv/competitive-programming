@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Fri, 06 Jun 2025 13:28:31 +0530"
+Last Edited: "Sat, 07 Jun 2025 13:43:02 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -85,8 +85,12 @@ Solved problems organized by topic and language.
   Solutions: [Javascript](./graphs/695-max-area-of-island/js/solution.js)  
 
 - [**990. Satisfiability of Equality Equations**](./graphs/990-satisfiability-of-equality-equations/index.md)  
-  **Topics**: `array`, `string`, `union-find`, `graph`  
+  Topics: `array`, `string`, `union-find`, `graph`  
   Solutions: [Typescript](./graphs/990-satisfiability-of-equality-equations/ts/solution.ts)  
+
+- [**1267. Count Servers that Communicate**](./graphs/1267-count-servers-that-communicate/index.md)  
+  Topics: `array`, `depth-first-search`, `breadth-first-search`, `union-find`, `matrix`, `counting`  
+  Solutions: [Javascript](./graphs/1267-count-servers-that-communicate/js/solution.js)  
 
 - [**1319. Number of Operations to Make Network Connected**](./graphs/1319-number-of-operations-to-make-network-connected/index.md)  
   Topics: `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
