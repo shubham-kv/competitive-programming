@@ -1,7 +1,7 @@
 ---
 Title: 912. Sort an Array
 Created: "Thu, 05 Jun 2025 12:44:11 +0530"
-Last Edited: "Thu, 05 Jun 2025 12:51:14 +0530"
+Last Edited: "Mon, 09 Jun 2025 13:16:33 +0530"
 ---
 
 > **Difficulty**: Medium  
@@ -19,7 +19,7 @@ Last Edited: "Thu, 05 Jun 2025 12:51:14 +0530"
 
 ### Solutions
 
-- [Javascript](./js/top-down-merge-sort.js)
+- [Javascript (TopDownMergeSort)](./js/top-down-merge-sort.js), [Javascript (BottomUpMergeSort)](./js/bottom-up-merge-sort.js)
 
 ---
 
