@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Wed, 11 Jun 2025 15:57:52 +0530"
+Last Edited: "Wed, 11 Jun 2025 15:58:42 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -103,6 +103,7 @@ Solved problems organized by topic and language.
 
 - [**1319. Number of Operations to Make Network Connected**](./graphs/1319-number-of-operations-to-make-network-connected/index.md)  
   Topics: `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
+  Status: Attempting
   Solutions: [Typescript](./graphs/1319-number-of-operations-to-make-network-connected/ts/solution.ts)  
 
 - [**1971. Find if Path Exists in Graph**](./graphs/1971-find-if-path-exists-in-graph/index.md)  

@@ -1,13 +1,13 @@
 ---
 Title: 695. Max Area of Island
 Created: "Fri, 06 Jun 2025 13:22:39 +0530"
-Last Edited: "Fri, 06 Jun 2025 13:28:31 +0530"
+Last Edited: "Wed, 11 Jun 2025 15:58:42 +0530"
 ---
 
 > **Difficulty**: Medium  
 > **Topics**: `array`, `depth-first-search`, `breadth-first-search`, `union-find`, `matrix`  
 > **Leetcode**: [695. Max Area of Island][leetcode-695]  
-> **Status**: Not Attempted
+> **Status**: Solved
 
 ### Problem Statement
 
