@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Wed, 11 Jun 2025 14:47:58 +0530"
+Last Edited: "Wed, 11 Jun 2025 15:57:52 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -69,6 +69,11 @@ Solved problems organized by topic and language.
   Solutions: [C](./searching/704-binary-search/c/binary_seach.c), [Typescript](./searching/704-binary-search/ts/binary-search.ts)  
 
 ### Sorting
+
+- [**148. Sort List**](./sorting/148-sort-list/index.md)  
+  Topics: `linked-list`, `two-pointers`, `divide-and-conquer`, `sorting`, `merge-sort`  
+  Status: Attempting  
+  Solutions: [Javascript](./sorting/148-sort-list/js/solution.js)
 
 - [**912. Sort an Array**](./sorting/912-sort-an-array/index.md)  
   Topics: `array`, `divide-and-conquer`, `sorting`, `Heap-(priority-queue)`, `merge-sort`, `bucket-sort`, `radix-sort`, `Counting-sort`  
