@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Mon, 09 Jun 2025 13:16:33 +0530"
+Last Edited: "Wed, 11 Jun 2025 14:47:58 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -11,6 +11,10 @@ Solved problems organized by topic and language.
 - [**200. Number of Islands**](./array/200-number-of-islands/index.md)  
   Topics: `array`, `depth-first-search`, `breadth-first-search`, `union-find`, `matrix`  
   Solutions: [Javascript](./array/200-number-of-islands/js/solution.js)  
+
+- [**384. Shuffle an Array**](./array/384-shuffle-an-array/index.md)  
+  Topics: `array`, `math`, `design`, `randomized`  
+  Solutions: [Javascript](./array/384-shuffle-an-array/js/solution.js)  
 
 ### Linked Lists
 
