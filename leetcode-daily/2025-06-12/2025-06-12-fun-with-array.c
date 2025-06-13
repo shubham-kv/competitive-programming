@@ -2,8 +2,9 @@
 #include <stdlib.h>
 #include <memory.h>
 
-// Problem: 977. Squares of a Sorted Array {{
-// Link: https://leetcode.com/problems/squares-of-a-sorted-array/
+/// {{
+// Problem: 977. Squares of a Sorted Array
+// Links: https://leetcode.com/problems/squares-of-a-sorted-array/
 
 int intComparator(const void *a, const void *b) {
   int numA = *(const int *)a;
@@ -28,11 +29,12 @@ int *sortedSquares(int *nums, int numsSize, int *returnSize) {
   return squares;
 }
 
-// }}
+/// }}
 
 
-// 1089. Duplicate Zeros {{
-// https://leetcode.com/problems/duplicate-zeros/
+/// {{
+/// Problem: 1089. Duplicate Zeros
+/// Links: https://leetcode.com/problems/duplicate-zeros/
 
 void duplicateZeros(int *arr, int arrSize) {
   for (int i = 0; i < arrSize; i++) {
@@ -45,10 +47,11 @@ void duplicateZeros(int *arr, int arrSize) {
   }
 }
 
-// }}
+/// }}
 
-// 88. Merge Sorted Array {{
-// https://leetcode.com/problems/merge-sorted-array
+/// {{
+// Problem: 88. Merge Sorted Array
+// Links: https://leetcode.com/problems/merge-sorted-array
 
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n) {
   int *nums1Aux = calloc(m, sizeof(int));
@@ -72,10 +75,11 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n) {
   }
 }
 
-// }}
+/// }}
 
-// 27. Remove Element {{
-// https://leetcode.com/problems/remove-element/
+/// {{
+// Problem: 27. Remove Element
+// Links: https://leetcode.com/problems/remove-element/
 
 void removeElementAtNthIndex(int *nums, int numsSize, int n) {
   for (int j = n; (j + 1) < numsSize; j++) {
@@ -97,10 +101,11 @@ int removeElement(int* nums, int numsSize, int val) {
   return countOfElementsNotEqualToVal;
 }
 
-// }}
+/// }}
 
-// 26. Remove Duplicates from Sorted Array {{
-// https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+/// {{
+// Problem: 26. Remove Duplicates from Sorted Array
+// Links: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
 void removeElementAtN(int *nums, int size, int n) {
   for (int i = n; (i + 1) < size; i++) {
@@ -122,10 +127,11 @@ int removeDuplicates(int* nums, int numsSize) {
   return sizeOfNonDuplicates;
 }
 
-// }}
+/// }}
 
-/// 1346. Check If N and Its Double Exist {{
-// https://leetcode.com/problems/check-if-n-and-its-double-exist/
+/// {{
+/// Problem: 1346. Check If N and Its Double Exist
+/// Links: https://leetcode.com/problems/check-if-n-and-its-double-exist/
 
 bool checkIfExist(int* arr, int arrSize) {
   for (int i = 0; i < arrSize; i++) {
@@ -141,9 +147,9 @@ bool checkIfExist(int* arr, int arrSize) {
 
 /// }}
 
-/// 941. Valid Mountain Array {{
-// https://leetcode.com/problems/valid-mountain-array/
-// https://leetcode.com/explore/learn/card/fun-with-arrays/527/searching-for-items-in-an-array/3251/
+/// {{
+/// Problem: 941. Valid Mountain Array
+/// Links: https://leetcode.com/problems/valid-mountain-array/, https://leetcode.com/explore/learn/card/fun-with-arrays/527/searching-for-items-in-an-array/3251/
 
 bool validMountainArray(int* arr, int arrSize) {
   int i;
