@@ -4,6 +4,7 @@
 // Tags: [arrays, daily-practice]
 
 #include <stdlib.h>
+#include <memory.h>
 
 /// {{
 /// Problem: 1299. Replace Elements with Greatest Element on Right Side
@@ -168,5 +169,51 @@ void moveZeroes(int *nums, int numsSize) {
 //      nums =    [ 0 1 0 3 12 ]
 //   indices =      0 1 2 3  4
 //         i =  0   ^
+
+/// }}
+
+/// {{
+/// Problem: 905. Sort Array By Parity
+/// Links: https://leetcode.com/problems/sort-array-by-parity/
+
+/**
+ * Note: The returned array must be malloced, assume caller calls free().
+ */
+int *sortArrayByParity(int *nums, int numsSize, int *returnSize) {
+  int *result = calloc(numsSize, sizeof(int));
+  memcpy(result, nums, numsSize * sizeof(int));
+  *returnSize = numsSize;
+
+  int writeI = -1;
+
+  for (int i = 0; i < numsSize; i++) {
+    const int curValue = result[i];
+
+    if (curValue % 2 == 0) {
+      if (writeI > -1 && writeI < i) {
+        result[i] = result[writeI];
+        result[writeI++] = curValue;
+      }
+    } else {
+      if (writeI < 0) {
+        writeI = i;
+      }
+    }
+  }
+
+  return result;
+}
+
+/// }}
+
+/// {{
+/// Problem: 1051. Height Checker
+/// Links: https://leetcode.com/problems/height-checker/
+
+int heightChecker(int *heights, int heightsSize) {
+  int *expected = calloc(heightsSize, sizeof(int));
+  memcpy(expected, heights, heightsSize * sizeof(int));
+
+}
 
 /// }}
