@@ -1,13 +1,13 @@
 ---
 Title: 148. Sort List
 Created: "Thu, 05 Jun 2025 12:44:11 +0530"
-Last Edited: "Wed, 11 Jun 2025 15:54:49 +0530"
+Last Edited: "Sat, 14 Jun 2025 19:59:59 +0530"
 ---
 
 > **Difficulty**: Medium  
 > **Topics**: `linked-list`, `two-pointers`, `divide-and-conquer`, `sorting`, `merge-sort`  
 > **Leetcode**: [148. Sort List][leetcode-148]  
-> **Status**: Attempting
+> **Status**: Solved
 
 ### Problem Statement
 
@@ -16,7 +16,7 @@ Last Edited: "Wed, 11 Jun 2025 15:54:49 +0530"
 
 ### Solutions
 
-- [Javascript](./js/solution.js)
+- [C](./c/sloution.c)
 
 ---
 
