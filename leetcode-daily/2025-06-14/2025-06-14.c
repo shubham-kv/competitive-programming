@@ -1,7 +1,6 @@
-// Title: Fun with Arrays
 // Date: 2025-06-13
 // Created: Sat, 14 Jun 2025 11:12:18 +0530
-// Tags: [arrays, daily-practice]
+// Tags: [arrays, sorting, daily-practice]
 
 #include <stdbool.h>
 #include <stdio.h>
