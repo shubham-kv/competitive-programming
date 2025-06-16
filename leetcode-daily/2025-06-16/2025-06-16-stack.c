@@ -113,3 +113,59 @@ int evalRPN(char **tokens, int tokensSize) {
 }
 
 /// }}
+
+/// {{
+/// Problem: 1472. Design Browser History
+/// Links: https://leetcode.com/problems/design-browser-history/
+
+typedef struct ListNode {
+  char *url;
+  struct ListNode *prev;
+} ListNode;
+
+typedef struct {
+  ListNode *currentPage;
+  int pageSize;
+} BrowserHistory;
+
+BrowserHistory *browserHistoryCreate(char *homepage);
+void browserHistoryVisit(BrowserHistory *history, char *url);
+
+BrowserHistory *browserHistoryCreate(char *homepage) {
+  BrowserHistory *history = calloc(1, sizeof(BrowserHistory));
+  history->currentPage = NULL;
+  history->pageSize = 0;
+  browserHistoryVisit(history, homepage);
+
+  return history;
+}
+
+void browserHistoryVisit(BrowserHistory *history, char *url) {
+  ListNode *newPage = calloc(1, sizeof(ListNode));
+  newPage->url = url;
+  newPage->prev = history->currentPage;
+
+  history->currentPage = newPage;
+  history->pageSize++;
+}
+
+char *browserHistoryBack(BrowserHistory *history, int steps) {
+}
+
+char *browserHistoryForward(BrowserHistory *history, int steps) {
+}
+
+void browserHistoryFree(BrowserHistory *history) {
+}
+
+/**
+ * Your BrowserHistory struct will be instantiated and called as such:
+
+ * BrowserHistory* history = browserHistoryCreate(homepage);
+ * browserHistoryVisit(history, url);
+ * char* param_2 = browserHistoryBack(history, steps);
+ * char* param_3 = browserHistoryForward(history, steps);
+ * browserHistoryFree(history);
+*/
+
+/// }}
