@@ -1,7 +1,7 @@
 ---
 Title: 150. Evaluate Reverse Polish Notation
 Created: "Sat, 31 May 2025 12:22:37 +0530"
-Last Edited: "Sat, 31 May 2025 12:30:47 +0530"
+Last Edited: "Mon, 16 Jun 2025 19:26:03 +0530"
 ---
 
 > **Difficulty**: Medium  
@@ -23,7 +23,7 @@ Take inspiration from Dijkstra's two stack algorithm.
 
 ### Solutions
 
-- [Typescript](./ts/solution.ts)
+- [C](./c/solution.c), [Typescript](./ts/solution.ts)
 
 ---
 
