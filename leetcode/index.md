@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Mon, 16 Jun 2025 19:26:03 +0530"
+Last Edited: "Tue, 17 Jun 2025 15:02:39 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -17,6 +17,12 @@ Solved problems organized by topic and language.
   Solutions: [Javascript](./array/384-shuffle-an-array/js/solution.js)  
 
 ### Linked Lists
+
+- **2. Add Two Numbers**  
+  Links: [2. Add Two Numbers | Leetcode](https://leetcode.com/problems/add-two-numbers/)  
+  Difficulty: `Medium`  
+  Topics: `linked-list`, `math`, `recursion`  
+  Solutions: [C](./linked-lists/2-add-two-numbers/c/solution.c)  
 
 - [**138. Copy List with Random Pointer**](./linked-lists/138-copy-list-with-random-pointer/index.md)  
   Topics: `linked-list`, `hash-table`  
