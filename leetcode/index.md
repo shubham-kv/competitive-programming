@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Tue, 17 Jun 2025 15:02:39 +0530"
+Last Edited: "Wed, 18 Jun 2025 15:59:03 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -27,6 +27,12 @@ Solved problems organized by topic and language.
 - [**138. Copy List with Random Pointer**](./linked-lists/138-copy-list-with-random-pointer/index.md)  
   Topics: `linked-list`, `hash-table`  
   Solutions: [Typescript](./linked-lists/138-copy-list-with-random-pointer/ts/copy-random-list.ts)  
+
+- [**160. Intersection of Two Linked Lists** | Leetcode](https://leetcode.com/problems/intersection-of-two-linked-lists/)  
+  Difficulty: Easy  
+  Topics: `hash-table`, `linked-list`, `two-pointers`  
+  Timestamp: `Wed, 18 Jun 2025 14:41:30 +0530`  
+  Solutions: [C](./linked-lists/160-intersection-of-two-linked-lists/c/solution.c)
 
 ### Stacks
 
