@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Wed, 18 Jun 2025 16:06:09 +0530"
+Last Edited: "Thu, 19 Jun 2025 19:31:26 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -33,6 +33,12 @@ Solved problems organized by topic and language.
   Topics: `hash-table`, `linked-list`, `two-pointers`  
   Timestamp: `Wed, 18 Jun 2025 14:41:30 +0530`  
   Solutions: [C](./linked-lists/160-intersection-of-two-linked-lists/c/solution.c)
+
+- [**206. Reverse Linked List** | Leetcode](https://leetcode.com/problems/reverse-linked-list/)  
+  Difficulty: Easy  
+  Topics: `linked-list`, `recursion`  
+  Timestamp: `Thu, 19 Jun 2025 18:30:55 +0530`  
+  Solutions: [C](./linked-lists/206-reverse-linked-list/c/solution.c)
 
 - [**876. Middle of the Linked List** | Leetcode](https://leetcode.com/problems/middle-of-the-linked-list/)  
   Difficulty: Easy  
