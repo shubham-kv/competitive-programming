@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Thu, 19 Jun 2025 19:31:26 +0530"
+Last Edited: "Thu, 19 Jun 2025 20:04:06 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -39,6 +39,12 @@ Solved problems organized by topic and language.
   Topics: `linked-list`, `recursion`  
   Timestamp: `Thu, 19 Jun 2025 18:30:55 +0530`  
   Solutions: [C](./linked-lists/206-reverse-linked-list/c/solution.c)
+
+- [**234. Palindrome Linked List** | Leetcode](https://leetcode.com/problems/palindrome-linked-list/)  
+  Difficulty: Easy  
+  Topics: `linked-list`, `two-pointers`, `stack`, `recursion`  
+  Timestamp: `Thu, 19 Jun 2025 19:41:12 +053`  
+  Solutions: [C](./linked-lists/234-palindrome-linked-list/c/solution.c)
 
 - [**876. Middle of the Linked List** | Leetcode](https://leetcode.com/problems/middle-of-the-linked-list/)  
   Difficulty: Easy  
