@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Thu, 19 Jun 2025 20:28:16 +0530"
+Last Edited: "Thu, 19 Jun 2025 20:47:50 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -51,6 +51,12 @@ Solved problems organized by topic and language.
   Topics: `linked-list`, `two-pointers`, `stack`, `recursion`  
   Timestamp: `Thu, 19 Jun 2025 19:41:12 +053`  
   Solutions: [C](./linked-lists/234-palindrome-linked-list/c/solution.c)
+
+- [**237. Delete Node in a Linked List** | Leetcode](https://leetcode.com/problems/delete-node-in-a-linked-list/)  
+  Difficulty: Medium  
+  Topics: `linked-list`  
+  Timestamp: `Thu, 19 Jun 2025 20:36:21 +0530`  
+  Solutions: [C](./linked-lists/237-delete-node-in-a-linked-list/c/solution.c)
 
 - [**876. Middle of the Linked List** | Leetcode](https://leetcode.com/problems/middle-of-the-linked-list/)  
   Difficulty: Easy  
