@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Thu, 19 Jun 2025 20:04:06 +0530"
+Last Edited: "Thu, 19 Jun 2025 20:28:16 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -23,6 +23,12 @@ Solved problems organized by topic and language.
   Difficulty: `Medium`  
   Topics: `linked-list`, `math`, `recursion`  
   Solutions: [C](./linked-lists/2-add-two-numbers/c/solution.c)  
+
+- [**21. Merge Two Sorted Lists** | Leetcode](https://leetcode.com/problems/merge-two-sorted-lists/)  
+  Difficulty: Easy  
+  Topics: `linked-list`, `recursion`  
+  Timestamp: `Thu, 19 Jun 2025 18:30:55 +0530`  
+  Solutions: [C](./linked-lists/21-merge-two-sorted-lists/c/solution.c)  
 
 - [**138. Copy List with Random Pointer**](./linked-lists/138-copy-list-with-random-pointer/index.md)  
   Topics: `linked-list`, `hash-table`  
