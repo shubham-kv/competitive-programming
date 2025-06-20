@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Thu, 19 Jun 2025 20:47:50 +0530"
+Last Edited: "Fri, 20 Jun 2025 11:20:04 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -29,6 +29,12 @@ Solved problems organized by topic and language.
   Topics: `linked-list`, `recursion`  
   Timestamp: `Thu, 19 Jun 2025 18:30:55 +0530`  
   Solutions: [C](./linked-lists/21-merge-two-sorted-lists/c/solution.c)  
+
+- [**83. Remove Duplicates from Sorted List** | Leetcode](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)  
+  Difficulty: Easy  
+  Topics: `linked-list`  
+  Timestamp: `Fri, 20 Jun 2025 10:41:42 +0530`  
+  Solutions: [C](./linked-lists/83-remove-duplicates-from-sorted-list/c/solution.c)  
 
 - [**138. Copy List with Random Pointer**](./linked-lists/138-copy-list-with-random-pointer/index.md)  
   Topics: `linked-list`, `hash-table`  
