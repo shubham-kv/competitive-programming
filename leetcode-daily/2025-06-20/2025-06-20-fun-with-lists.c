@@ -4,6 +4,7 @@
 // Tags: [lists, daily-practice]
 
 #include <stdlib.h>
+#include <math.h>
 
 /// {{
 /// Problem: 83. Remove Duplicates from Sorted List  
@@ -121,5 +122,44 @@ struct ListNode *deleteDuplicates(struct ListNode *head) {
 //            head =    [1 -> 1 -> 2 -> 3 -> 3]
 //     curOriginal = 1   ^
 // curNonDuplicate = 1   ^
+
+/// }}
+
+
+/// {{
+/// Problem: 1290. Convert Binary Number in a Linked List to Integer
+/// Difficulty: Easy  
+/// Links: https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
+/// Topics: `linked-list`, `math`  
+/// Timestamp: `Fri, 20 Jun 2025 11:23:18 +0530`
+
+// Definition for singly-linked list.
+struct ListNode {
+  int val;
+  struct ListNode *next;
+};
+
+int getDecimalValue(struct ListNode *head) {
+  struct ListNode *cur;
+  int numberOfNodes = 0, decimal, i;
+
+  for (
+    cur = head;
+    cur != NULL;
+    cur = cur->next, numberOfNodes++
+  ) { }
+
+  for (
+    cur = head, i = numberOfNodes - 1, decimal = 0;
+    cur != NULL;
+    cur = cur->next, i--
+  ) {
+    if (i >= 0) {
+      decimal += cur->val * pow(2, i);
+    }
+  }
+
+  return decimal;
+}
 
 /// }}
