@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sat, 21 Jun 2025 13:00:12 +0530"
+Last Edited: "Sat, 21 Jun 2025 13:52:16 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -31,7 +31,8 @@ Solved problems organized by topic and language.
   Solutions: [C](./linked-lists/21-merge-two-sorted-lists/c/solution.c)  
 
 - [**24. Swap Nodes in Pairs** | Leetcode](https://leetcode.com/problems/swap-nodes-in-pairs/)  
-  `Medium`; `linked-list`, `recursion`  
+  Difficulty: `Medium`  
+  Topics: `linked-list`, `recursion`  
   Timestamp: `Sat, 21 Jun 2025 12:02:12 +0530`  
   Solutions: [C](./linked-lists/24-swap-nodes-in-pairs/c/solution.c)  
 
