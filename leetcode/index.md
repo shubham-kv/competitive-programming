@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sat, 21 Jun 2025 13:52:16 +0530"
+Last Edited: "Mon, 23 Jun 2025 11:22:59 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -69,6 +69,12 @@ Solved problems organized by topic and language.
   Topics: `linked-list`  
   Timestamp: `Thu, 19 Jun 2025 20:36:21 +0530`  
   Solutions: [C](./linked-lists/237-delete-node-in-a-linked-list/c/solution.c)
+
+- [**707. Design Linked List** | Leetcode](https://leetcode.com/problems/design-linked-list/)  
+  Difficulty: `Medium`  
+  Topics: `linked-list`, `design`  
+  Timestamp: `Mon, 23 Jun 2025 10:06:49 +0530`  
+  Solutions: [C](./linked-lists/707-design-linked-list/c/solution.c)
 
 - [**876. Middle of the Linked List** | Leetcode](https://leetcode.com/problems/middle-of-the-linked-list/)  
   Difficulty: Easy  
