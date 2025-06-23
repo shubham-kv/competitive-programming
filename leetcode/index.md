@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Mon, 23 Jun 2025 11:22:59 +0530"
+Last Edited: "Mon, 23 Jun 2025 13:39:50 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -29,6 +29,12 @@ Solved problems organized by topic and language.
   Topics: `linked-list`, `recursion`  
   Timestamp: `Thu, 19 Jun 2025 18:30:55 +0530`  
   Solutions: [C](./linked-lists/21-merge-two-sorted-lists/c/solution.c)  
+
+- [**23. Merge k Sorted Lists** | Leetcode](https://leetcode.com/problems/merge-k-sorted-lists/)  
+  Difficulty: `Hard`  
+  Topics: `linked-list`, `divide-and-conquer`, `heap-(priority-queue)`, `merge-sort`  
+  Timestamp: `Mon, 23 Jun 2025 12:34:58 +0530`  
+  Solutions: [C](./linked-lists/23-merge-k-sorted-lists/c/solution.c)  
 
 - [**24. Swap Nodes in Pairs** | Leetcode](https://leetcode.com/problems/swap-nodes-in-pairs/)  
   Difficulty: `Medium`  
