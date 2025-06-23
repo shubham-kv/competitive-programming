@@ -150,3 +150,59 @@ void myLinkedListDeleteAtIndex(MyLinkedList *list, int index) {
  */
 
 /// }}
+
+
+/// {{
+/// Problem: 19. Remove Nth Node From End of List
+/// Difficulty: `Medium`
+/// Links: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+/// Topics: `linked-list`, `two-pointers`
+/// Timestamp: `Mon, 23 Jun 2025 11:56:21 +0530`
+
+// Definition for singly-linked list.
+struct ListNode {
+  int val;
+  struct ListNode *next;
+};
+
+struct ListNode *removeNthFromEnd(struct ListNode *head, int n) {
+  if (head == NULL) {
+    return NULL;
+  }
+
+  int size;
+  struct ListNode *cur, *next;
+
+  for (
+    size = 0, cur = head;
+    cur != NULL;
+    size++, cur = cur->next
+  ) { }
+
+  int i;
+  for (
+    i = 0, cur = head, next = cur->next;
+    i < (size - n - 1) && cur != NULL && cur->next != NULL;
+    i++, cur = cur->next, next = cur->next
+  ) { }
+
+  if (i == 0) {
+    if (next == NULL) {
+      cur->next = NULL;
+      head = NULL;
+    } else {
+      cur->next = next->next;
+      head = next->next;
+    }
+  } else {
+    if (next == NULL) {
+      cur->next = NULL;
+    } else {
+      cur->next = next->next;
+    }
+  }
+
+  return head;
+}
+
+/// }}
