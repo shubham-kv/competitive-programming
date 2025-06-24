@@ -1,12 +1,12 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Mon, 23 Jun 2025 13:39:50 +0530"
+Last Edited: "Tue, 24 Jun 2025 11:35:20 +0530"
 ---
 
 Solved problems organized by topic and language.
 
-### Array
+#### Array
 
 - [**200. Number of Islands**](./array/200-number-of-islands/index.md)  
   Topics: `array`, `depth-first-search`, `breadth-first-search`, `union-find`, `matrix`  
@@ -16,7 +16,7 @@ Solved problems organized by topic and language.
   Topics: `array`, `math`, `design`, `randomized`  
   Solutions: [Javascript](./array/384-shuffle-an-array/js/solution.js)  
 
-### Linked Lists
+#### Linked Lists
 
 - **2. Add Two Numbers**  
   Links: [2. Add Two Numbers | Leetcode](https://leetcode.com/problems/add-two-numbers/)  
@@ -88,7 +88,7 @@ Solved problems organized by topic and language.
   Timestamp: `Wed, 18 Jun 2025 15:28:24 +0530`  
   Solutions: [C](./linked-lists/876-middle-of-the-linked-list/c/solution.c)
 
-### Stacks
+#### Stacks
 
 - [**20. Valid Parentheses**](./stacks/20-valid-parentheses/index.md)  
   Topics: `string`, `stack`  
@@ -118,7 +118,7 @@ Solved problems organized by topic and language.
   Topics: `array`, `stack`, `simulation`  
   Solutions: [Typescript](./stacks/682-baseball-game/ts/solution.ts)
 
-### Queues
+#### Queues
 
 - [**225. Implement Stack using Queues**](./queues/225-implement-stack-using-queues/index.md)  
   Topics: `stack`, `design`, `queue`  
@@ -128,13 +128,13 @@ Solved problems organized by topic and language.
   Topics: `array`, `linked-list`, `design`, `queue`  
   Solutions: [C](./queues/641-design-circular-deque/c/fixed_capacity_deque.c), [Typescript](./queues/641-design-circular-deque/ts/linked-list-deque.ts)  
 
-### Search
+#### Search
 
 - [**704. Binary Search**](./searching/704-binary-search/index.md)  
   Topics: `array`, `binary-search`  
   Solutions: [C](./searching/704-binary-search/c/binary_seach.c), [Typescript](./searching/704-binary-search/ts/binary-search.ts)  
 
-### Sorting
+#### Sorting
 
 - [**148. Sort List**](./sorting/148-sort-list/index.md)  
   Topics: `linked-list`, `two-pointers`, `divide-and-conquer`, `sorting`, `merge-sort`  
@@ -145,7 +145,7 @@ Solved problems organized by topic and language.
   Topics: `array`, `divide-and-conquer`, `sorting`, `Heap-(priority-queue)`, `merge-sort`, `bucket-sort`, `radix-sort`, `Counting-sort`  
   Solutions: Javascript ([TopDownMergeSort](./sorting/912-sort-an-array/js/top-down-merge-sort.js), [BottomUpMergeSort](./sorting/912-sort-an-array/js/bottom-up-merge-sort.js))
 
-### Graphs
+#### Graphs
 
 - [**547. Number of Provinces**](./graphs/547-number-of-provinces/index.md)  
   Topics: `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
@@ -176,7 +176,7 @@ Solved problems organized by topic and language.
   Topics: `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
   Solutions: [Typescript](./graphs/1971-find-if-path-exists-in-graph/ts/solution.ts)  
 
-### Trees
+#### Trees
 
 - [**94. Binary Tree Inorder Traversal**](./trees/94-binary-tree-inorder-traversal/index.md)  
   Topics: `stack`, `tree`, `depth-first-search`, `binary-tree`  
