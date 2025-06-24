@@ -1,97 +1,73 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Tue, 24 Jun 2025 12:38:06 +0530"
+Last Edited: "Tue, 24 Jun 2025 13:17:20 +0530"
 ---
 
 Solved problems organized by topic and language.
 
 #### Array
 
-- [**200. Number of Islands**](./array/200-number-of-islands/index.md)  
-  Topics: `array`, `depth-first-search`, `breadth-first-search`, `union-find`, `matrix`  
+- [**200. Number of Islands**](https://leetcode.com/problems/number-of-islands/)  
+  `Medium`; [`array`, `depth-first-search`, `breadth-first-search`, `union-find`, `matrix`]  
   Solutions: [Javascript](./array/200-number-of-islands/js/solution.js)  
 
 - [**384. Shuffle an Array**](./array/384-shuffle-an-array/index.md)  
-  Topics: `array`, `math`, `design`, `randomized`  
+  `Medium`; [`array`, `math`, `design`, `randomized`]  
   Solutions: [Javascript](./array/384-shuffle-an-array/js/solution.js)  
 
 #### Linked Lists
 
-- **2. Add Two Numbers**  
-  Links: [2. Add Two Numbers | Leetcode](https://leetcode.com/problems/add-two-numbers/)  
-  Difficulty: `Medium`  
-  Topics: `linked-list`, `math`, `recursion`  
-  Solutions: [C](./linked-lists/2-add-two-numbers/c/solution.c)  
+- [**2. Add Two Numbers**](https://leetcode.com/problems/add-two-numbers/)  
+  `Medium`; [`linked-list`, `math`, `recursion`]  
+  Solutions: [C](./linked-lists/2-add-two-numbers/c/solution.c)
 
-- [**21. Merge Two Sorted Lists** | Leetcode](https://leetcode.com/problems/merge-two-sorted-lists/)  
-  Difficulty: Easy  
-  Topics: `linked-list`, `recursion`  
-  Timestamp: `Thu, 19 Jun 2025 18:30:55 +0530`  
+- [**21. Merge Two Sorted Lists**](https://leetcode.com/problems/merge-two-sorted-lists/)  
+  `Easy`; [`linked-list`, `recursion`]  
   Solutions: [C](./linked-lists/21-merge-two-sorted-lists/c/solution.c)  
 
-- [**23. Merge k Sorted Lists** | Leetcode](https://leetcode.com/problems/merge-k-sorted-lists/)  
-  Difficulty: `Hard`  
-  Topics: `linked-list`, `divide-and-conquer`, `heap-(priority-queue)`, `merge-sort`  
-  Timestamp: `Mon, 23 Jun 2025 12:34:58 +0530`  
+- [**23. Merge k Sorted Lists**](https://leetcode.com/problems/merge-k-sorted-lists/)  
+  `Hard`; [`linked-list`, `divide-and-conquer`, `heap-(priority-queue)`, `merge-sort`]  
   Solutions: [C](./linked-lists/23-merge-k-sorted-lists/c/solution.c)  
 
-- [**24. Swap Nodes in Pairs** | Leetcode](https://leetcode.com/problems/swap-nodes-in-pairs/)  
-  Difficulty: `Medium`  
-  Topics: `linked-list`, `recursion`  
-  Timestamp: `Sat, 21 Jun 2025 12:02:12 +0530`  
+- [**24. Swap Nodes in Pairs**](https://leetcode.com/problems/swap-nodes-in-pairs/)  
+  `Medium`; [`linked-list`, `recursion`]  
   Solutions: [C](./linked-lists/24-swap-nodes-in-pairs/c/solution.c)  
 
-- [**83. Remove Duplicates from Sorted List** | Leetcode](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)  
-  Difficulty: Easy  
-  Topics: `linked-list`  
-  Timestamp: `Fri, 20 Jun 2025 10:41:42 +0530`  
+- [**83. Remove Duplicates from Sorted List**](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)  
+  `Easy`; [`linked-list`]  
   Solutions: [C](./linked-lists/83-remove-duplicates-from-sorted-list/c/solution.c)  
 
 - [**138. Copy List with Random Pointer**](./linked-lists/138-copy-list-with-random-pointer/index.md)  
-  Topics: `linked-list`, `hash-table`  
+  `Medium`; [`linked-list`, `hash-table`]  
   Solutions: [Typescript](./linked-lists/138-copy-list-with-random-pointer/ts/copy-random-list.ts)  
 
-- [**160. Intersection of Two Linked Lists** | Leetcode](https://leetcode.com/problems/intersection-of-two-linked-lists/)  
-  Difficulty: Easy  
-  Topics: `hash-table`, `linked-list`, `two-pointers`  
-  Timestamp: `Wed, 18 Jun 2025 14:41:30 +0530`  
+- [**160. Intersection of Two Linked Lists**](https://leetcode.com/problems/intersection-of-two-linked-lists/)  
+  `Easy`; [`hash-table`, `linked-list`, `two-pointers`]  
   Solutions: [C](./linked-lists/160-intersection-of-two-linked-lists/c/solution.c)
 
-- [**206. Reverse Linked List** | Leetcode](https://leetcode.com/problems/reverse-linked-list/)  
-  Difficulty: Easy  
-  Topics: `linked-list`, `recursion`  
-  Timestamp: `Thu, 19 Jun 2025 18:30:55 +0530`  
+- [**206. Reverse Linked List**](https://leetcode.com/problems/reverse-linked-list/)  
+  `Easy`; [`linked-list`, `recursion`]  
   Solutions: [C](./linked-lists/206-reverse-linked-list/c/solution.c)
 
-- [**234. Palindrome Linked List** | Leetcode](https://leetcode.com/problems/palindrome-linked-list/)  
-  Difficulty: Easy  
-  Topics: `linked-list`, `two-pointers`, `stack`, `recursion`  
-  Timestamp: `Thu, 19 Jun 2025 19:41:12 +053`  
+- [**234. Palindrome Linked List**](https://leetcode.com/problems/palindrome-linked-list/)  
+  `Easy`; [`linked-list`, `two-pointers`, `stack`, `recursion`]  
   Solutions: [C](./linked-lists/234-palindrome-linked-list/c/solution.c)
 
-- [**237. Delete Node in a Linked List** | Leetcode](https://leetcode.com/problems/delete-node-in-a-linked-list/)  
-  Difficulty: Medium  
-  Topics: `linked-list`  
-  Timestamp: `Thu, 19 Jun 2025 20:36:21 +0530`  
+- [**237. Delete Node in a Linked List**](https://leetcode.com/problems/delete-node-in-a-linked-list/)  
+  `Medium`; [`linked-list`]  
   Solutions: [C](./linked-lists/237-delete-node-in-a-linked-list/c/solution.c)
 
-- [**707. Design Linked List** | Leetcode](https://leetcode.com/problems/design-linked-list/)  
-  Difficulty: `Medium`  
-  Topics: `linked-list`, `design`  
-  Timestamp: `Mon, 23 Jun 2025 10:06:49 +0530`  
+- [**707. Design Linked List**](https://leetcode.com/problems/design-linked-list/)  
+  `Medium`; [`linked-list`, `design`]  
   Solutions: [C](./linked-lists/707-design-linked-list/c/solution.c)
 
-- [**876. Middle of the Linked List** | Leetcode](https://leetcode.com/problems/middle-of-the-linked-list/)  
-  Difficulty: Easy  
-  Topics: `linked-list`, `two-pointers`  
-  Timestamp: `Wed, 18 Jun 2025 15:28:24 +0530`  
+- [**876. Middle of the Linked List**](https://leetcode.com/problems/middle-of-the-linked-list/)  
+  `Easy`; [`linked-list`, `two-pointers`]  
   Solutions: [C](./linked-lists/876-middle-of-the-linked-list/c/solution.c)
 
-- [**2181. Merge Nodes in Between Zeros** | Leetcode](https://leetcode.com/problems/merge-nodes-in-between-zeros/)  
-  Difficulty: `Medium`  
-  Topics: `linked-list`, `simulation`  
-  Timestamp: `Tue, 24 Jun 2025 11:43:39 +0530`  
+- [**2181. Merge Nodes in Between Zeros**](https://leetcode.com/problems/merge-nodes-in-between-zeros/)  
+  `Medium`; [`linked-list`, `simulation`]  
   Solutions: [C](./linked-lists/2181-merge-nodes-in-between-zeros/c/solution.c)
 
 #### Stacks
