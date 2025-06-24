@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Tue, 24 Jun 2025 11:35:20 +0530"
+Last Edited: "Tue, 24 Jun 2025 12:38:06 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -87,6 +87,12 @@ Solved problems organized by topic and language.
   Topics: `linked-list`, `two-pointers`  
   Timestamp: `Wed, 18 Jun 2025 15:28:24 +0530`  
   Solutions: [C](./linked-lists/876-middle-of-the-linked-list/c/solution.c)
+
+- [**2181. Merge Nodes in Between Zeros** | Leetcode](https://leetcode.com/problems/merge-nodes-in-between-zeros/)  
+  Difficulty: `Medium`  
+  Topics: `linked-list`, `simulation`  
+  Timestamp: `Tue, 24 Jun 2025 11:43:39 +0530`  
+  Solutions: [C](./linked-lists/2181-merge-nodes-in-between-zeros/c/solution.c)
 
 #### Stacks
 
