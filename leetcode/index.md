@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Tue, 24 Jun 2025 13:17:20 +0530"
+Last Edited: "Wed, 25 Jun 2025 11:12:19 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -41,6 +41,10 @@ Solved problems organized by topic and language.
 - [**138. Copy List with Random Pointer**](./linked-lists/138-copy-list-with-random-pointer/index.md)  
   `Medium`; [`linked-list`, `hash-table`]  
   Solutions: [Typescript](./linked-lists/138-copy-list-with-random-pointer/ts/copy-random-list.ts)  
+
+- [**143. Reorder List**](https://leetcode.com/problems/reorder-list/)  
+  `Medium`; [`linked-list`, `two-pointers`, `stack`, `recursion`]  
+  Solutions: [C](./linked-lists/143-reorder-list/c/solution.c)  
 
 - [**160. Intersection of Two Linked Lists**](https://leetcode.com/problems/intersection-of-two-linked-lists/)  
   `Easy`; [`hash-table`, `linked-list`, `two-pointers`]  
