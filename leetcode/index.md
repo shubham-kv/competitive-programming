@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Thu, 26 Jun 2025 11:48:52 +0530"
+Last Edited: "Fri, 27 Jun 2025 19:14:50 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -128,8 +128,8 @@ Solved problems organized by topic and language.
   Solutions: [C](./sorting/148-sort-list/c/sloution.c)
 
 - [**912. Sort an Array**](./sorting/912-sort-an-array/index.md)  
-  Topics: `array`, `divide-and-conquer`, `sorting`, `Heap-(priority-queue)`, `merge-sort`, `bucket-sort`, `radix-sort`, `Counting-sort`  
-  Solutions: Javascript ([TopDownMergeSort](./sorting/912-sort-an-array/js/top-down-merge-sort.js), [BottomUpMergeSort](./sorting/912-sort-an-array/js/bottom-up-merge-sort.js))
+  `Medium`: `array`, `divide-and-conquer`, `sorting`, `Heap-(priority-queue)`, `merge-sort`, `bucket-sort`, `radix-sort`, `Counting-sort`  
+  Solutions: [C | Heap Sort](./sorting/912-sort-an-array/c/heap-sort.c), [JS | TopDownMergeSort](./sorting/912-sort-an-array/js/top-down-merge-sort.js), [JS | BottomUpMergeSort](./sorting/912-sort-an-array/js/bottom-up-merge-sort.js)
 
 #### Heap
 
