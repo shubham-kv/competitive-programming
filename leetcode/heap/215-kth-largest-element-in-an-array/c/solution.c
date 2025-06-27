@@ -1,3 +1,4 @@
+#include <stdbool.h>
 #include <stdlib.h>
 
 /// {{
@@ -5,7 +6,7 @@
 /// Difficulty: `Medium`
 /// Links: https://leetcode.com/problems/kth-largest-element-in-an-array/
 /// Topics: `array`, `divide-and-conquer`, `sorting`, `heap-(priority-queue)`, `quickselect`
-/// Timestamp: `Thu, 26 Jun 2025 11:08:59 +0530`
+/// Timestamp: `Fri, 27 Jun 2025 19:17:21 +0530`
 
 // Heap Based solution
 // 1. Build the heap
@@ -17,28 +18,21 @@ void swap(int *arr, int i, int j) {
   arr[j] = temp;
 }
 
-void swimUp(int *arr, int n, int k) {
-  for (
-    int p = (k - 1) / 2;
-    p > 0 && (arr[p] < arr[k]);
-    k = p, p = (k - 1) / 2
-  ) {
-    swap(arr, p, k);
-  }
+bool less(int *arr, int i, int j) {
+  return arr[i] < arr[j];
 }
 
-void sinkDown(int *arr, int n, int k) {
+void sinkDown(int *heap, int n, int p) {
   for (
-    int j = 2 * k + 1;
-    j < n;
-    k = j, j = 2 * k + 1
+    int c = 2 * p + 1;
+    c < n;
+    p = c, c = 2 * p + 1
   ) {
-    if (j + 1 < n && arr[j] < arr[j + 1]) {
-      j = j + 1;
+    if ((c + 1) < n && less(heap, c, c+1)) {
+      c = c + 1;
     }
-
-    if (arr[k] < arr[j]) {
-      swap(arr, k, j);
+    if (less(heap, p, c)) {
+      swap(heap, p, c);
     } else {
       break;
     }
@@ -46,8 +40,8 @@ void sinkDown(int *arr, int n, int k) {
 }
 
 int findKthLargest(int *nums, int n, int k) {
-  for (int i = (n - 1) / 2; i >= 0; i--) {
-    sinkDown(nums, n, i);
+  for (int k = (n - 1) / 2; k >= 0; k--) {
+    sinkDown(nums, n, k);
   }
 
   for (int i = 0, s = n; i < k; i++) {
