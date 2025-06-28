@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Fri, 27 Jun 2025 19:14:50 +0530"
+Last Edited: "Sat, 28 Jun 2025 11:38:43 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -77,8 +77,10 @@ Solved problems organized by topic and language.
 #### Stacks
 
 - [**20. Valid Parentheses**](./stacks/20-valid-parentheses/index.md)  
-  Topics: `string`, `stack`  
-  Solutions: C ([Attempt 2](./stacks/20-valid-parentheses/c-02/parentheses_validator.c), [Attempt 1](./stacks/20-valid-parentheses/c-01/parentheses_validator.c)), [Typescript](./stacks/20-valid-parentheses/ts/parentheses_validator.ts), [Javascript](./stacks/20-valid-parentheses/js/parentheses-validator.js)  
+  `Easy`: [`string`, `stack`]  
+  [C | Sol. 3](./stacks/20-valid-parentheses/c-03/solution.c),
+  [C | Sol. 2](./stacks/20-valid-parentheses/c-02/parentheses_validator.c),
+  [C | Sol. 1](./stacks/20-valid-parentheses/c-01/parentheses_validator.c)
 
 - [**32. Longest Valid Parentheses**](./stacks/32-longest-valid-parentheses/index.md)  
   Topics: `string`, `stack`  
