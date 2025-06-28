@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sat, 28 Jun 2025 12:04:28 +0530"
+Last Edited: "Sat, 28 Jun 2025 12:27:37 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -93,8 +93,10 @@ Solved problems organized by topic and language.
   [TS | Sol.](./stacks/150-evaluate-reverse-polish-notation/ts/solution.ts)
 
 - [**155. Min Stack**](./stacks/155-min-stack/index.md)  
-  Topics: `stack`, `design`  
-  Solutions: C ([Attempt 2](./stacks/155-min-stack/c-02/min_stack.c), [Attempt 1](./stacks/155-min-stack/c-01/min_stack.c))
+  `Medium`: [`stack`, `design`]  
+  [C | Att. 3](./stacks/155-min-stack/c-03/solution.c),
+  [C | Att. 2](./stacks/155-min-stack/c-02/min_stack.c),
+  [C | Att. 1](./stacks/155-min-stack/c-01/min_stack.c)
 
 - [**232. Implement Queue using Stacks**](./stacks/232-implement-queue-using-stacks/index.md)  
   Topics: `stack`, `design`, `queue`  
