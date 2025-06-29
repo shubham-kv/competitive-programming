@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sat, 28 Jun 2025 12:27:37 +0530"
+Last Edited: "Sun, 29 Jun 2025 21:25:30 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -76,7 +76,7 @@ Solved problems organized by topic and language.
 
 #### Stacks
 
-- [**20. Valid Parentheses**](./stacks/20-valid-parentheses/index.md)  
+- [**20. Valid Parentheses**](https://leetcode.com/problems/valid-parentheses/)  
   `Easy`: [`string`, `stack`]  
   [C | Sol. 3](./stacks/20-valid-parentheses/c-03/solution.c),
   [C | Sol. 2](./stacks/20-valid-parentheses/c-02/parentheses_validator.c),
@@ -86,13 +86,13 @@ Solved problems organized by topic and language.
   Topics: `string`, `stack`  
   Solutions: [C](./stacks/32-longest-valid-parentheses/c/parentheses.c)
 
-- [**150. Evaluate Reverse Polish Notation**](./stacks/150-evaluate-reverse-polish-notation/index.md)  
+- [**150. Evaluate Reverse Polish Notation**](https://leetcode.com/problems/evaluate-reverse-polish-notation/)  
   `Medium`; [`array`, `math`, `stack`]  
   [C | Att. 2](./stacks/150-evaluate-reverse-polish-notation/c-02/solution.c),
   [C | Att. 1](./stacks/150-evaluate-reverse-polish-notation/c-01/solution.c),
   [TS | Sol.](./stacks/150-evaluate-reverse-polish-notation/ts/solution.ts)
 
-- [**155. Min Stack**](./stacks/155-min-stack/index.md)  
+- [**155. Min Stack**](https://leetcode.com/problems/min-stack/)  
   `Medium`: [`stack`, `design`]  
   [C | Att. 3](./stacks/155-min-stack/c-03/solution.c),
   [C | Att. 2](./stacks/155-min-stack/c-02/min_stack.c),
