@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sun, 29 Jun 2025 21:25:30 +0530"
+Last Edited: "Sun, 29 Jun 2025 22:19:15 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -98,9 +98,10 @@ Solved problems organized by topic and language.
   [C | Att. 2](./stacks/155-min-stack/c-02/min_stack.c),
   [C | Att. 1](./stacks/155-min-stack/c-01/min_stack.c)
 
-- [**232. Implement Queue using Stacks**](./stacks/232-implement-queue-using-stacks/index.md)  
-  Topics: `stack`, `design`, `queue`  
-  Solutions: [C](./stacks/232-implement-queue-using-stacks/c/queue_using_stacks.c), [Typescript](./stacks/232-implement-queue-using-stacks/ts/queue-using-stacks.ts)  
+- [**232. Implement Queue using Stacks**](https://leetcode.com/problems/implement-queue-using-stacks/)  
+  `Easy`; [`stack`, `design`, `queue`]  
+  [C | Solution](./stacks/232-implement-queue-using-stacks/c/solution.c),
+  [TS | Solution](./stacks/232-implement-queue-using-stacks/ts/queue-using-stacks.ts)  
 
 - [**234. Palindrome Linked List**](./stacks/234-palindrome-linked-list/index.md)  
   Topics: `linked-list`, `two-pointers`, `stack`, `recursion`  
