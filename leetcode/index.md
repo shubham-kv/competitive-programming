@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Mon, 30 Jun 2025 01:09:03 +0530"
+Last Edited: "Mon, 30 Jun 2025 15:27:04 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -89,6 +89,10 @@ Solved problems organized by topic and language.
 - [**71. Simplify Path**](https://leetcode.com/problems/simplify-path/)  
   `Medium`; [`string`, `stack`]  
   [C | Solution](./stacks/71-simplify-path/c/solution.c)
+
+- [**143. Reorder List**](https://leetcode.com/problems/reorder-list/)  
+  `Medium`; [`linked-list`, `two-pointers`, `stack`, `recursion`]  
+  Solutions: [C](./stacks/143-reorder-list/c/solution.c)  
 
 - [**150. Evaluate Reverse Polish Notation**](https://leetcode.com/problems/evaluate-reverse-polish-notation/)  
   `Medium`; [`array`, `math`, `stack`]  
