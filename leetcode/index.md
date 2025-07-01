@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Mon, 30 Jun 2025 15:27:04 +0530"
+Last Edited: "Tue, 01 Jul 2025 12:22:12 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -119,6 +119,10 @@ Solved problems organized by topic and language.
   `Easy`; [`array`, `stack`, `simulation`]  
   [C | Solution](./stacks/682-baseball-game/c/solution.c),
   [TS | Solution](./stacks/682-baseball-game/ts/solution.ts)
+
+- [**1598. Crawler Log Folder**](https://leetcode.com/problems/crawler-log-folder/)  
+  `Easy`; [`array`, `string`, `stack`]  
+  Solution: [C](./stacks/1598-crawler-log-folder/c/solution.c)
 
 #### Queues
 
