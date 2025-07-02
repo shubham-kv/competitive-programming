@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Tue, 01 Jul 2025 12:34:25 +0530"
+Last Edited: "Wed, 02 Jul 2025 14:12:03 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -105,6 +105,10 @@ Solved problems organized by topic and language.
   [C | Att. 3](./stacks/155-min-stack/c-03/solution.c),
   [C | Att. 2](./stacks/155-min-stack/c-02/min_stack.c),
   [C | Att. 1](./stacks/155-min-stack/c-01/min_stack.c)
+
+- [**227. Basic Calculator II**](https://leetcode.com/problems/basic-calculator-ii/)  
+  `Medium`; [`math`, `string`, `stack`]  
+  Solutions: [C](./stacks/227-basic-calculator-ii/c/solution.c)
 
 - [**232. Implement Queue using Stacks**](https://leetcode.com/problems/implement-queue-using-stacks/)  
   `Easy`; [`stack`, `design`, `queue`]  
