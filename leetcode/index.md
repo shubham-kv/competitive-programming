@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Fri, 04 Jul 2025 18:30:32 +0530"
+Last Edited: "Fri, 04 Jul 2025 18:47:36 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -143,6 +143,10 @@ Solved problems organized by topic and language.
   Solutions: [C](./queues/641-design-circular-deque/c/fixed_capacity_deque.c), [Typescript](./queues/641-design-circular-deque/ts/linked-list-deque.ts)  
 
 #### Search
+
+- [**33. Search in Rotated Sorted Array**](https://leetcode.com/problems/search-in-rotated-sorted-array/)  
+  `Medium`; [`array`, `binary-search`]  
+  Solutions: [C](./searching/33-search-in-rotated-sorted-array/c/solution.c)
 
 - [**153. Find Minimum in Rotated Sorted Array**](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)  
   `Medium`; [`array`, `binary-search`]  
