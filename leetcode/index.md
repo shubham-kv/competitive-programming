@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Wed, 02 Jul 2025 14:12:03 +0530"
+Last Edited: "Fri, 04 Jul 2025 18:15:23 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -144,8 +144,8 @@ Solved problems organized by topic and language.
 
 #### Search
 
-- [**704. Binary Search**](./searching/704-binary-search/index.md)  
-  Topics: `array`, `binary-search`  
+- [**704. Binary Search**](https://leetcode.com/problems/binary-search/)  
+  `Easy`; [`array`, `binary-search`]  
   Solutions: [C](./searching/704-binary-search/c/binary_seach.c), [Typescript](./searching/704-binary-search/ts/binary-search.ts)  
 
 #### Sorting

@@ -1,3 +1,8 @@
+// Title: Fun with searching
+// Date: 2025-07-04
+// Created: Fri, 04 Jul 2025 16:15:57 +0530
+// Tags: [search, daily-practice]
+
 #include <stdlib.h>
 
 /// {{
@@ -52,3 +57,4 @@ int search(int* nums, int numsSize, int target) {
 }
 
 /// }}
+
