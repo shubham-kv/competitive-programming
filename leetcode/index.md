@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Fri, 04 Jul 2025 18:47:36 +0530"
+Last Edited: "Sat, 05 Jul 2025 15:27:37 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -179,8 +179,8 @@ Solved problems organized by topic and language.
   Topics: `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
   Solutions: [Typescript](./graphs/547-number-of-provinces/ts/number-of-provinces.ts)  
 
-- [**684. Redundant Connection**](./graphs/684-redundant-connection/index.md)  
-  Topics: `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
+- [**684. Redundant Connection**](https://leetcode.com/problems/redundant-connection/)  
+  `Medium`; [`depth-first-search`, `breadth-first-search`, `union-find`, `graph`]  
   Solutions: [C](./graphs/684-redundant-connection/c/redundant_connection.c), [Typescript](./graphs/684-redundant-connection/ts/redundant-connection.ts)  
 
 - [**695. Max Area of Island**](./graphs/695-max-area-of-island/index.md)  
