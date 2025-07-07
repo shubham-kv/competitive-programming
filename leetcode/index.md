@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sun, 06 Jul 2025 18:13:46 +0530"
+Last Edited: "Mon, 07 Jul 2025 12:38:45 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -183,9 +183,9 @@ Solved problems organized by topic and language.
   `Medium`; [`depth-first-search`, `breadth-first-search`, `union-find`, `graph`]  
   Solutions: [C](./graphs/684-redundant-connection/c/redundant_connection.c), [Typescript](./graphs/684-redundant-connection/ts/redundant-connection.ts)  
 
-- [**695. Max Area of Island**](./graphs/695-max-area-of-island/index.md)  
-  Topics: `array`, `depth-first-search`, `breadth-first-search`, `union-find`, `matrix`  
-  Solutions: [Javascript](./graphs/695-max-area-of-island/js/solution.js)  
+- [**695. Max Area of Island**](https://leetcode.com/problems/max-area-of-island/)  
+  `Medium`; `array`, `depth-first-search`, `breadth-first-search`, `union-find`, `matrix`  
+  Solutions: [C](./graphs/695-max-area-of-island/c/solution.c), [Javascript](./graphs/695-max-area-of-island/js/solution.js)  
 
 - [**990. Satisfiability of Equality Equations**](./graphs/990-satisfiability-of-equality-equations/index.md)  
   Topics: `array`, `string`, `union-find`, `graph`  
