@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Tue, 08 Jul 2025 13:07:58 +0530"
+Last Edited: "Wed, 09 Jul 2025 19:53:30 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -200,9 +200,10 @@ Solved problems organized by topic and language.
   Status: Attempting
   Solutions: [Typescript](./graphs/1319-number-of-operations-to-make-network-connected/ts/solution.ts)  
 
-- [**1971. Find if Path Exists in Graph**](./graphs/1971-find-if-path-exists-in-graph/index.md)  
-  Topics: `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
-  Solutions: [Typescript](./graphs/1971-find-if-path-exists-in-graph/ts/solution.ts)  
+- [**1971. Find if Path Exists in Graph**](https://leetcode.com/problems/find-if-path-exists-in-graph/)  
+  `Easy`; `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
+  Solutions: [C](./graphs/1971-find-if-path-exists-in-graph/c/solution.c),
+  [Typescript](./graphs/1971-find-if-path-exists-in-graph/ts/solution.ts)  
 
 #### Trees
 
