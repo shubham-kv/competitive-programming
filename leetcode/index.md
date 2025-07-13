@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sat, 12 Jul 2025 20:47:52 +0530"
+Last Edited: "Sun, 13 Jul 2025 12:53:51 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -168,6 +168,7 @@ Solved problems organized by topic and language.
   Solutions: [C | Heap Sort](./sorting/912-sort-an-array/c/heap-sort.c),
   [C | TopDownMergeSort](./sorting/912-sort-an-array/c/merge_sort_top_down.c),
   [C | BotttomUpMergeSort](./sorting/912-sort-an-array/c/merge_sort_bottom_up.c),
+  [C | NaturalMergeSort](./sorting/912-sort-an-array/c/merge_sort_natural.c),
   [JS | TopDownMergeSort](./sorting/912-sort-an-array/js/top-down-merge-sort.js),
   [JS | BottomUpMergeSort](./sorting/912-sort-an-array/js/bottom-up-merge-sort.js)
 
