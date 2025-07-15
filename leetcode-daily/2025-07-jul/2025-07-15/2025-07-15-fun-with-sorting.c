@@ -1,3 +1,8 @@
+// Title: Fun with sorting
+// Date: 2025-07-15
+// Created: Tue, 15 Jul 2025 14:53:19 +0530
+// Tags: [sorting, daily-practice]
+
 #include <stdlib.h>
 
 /// {{
