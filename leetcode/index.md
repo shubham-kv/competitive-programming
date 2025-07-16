@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sun, 13 Jul 2025 12:53:51 +0530"
+Last Edited: "Wed, 16 Jul 2025 12:43:26 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -219,6 +219,10 @@ Solved problems organized by topic and language.
 - [**144. Binary Tree Preorder Traversal**](./trees/144-binary-tree-preorder-traversal/index.md)  
   Topics: `stack`, `tree`, `depth-first-search`, `binary-tree`  
   Solutions: [Typescript](./trees/144-binary-tree-preorder-traversal/ts/solution.ts)  
+
+- [**706. Design HashMap**](https://leetcode.com/problems/design-hashmap/)  
+  `Easy`; `array`, `hash-table`, `linked-list`, `design`, `hash-function`  
+  Solutions: [C](./trees/706-design-hashmap/c/solution.c)  
 
 ---
 
