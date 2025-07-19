@@ -4,6 +4,7 @@
 // Tags: [search, daily-practice]
 
 #include <stdbool.h>
+#include <stdint.h>
 #include <stdlib.h>
 
 /// {{
@@ -91,6 +92,49 @@ bool searchMatrix(int **matrix, int matrixSize, int *matrixColSize, int target) 
   }
 
   return false;
+}
+
+/// }}
+
+
+/// {{
+/// Problem: 162. Find Peak Element
+/// Difficulty: `Medium`
+/// Links: https://leetcode.com/problems/find-peak-element/
+/// Topics: `array`, `binary-search`
+/// Timestamp: `Sat, 19 Jul 2025 11:39:14 +0530`
+
+int findPeakElement(int *nums, int n) {
+  int low = 0, high = n - 1;
+  int peak = low;
+
+  while (low < high) {
+    int mid = (low + high) / 2;
+    int64_t left = (mid - 1 >= 0) ? nums[mid - 1] : INT64_MIN;
+    int64_t right = (mid + 1 < n) ? nums[mid + 1] : INT64_MIN;
+
+    if (nums[mid] > left && nums[mid] > right) {
+      return mid;
+    } else {
+      high = mid;
+    }
+  }
+
+  low = 0, high = n - 1;
+
+  while (low < high) {
+    int mid = (low + high) / 2;
+    int64_t left = (mid - 1 >= 0) ? nums[mid - 1] : INT64_MIN;
+    int64_t right = (mid + 1 < n) ? nums[mid + 1] : INT64_MIN;
+
+    if (nums[mid] > left && nums[mid] > right) {
+      return mid;
+    } else {
+      low = mid;
+    }
+  }
+
+  return low;
 }
 
 /// }}
