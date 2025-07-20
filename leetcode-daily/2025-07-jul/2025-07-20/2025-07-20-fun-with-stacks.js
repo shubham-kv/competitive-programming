@@ -46,3 +46,71 @@ function isValid(s) {
 }
 
 /// }}
+
+
+/// {{
+/// Problem: 155. Min Stack
+/// Difficulty: Medium  
+/// Links: https://leetcode.com/problems/min-stack/
+/// Topics: `stack`, `design`  
+/// Timestamp: `Sun, 20 Jul 2025 18:42:40 +0530`
+
+/**
+ * @typedef {{data: number; min: number}} MinStackNode
+ */
+
+function MinStack() {
+  /** @type {MinStackNode[]} */
+  this.stack = []
+};
+
+/** 
+ * @param {number} val
+ * @return {void}
+ */
+MinStack.prototype.push = function(val) {
+  let min = val;
+  if (this.stack.length > 0) {
+    const lastMin = this.stack[this.stack.length - 1].min;
+    min = lastMin < min ? lastMin : min;
+  }
+
+  this.stack.push({
+    data: val,
+    min: min
+  })
+};
+
+/**
+ * @return {void}
+ */
+MinStack.prototype.pop = function() {
+  this.stack.pop();
+};
+
+/**
+ * @return {number}
+ */
+MinStack.prototype.top = function() {
+  const len = this.stack.length;
+  return len > 0 ? this.stack[len - 1].data : -1;
+};
+
+/**
+ * @return {number}
+ */
+MinStack.prototype.getMin = function() {
+  const len = this.stack.length;
+  return len > 0 ? this.stack[len - 1].min : -1;
+};
+
+/** 
+ * Your MinStack object will be instantiated and called as such:
+ * var obj = new MinStack()
+ * obj.push(val)
+ * obj.pop()
+ * var param_3 = obj.top()
+ * var param_4 = obj.getMin()
+ */
+
+/// }}
