@@ -1,3 +1,8 @@
+// Title: Fun with stacks
+// Date: 2025-07-21
+// Created: `Mon, 21 Jul 2025 12:07:13 +0530`
+// Tags: [stacks, daily-practice]
+
 #include <memory.h>
 #include <stdbool.h>
 #include <stdlib.h>

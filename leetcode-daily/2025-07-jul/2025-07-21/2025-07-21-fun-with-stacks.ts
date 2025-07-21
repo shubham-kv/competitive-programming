@@ -1,3 +1,8 @@
+// Title: Fun with stacks
+// Date: 2025-07-21
+// Created: `Mon, 21 Jul 2025 12:57:12 +0530`
+// Tags: [stacks, daily-practice]
+
 /// {{
 /// Problem: 232. Implement Queue using Stacks
 /// Difficulty: Easy
