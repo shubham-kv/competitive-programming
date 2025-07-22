@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Mon, 21 Jul 2025 13:08:52 +0530"
+Last Edited: "Tue, 22 Jul 2025 12:48:31 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -127,7 +127,8 @@ Solved problems organized by topic and language.
 
 - [**1598. Crawler Log Folder**](https://leetcode.com/problems/crawler-log-folder/)  
   `Easy`; [`array`, `string`, `stack`]  
-  Solution: [C](./stacks/1598-crawler-log-folder/c/solution.c)
+  [C | Solution](./stacks/1598-crawler-log-folder/c/solution.c),
+  [JS | Solution](./stacks/1598-crawler-log-folder/js/solution.js),
 
 - [**3174. Clear Digits**](https://leetcode.com/problems/clear-digits/)  
   `Easy`; [`string`, `stack`, `simulation`]  
