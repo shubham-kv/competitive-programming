@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Tue, 22 Jul 2025 12:48:31 +0530"
+Last Edited: "Thu, 24 Jul 2025 18:54:52 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -96,8 +96,8 @@ Solved problems organized by topic and language.
 
 - [**150. Evaluate Reverse Polish Notation**](https://leetcode.com/problems/evaluate-reverse-polish-notation/)  
   `Medium`; [`array`, `math`, `stack`]  
-  [C | Att. 2](./stacks/150-evaluate-reverse-polish-notation/c-02/solution.c),
-  [C | Att. 1](./stacks/150-evaluate-reverse-polish-notation/c-01/solution.c),
+  [C | Sol.](./stacks/150-evaluate-reverse-polish-notation/c/solution.c),
+  [JS | Sol.](./stacks/150-evaluate-reverse-polish-notation/js/solution.js),
   [TS | Sol.](./stacks/150-evaluate-reverse-polish-notation/ts/solution.ts)
 
 - [**155. Min Stack**](https://leetcode.com/problems/min-stack/)  
