@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Wed, 30 Jul 2025 00:58:21 +0530"
+Last Edited: "Wed, 30 Jul 2025 01:15:15 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -153,6 +153,7 @@ Solved problems organized by topic and language.
   `Medium`; [`array`, `binary-search`]  
   Solutions:
   [C](./searching/33-search-in-rotated-sorted-array/c/solution.c),
+  [Rust](./searching/33-search-in-rotated-sorted-array/rust/src/main.rs),
   [JS](./searching/33-search-in-rotated-sorted-array/js/solution.js)
 
 - [**74. Search a 2D Matrix**](https://leetcode.com/problems/search-a-2d-matrix/)  
