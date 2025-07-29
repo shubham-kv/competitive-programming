@@ -1,3 +1,8 @@
+// Title: Fun with queues
+// Date: 2025-07-29
+// Created: `Tue, 29 Jul 2025 23:54:04 +0530`
+// Tags: [queues, daily-practice]
+
 #include <stdlib.h>
 
 /// {{
