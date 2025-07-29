@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Wed, 30 Jul 2025 01:51:09 +0530"
+Last Edited: "Wed, 30 Jul 2025 02:06:32 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -165,7 +165,9 @@ Solved problems organized by topic and language.
 
 - [**153. Find Minimum in Rotated Sorted Array**](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)  
   `Medium`; [`array`, `binary-search`]  
-  Solutions: [C](./searching/153-find-minimum-in-rotated-sorted-array/c/solution.c)
+  Solutions:
+  [C](./searching/153-find-minimum-in-rotated-sorted-array/c/solution.c),
+  [Javascript](./searching/153-find-minimum-in-rotated-sorted-array/js/solution.js)
 
 - [**704. Binary Search**](https://leetcode.com/problems/binary-search/)  
   `Easy`; [`array`, `binary-search`]  
