@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Wed, 30 Jul 2025 01:15:15 +0530"
+Last Edited: "Wed, 30 Jul 2025 01:27:53 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -154,11 +154,13 @@ Solved problems organized by topic and language.
   Solutions:
   [C](./searching/33-search-in-rotated-sorted-array/c/solution.c),
   [Rust](./searching/33-search-in-rotated-sorted-array/rust/src/main.rs),
-  [JS](./searching/33-search-in-rotated-sorted-array/js/solution.js)
+  [Javascript](./searching/33-search-in-rotated-sorted-array/js/solution.js)
 
 - [**74. Search a 2D Matrix**](https://leetcode.com/problems/search-a-2d-matrix/)  
-  `Medium`; `array`, `binary-search`, `matrix`
-  Solutions: [C](./searching/74-search-a-2d-matrix/c/solution.c)
+  `Medium`; [`array`, `binary-search`, `matrix`]  
+  Solutions:
+  [C](./searching/74-search-a-2d-matrix/c/solution.c),
+  [Javascript](./searching/74-search-a-2d-matrix/js/solution.js)
 
 - [**153. Find Minimum in Rotated Sorted Array**](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)  
   `Medium`; [`array`, `binary-search`]  
