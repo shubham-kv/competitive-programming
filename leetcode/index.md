@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Wed, 30 Jul 2025 00:49:28 +0530"
+Last Edited: "Wed, 30 Jul 2025 00:58:21 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -168,6 +168,7 @@ Solved problems organized by topic and language.
   Solutions:
   [C](./searching/704-binary-search/c/binary_seach.c),
   [Rust](./searching/704-binary-search/rust/src/main.rs),
+  [Javascript](./searching/704-binary-search/js/solution.js),
   [Typescript](./searching/704-binary-search/ts/binary-search.ts)
 
 #### Sorting
