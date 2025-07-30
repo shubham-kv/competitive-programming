@@ -1,7 +1,7 @@
 // Title: Fun with searching
 // Date: 2025-07-30
 // Created: `Wed, 30 Jul 2025 00:04:38 +0530`
-// Tags: [queues, daily-practice]
+// Tags: [searching, daily-practice]
 
 /// {{
 /// Problem: 704. Binary Search

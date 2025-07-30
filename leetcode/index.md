@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Wed, 30 Jul 2025 02:15:02 +0530"
+Last Edited: "Wed, 30 Jul 2025 20:41:34 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -143,9 +143,11 @@ Solved problems organized by topic and language.
   [Javascript](./queues/225-implement-stack-using-queues/js/solution.js),
   [Typescript](./queues/225-implement-stack-using-queues/ts/my-stack.ts)  
 
-- [**641. Design Circular Deque**](./queues/641-design-circular-deque/index.md)  
-  Topics: `array`, `linked-list`, `design`, `queue`  
-  Solutions: [C](./queues/641-design-circular-deque/c/fixed_capacity_deque.c), [Typescript](./queues/641-design-circular-deque/ts/linked-list-deque.ts)  
+- [**641. Design Circular Deque**](https://leetcode.com/problems/design-circular-deque/)  
+  `Medium`; [`array`, `linked-list`, `design`, `queue`]  
+  Solutions:
+  [C](./queues/641-design-circular-deque/c/solution.c),
+  [Typescript](./queues/641-design-circular-deque/ts/linked-list-deque.ts)  
 
 #### Search
 
