@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Wed, 30 Jul 2025 22:16:32 +0530"
+Last Edited: "Wed, 30 Jul 2025 22:18:53 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -147,6 +147,7 @@ Solved problems organized by topic and language.
   `Medium`; [`array`, `linked-list`, `design`, `queue`]  
   Solutions:
   [C](./queues/641-design-circular-deque/c/solution.c),
+  [Rust](./queues/641-design-circular-deque/rust/main.rs),
   [Javascript](./queues/641-design-circular-deque/js/solution.js),
   [Typescript](./queues/641-design-circular-deque/ts/linked-list-deque.ts)  
 
