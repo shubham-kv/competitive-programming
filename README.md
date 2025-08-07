@@ -15,11 +15,14 @@ A personal repository to track my progress in competitive programming.
 competitive-programming/
 ├── leetcode-daily/ # Daily CP
 ├── leetcode/       # Category-wise solutions
-│   ├── arrays/
-│   ├── strings/
-│   └── ...
+│   ├── array/
+│   ├── graphs/
+│   ├── ...
+│   └── index.md
 ├── README.md
 ```
+
+Checkout [Leetcode Index](./leetcode/index.md) for the list of leetcode solutions.
 
 ## Languages Used
 

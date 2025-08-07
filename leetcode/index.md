@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Wed, 30 Jul 2025 22:18:53 +0530"
+Last Edited: "Thu, 07 Aug 2025 22:13:36 +0530"
 ---
 
 Solved problems organized by topic and language.
@@ -249,7 +249,3 @@ Solved problems organized by topic and language.
 - [**706. Design HashMap**](https://leetcode.com/problems/design-hashmap/)  
   `Easy`; `array`, `hash-table`, `linked-list`, `design`, `hash-function`  
   Solutions: [C](./trees/706-design-hashmap/c/solution.c)  
-
----
-
-[<< Go Back](../../index.md)
