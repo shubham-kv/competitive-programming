@@ -1,22 +1,28 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Thu, 07 Aug 2025 22:42:46 +0530"
+Last Edited: "Thu, 07 Aug 2025 23:25:15 +0530"
 ---
 
-Solved problems organized by topic and language.
+Solutions to solved leetcode problems organized by topic/category.
 
-#### Array
+Each list item has the following format:  
+
+[Leetcode Problem Link](#)  
+Difficulty; Topics  
+[Solution 1](#), [Solution 2](#), ...
+
+### Array
 
 1. [**200. Number of Islands**](https://leetcode.com/problems/number-of-islands/)  
   `Medium`; `array`, `depth-first-search`, `breadth-first-search`, `union-find`, `matrix`  
   [Javascript](./array/200-number-of-islands/js/solution.js)  
 
-1. [**384. Shuffle an Array**](./array/384-shuffle-an-array/index.md)  
+1. [**384. Shuffle an Array**](https://leetcode.com/problems/shuffle-an-array/)  
   `Medium`; `array`, `math`, `design`, `randomized`  
   [Javascript](./array/384-shuffle-an-array/js/solution.js)  
 
-#### Linked Lists
+### Linked Lists
 
 1. [**2. Add Two Numbers**](https://leetcode.com/problems/add-two-numbers/)  
   `Medium`; `linked-list`, `math`, `recursion`  
@@ -38,7 +44,7 @@ Solved problems organized by topic and language.
   `Easy`; `linked-list`  
   [C](./linked-lists/83-remove-duplicates-from-sorted-list/c/solution.c)  
 
-1. [**138. Copy List with Random Pointer**](./linked-lists/138-copy-list-with-random-pointer/index.md)  
+1. [**138. Copy List with Random Pointer**](https://leetcode.com/problems/copy-list-with-random-pointer/)  
   `Medium`; `linked-list`, `hash-table`  
   [Typescript](./linked-lists/138-copy-list-with-random-pointer/ts/copy-random-list.ts)  
 
@@ -74,7 +80,7 @@ Solved problems organized by topic and language.
   `Medium`; `linked-list`, `simulation`  
   [C](./linked-lists/2181-merge-nodes-in-between-zeros/c/solution.c)
 
-#### Stacks
+### Stacks
 
 1. [**20. Valid Parentheses**](https://leetcode.com/problems/valid-parentheses/)  
   `Easy`; `string`, `stack`  
@@ -82,7 +88,7 @@ Solved problems organized by topic and language.
 
 1. [**71. Simplify Path**](https://leetcode.com/problems/simplify-path/)  
   `Medium`; `string`, `stack`  
-  [C | Solution](./stacks/71-simplify-path/c/solution.c)
+  [C](./stacks/71-simplify-path/c/solution.c)
 
 1. [**143. Reorder List**](https://leetcode.com/problems/reorder-list/)  
   `Medium`; `linked-list`, `two-pointers`, `stack`, `recursion`  
@@ -90,15 +96,13 @@ Solved problems organized by topic and language.
 
 1. [**150. Evaluate Reverse Polish Notation**](https://leetcode.com/problems/evaluate-reverse-polish-notation/)  
   `Medium`; `array`, `math`, `stack`  
-  [C | Sol.](./stacks/150-evaluate-reverse-polish-notation/c/solution.c),
-  [JS | Sol.](./stacks/150-evaluate-reverse-polish-notation/js/solution.js),
-  [TS | Sol.](./stacks/150-evaluate-reverse-polish-notation/ts/solution.ts)
+  [C](./stacks/150-evaluate-reverse-polish-notation/c/solution.c),
+  [Javascript](./stacks/150-evaluate-reverse-polish-notation/js/solution.js),
+  [Typescript](./stacks/150-evaluate-reverse-polish-notation/ts/solution.ts)
 
 1. [**155. Min Stack**](https://leetcode.com/problems/min-stack/)  
   `Medium`; `stack`, `design`  
-  [C | Att. 3](./stacks/155-min-stack/c-03/solution.c),
-  [C | Att. 2](./stacks/155-min-stack/c-02/min_stack.c),
-  [C | Att. 1](./stacks/155-min-stack/c-01/min_stack.c)
+  [C](./stacks/155-min-stack/c/solution.c)  
 
 1. [**227. Basic Calculator II**](https://leetcode.com/problems/basic-calculator-ii/)  
   `Medium`; `math`, `string`, `stack`  
@@ -106,98 +110,92 @@ Solved problems organized by topic and language.
 
 1. [**232. Implement Queue using Stacks**](https://leetcode.com/problems/implement-queue-using-stacks/)  
   `Easy`; `stack`, `design`, `queue`  
-  [C | Solution](./stacks/232-implement-queue-using-stacks/c/solution.c),
-  [JS | Solution](./stacks/232-implement-queue-using-stacks/js/solution.js),
-  [TS | Solution](./stacks/232-implement-queue-using-stacks/ts/queue-using-stacks.ts)  
+  [C](./stacks/232-implement-queue-using-stacks/c/solution.c),
+  [Javascript](./stacks/232-implement-queue-using-stacks/js/solution.js),
+  [Typescript](./stacks/232-implement-queue-using-stacks/ts/queue-using-stacks.ts)  
 
-1. [**234. Palindrome Linked List**](./stacks/234-palindrome-linked-list/index.md)  
-  Topics: `linked-list`, `two-pointers`, `stack`, `recursion`  
+1. [**234. Palindrome Linked List**](https://leetcode.com/problems/palindrome-linked-list/)  
+  `Easy`; `linked-list`, `two-pointers`, `stack`, `recursion`  
   [C](./stacks/234-palindrome-linked-list/c/palindrome_validator.c)  
 
 1. [**682. Baseball Game**](https://leetcode.com/problems/baseball-game/)  
   `Easy`; `array`, `stack`, `simulation`  
-  [C | Solution](./stacks/682-baseball-game/c/solution.c),
-  [TS | Solution](./stacks/682-baseball-game/ts/solution.ts)
+  [C](./stacks/682-baseball-game/c/solution.c),
+  [Typescript](./stacks/682-baseball-game/ts/solution.ts)
 
 1. [**1598. Crawler Log Folder**](https://leetcode.com/problems/crawler-log-folder/)  
   `Easy`; `array`, `string`, `stack`  
-  [C | Solution](./stacks/1598-crawler-log-folder/c/solution.c),
-  [JS | Solution](./stacks/1598-crawler-log-folder/js/solution.js),
+  [C](./stacks/1598-crawler-log-folder/c/solution.c),
+  [Javascript](./stacks/1598-crawler-log-folder/js/solution.js),
 
 1. [**3174. Clear Digits**](https://leetcode.com/problems/clear-digits/)  
   `Easy`; `string`, `stack`, `simulation`  
-  Solution: [C](./stacks/3174-clear-digits/c/solution.c)
+  [C](./stacks/3174-clear-digits/c/solution.c)
 
-#### Queues
+### Queues
 
 1. [**225. Implement Stack using Queues**](https://leetcode.com/problems/implement-stack-using-queues/)  
   `Easy`; `stack`, `design`, `queue`  
-  Solutions:
   [C](./queues/225-implement-stack-using-queues/c/solution.c),
   [Javascript](./queues/225-implement-stack-using-queues/js/solution.js),
   [Typescript](./queues/225-implement-stack-using-queues/ts/my-stack.ts)  
 
 1. [**641. Design Circular Deque**](https://leetcode.com/problems/design-circular-deque/)  
   `Medium`; `array`, `linked-list`, `design`, `queue`  
-  Solutions:
   [C](./queues/641-design-circular-deque/c/solution.c),
   [Rust](./queues/641-design-circular-deque/rust/main.rs),
   [Javascript](./queues/641-design-circular-deque/js/solution.js),
   [Typescript](./queues/641-design-circular-deque/ts/linked-list-deque.ts)  
 
-#### Search
+### Search
 
 1. [**33. Search in Rotated Sorted Array**](https://leetcode.com/problems/search-in-rotated-sorted-array/)  
   `Medium`; `array`, `binary-search`  
-  Solutions:
   [C](./searching/33-search-in-rotated-sorted-array/c/solution.c),
   [Rust](./searching/33-search-in-rotated-sorted-array/rust/src/main.rs),
   [Javascript](./searching/33-search-in-rotated-sorted-array/js/solution.js)
 
 1. [**74. Search a 2D Matrix**](https://leetcode.com/problems/search-a-2d-matrix/)  
   `Medium`; `array`, `binary-search`, `matrix`  
-  Solutions:
   [C](./searching/74-search-a-2d-matrix/c/solution.c),
   [Rust](./searching/74-search-a-2d-matrix/rust/main.rs),
   [Javascript](./searching/74-search-a-2d-matrix/js/solution.js)
 
 1. [**153. Find Minimum in Rotated Sorted Array**](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)  
   `Medium`; `array`, `binary-search`  
-  Solutions:
   [C](./searching/153-find-minimum-in-rotated-sorted-array/c/solution.c),
   [Rust](./searching/153-find-minimum-in-rotated-sorted-array/rust/main.rs),
   [Javascript](./searching/153-find-minimum-in-rotated-sorted-array/js/solution.js)
 
 1. [**704. Binary Search**](https://leetcode.com/problems/binary-search/)  
   `Easy`; `array`, `binary-search`  
-  Solutions:
   [C](./searching/704-binary-search/c/binary_seach.c),
   [Rust](./searching/704-binary-search/rust/src/main.rs),
   [Javascript](./searching/704-binary-search/js/solution.js),
   [Typescript](./searching/704-binary-search/ts/binary-search.ts)
 
-#### Sorting
+### Sorting
 
 1. [**148. Sort List**](https://leetcode.com/problems/sort-list/)  
-  Medium; `linked-list`, `two-pointers`, `divide-and-conquer`, `sorting`, `merge-sort`  
+  `Medium`; `linked-list`, `two-pointers`, `divide-and-conquer`, `sorting`, `merge-sort`  
   [C](./sorting/148-sort-list/c/sloution.c)
 
 1. [**912. Sort an Array**](https://leetcode.com/problems/sort-an-array/)  
-  `Medium`: `array`, `divide-and-conquer`, `sorting`, `Heap-(priority-queue)`, `merge-sort`, `bucket-sort`, `radix-sort`, `Counting-sort`  
+  `Medium`; `array`, `divide-and-conquer`, `sorting`, `Heap-(priority-queue)`, `merge-sort`, `bucket-sort`, `radix-sort`, `Counting-sort`  
   [C | Heap Sort](./sorting/912-sort-an-array/c/heap-sort.c),
-  [C | TopDownMergeSort](./sorting/912-sort-an-array/c/merge_sort_top_down.c),
-  [C | BotttomUpMergeSort](./sorting/912-sort-an-array/c/merge_sort_bottom_up.c),
-  [C | NaturalMergeSort](./sorting/912-sort-an-array/c/merge_sort_natural.c),
-  [JS | TopDownMergeSort](./sorting/912-sort-an-array/js/top-down-merge-sort.js),
-  [JS | BottomUpMergeSort](./sorting/912-sort-an-array/js/bottom-up-merge-sort.js)
+  [C | Top down mergesort](./sorting/912-sort-an-array/c/merge_sort_top_down.c),
+  [C | Bottom up mergesort](./sorting/912-sort-an-array/c/merge_sort_bottom_up.c),
+  [C | Natural mergeSort](./sorting/912-sort-an-array/c/merge_sort_natural.c),  
+  [JS | Top down mergesort](./sorting/912-sort-an-array/js/top-down-merge-sort.js),
+  [JS | Bottom up mergesort](./sorting/912-sort-an-array/js/bottom-up-merge-sort.js)
 
-#### Heap
+### Heap
 
 1. [**215. Kth Largest Element in an Array**](https://leetcode.com/problems/kth-largest-element-in-an-array/)  
   `Medium`; `array`, `divide-and-conquer`, `sorting`, `heap-(priority-queue)`, `quickselect`  
   [C](./heap/215-kth-largest-element-in-an-array/c/solution.c)
 
-#### Graphs
+### Graphs
 
 1. [**547. Number of Provinces**](https://leetcode.com/problems/number-of-provinces/)  
   `Medium`; `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
@@ -224,7 +222,7 @@ Solved problems organized by topic and language.
   [C](./graphs/1971-find-if-path-exists-in-graph/c/solution.c),
   [Typescript](./graphs/1971-find-if-path-exists-in-graph/ts/solution.ts)  
 
-#### Trees
+### Trees
 
 1. [**94. Binary Tree Inorder Traversal**](https://leetcode.com/problems/binary-tree-inorder-traversal/)  
   `Easy`; `stack`, `tree`, `depth-first-search`, `binary-tree`  
