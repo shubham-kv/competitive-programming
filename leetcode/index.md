@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Fri, 08 Aug 2025 16:52:10 +0530"
+Last Edited: "Fri, 08 Aug 2025 17:41:24 +0530"
 ---
 
 Solutions to solved leetcode problems organized by topic/category.
@@ -45,7 +45,8 @@ Difficulty; Topics
 
 1. [**83. Remove Duplicates from Sorted List**](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)  
   `Easy`; `linked-list`  
-  [C](./linked-lists/83-remove-duplicates-from-sorted-list/c/solution.c)  
+  [C](./linked-lists/83-remove-duplicates-from-sorted-list/c/solution.c),
+  [Javascript](./linked-lists/83-remove-duplicates-from-sorted-list/js/solution.js)
 
 1. [**138. Copy List with Random Pointer**](https://leetcode.com/problems/copy-list-with-random-pointer/)  
   `Medium`; `linked-list`, `hash-table`  
