@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Thu, 07 Aug 2025 23:25:15 +0530"
+Last Edited: "Fri, 08 Aug 2025 15:24:47 +0530"
 ---
 
 Solutions to solved leetcode problems organized by topic/category.
@@ -26,7 +26,8 @@ Difficulty; Topics
 
 1. [**2. Add Two Numbers**](https://leetcode.com/problems/add-two-numbers/)  
   `Medium`; `linked-list`, `math`, `recursion`  
-  [C](./linked-lists/2-add-two-numbers/c/solution.c)
+  [C](./linked-lists/2-add-two-numbers/c/solution.c),
+  [Javascript](./linked-lists/2-add-two-numbers/js/solution.js)
 
 1. [**21. Merge Two Sorted Lists**](https://leetcode.com/problems/merge-two-sorted-lists/)  
   `Easy`; `linked-list`, `recursion`  
