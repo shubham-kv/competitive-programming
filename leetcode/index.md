@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Fri, 08 Aug 2025 15:24:47 +0530"
+Last Edited: "Fri, 08 Aug 2025 15:39:49 +0530"
 ---
 
 Solutions to solved leetcode problems organized by topic/category.
@@ -31,7 +31,8 @@ Difficulty; Topics
 
 1. [**21. Merge Two Sorted Lists**](https://leetcode.com/problems/merge-two-sorted-lists/)  
   `Easy`; `linked-list`, `recursion`  
-  [C](./linked-lists/21-merge-two-sorted-lists/c/solution.c)  
+  [C](./linked-lists/21-merge-two-sorted-lists/c/solution.c),
+  [Javascript](./linked-lists/21-merge-two-sorted-lists/js/solution.js)
 
 1. [**23. Merge k Sorted Lists**](https://leetcode.com/problems/merge-k-sorted-lists/)  
   `Hard`; `linked-list`, `divide-and-conquer`, `heap-(priority-queue)`, `merge-sort`  
