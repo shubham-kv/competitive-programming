@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Fri, 08 Aug 2025 15:39:49 +0530"
+Last Edited: "Fri, 08 Aug 2025 16:52:10 +0530"
 ---
 
 Solutions to solved leetcode problems organized by topic/category.
@@ -40,7 +40,8 @@ Difficulty; Topics
 
 1. [**24. Swap Nodes in Pairs**](https://leetcode.com/problems/swap-nodes-in-pairs/)  
   `Medium`; `linked-list`, `recursion`  
-  [C](./linked-lists/24-swap-nodes-in-pairs/c/solution.c)  
+  [C](./linked-lists/24-swap-nodes-in-pairs/c/solution.c),
+  [Javascript](./linked-lists/24-swap-nodes-in-pairs/js/solution.js)
 
 1. [**83. Remove Duplicates from Sorted List**](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)  
   `Easy`; `linked-list`  
