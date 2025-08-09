@@ -1,3 +1,8 @@
+// Title: Fun with linked lists
+// Date: 2025-08-09
+// Created: `Sat, 09 Aug 2025 16:18:33 +0530`
+// Tags: [linked-lists, daily-practice]
+
 #include <stdlib.h>
 
 /// {{
