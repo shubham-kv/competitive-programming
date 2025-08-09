@@ -124,3 +124,35 @@ int listSize(Node head) {
 
 /// }}
 
+
+/// {{
+/// Problem: 206. Reverse Linked List
+/// Difficulty: `Easy`
+/// Links: https://leetcode.com/problems/reverse-linked-list/
+/// Topics: `linked-list`, `recursion`
+/// Timestamp: `Sat, 09 Aug 2025 18:08:27 +0530`
+
+// Definition for singly-linked list.
+// struct ListNode {
+//     int val;
+//     struct ListNode *next;
+// };
+
+typedef struct ListNode *Node;
+
+Node reverseList(Node head) {
+  Node prev, cur, next;
+  for (
+      prev = next = NULL, cur = head;
+      cur;
+      prev = cur, cur = next
+  ) {
+    next = cur->next;
+    cur->next = prev;
+  }
+
+  return prev;
+}
+
+/// }}
+

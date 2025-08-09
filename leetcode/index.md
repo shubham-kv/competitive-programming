@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sat, 09 Aug 2025 17:43:00 +0530"
+Last Edited: "Sat, 09 Aug 2025 18:19:19 +0530"
 ---
 
 Solutions to solved leetcode problems organized by topic/category.
@@ -64,7 +64,8 @@ Difficulty; Topics
 
 1. [**206. Reverse Linked List**](https://leetcode.com/problems/reverse-linked-list/)  
   `Easy`; `linked-list`, `recursion`  
-  [C](./linked-lists/206-reverse-linked-list/c/solution.c)
+  [C](./linked-lists/206-reverse-linked-list/c/solution.c),
+  [Javascript](./linked-lists/206-reverse-linked-list/js/solution.js)
 
 1. [**234. Palindrome Linked List**](https://leetcode.com/problems/palindrome-linked-list/)  
   `Easy`; `linked-list`, `two-pointers`, `stack`, `recursion`  

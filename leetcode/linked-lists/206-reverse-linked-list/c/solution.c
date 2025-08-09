@@ -2,10 +2,10 @@
 
 /// {{
 /// Problem: 206. Reverse Linked List
-/// Difficulty: Easy
+/// Difficulty: `Easy`
 /// Links: https://leetcode.com/problems/reverse-linked-list/
 /// Topics: `linked-list`, `recursion`
-/// Timestamp: `Thu, 19 Jun 2025 18:30:55 +0530`
+/// Timestamp: `Sat, 09 Aug 2025 18:08:27 +0530`
 
 // Definition for singly-linked list.
 struct ListNode {
@@ -13,25 +13,24 @@ struct ListNode {
   struct ListNode *next;
 };
 
-struct ListNode *reverseList(struct ListNode *head) {
-  if (head == NULL || head->next == NULL) {
-    return head;
-  }
+typedef struct ListNode *Node;
 
-  struct ListNode *prev, *cur, *next;
+Node reverseList(Node head) {
+  Node prev, cur, next;
 
   for (
-    prev = NULL, cur = head, next = NULL;
-    cur != NULL;
-    cur = next
+      prev = next = NULL, cur = head;
+      cur;
+      prev = cur, cur = next
   ) {
     next = cur->next;
     cur->next = prev;
-    prev = cur;
   }
 
   return prev;
 }
+
+/// }}
 
 // Case 1: head = [1, 2, 3, 4, 5]
 // [Initial]
@@ -118,4 +117,3 @@ struct ListNode *reverseList(struct ListNode *head) {
 //  cur = 1           ^
 // next = 2               ^
 
-/// }}
