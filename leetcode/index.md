@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sat, 09 Aug 2025 17:06:43 +0530"
+Last Edited: "Sat, 09 Aug 2025 17:43:00 +0530"
 ---
 
 Solutions to solved leetcode problems organized by topic/category.
@@ -59,7 +59,8 @@ Difficulty; Topics
 
 1. [**160. Intersection of Two Linked Lists**](https://leetcode.com/problems/intersection-of-two-linked-lists/)  
   `Easy`; `hash-table`, `linked-list`, `two-pointers`  
-  [C](./linked-lists/160-intersection-of-two-linked-lists/c/solution.c)
+  [C](./linked-lists/160-intersection-of-two-linked-lists/c/solution.c),
+  [Javascript](./linked-lists/160-intersection-of-two-linked-lists/js/solution.js)
 
 1. [**206. Reverse Linked List**](https://leetcode.com/problems/reverse-linked-list/)  
   `Easy`; `linked-list`, `recursion`  
