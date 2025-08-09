@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sat, 09 Aug 2025 18:19:19 +0530"
+Last Edited: "Sat, 09 Aug 2025 19:06:52 +0530"
 ---
 
 Solutions to solved leetcode problems organized by topic/category.
@@ -69,7 +69,8 @@ Difficulty; Topics
 
 1. [**234. Palindrome Linked List**](https://leetcode.com/problems/palindrome-linked-list/)  
   `Easy`; `linked-list`, `two-pointers`, `stack`, `recursion`  
-  [C](./linked-lists/234-palindrome-linked-list/c/solution.c)
+  [C](./linked-lists/234-palindrome-linked-list/c/solution.c),
+  [Javascript](./linked-lists/234-palindrome-linked-list/js/solution.js)
 
 1. [**237. Delete Node in a Linked List**](https://leetcode.com/problems/delete-node-in-a-linked-list/)  
   `Medium`; `linked-list`  

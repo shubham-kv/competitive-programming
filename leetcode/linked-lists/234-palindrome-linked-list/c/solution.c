@@ -2,64 +2,74 @@
 #include <stdlib.h>
 
 /// {{
-/// Problem: 234. Palindrome Linked List  
-/// Difficulty: Easy  
+/// Problem: 234. Palindrome Linked List
+/// Difficulty: `Easy`
 /// Links: https://leetcode.com/problems/palindrome-linked-list/  
 /// Topics: `linked-list`, `two-pointers`, `stack`, `recursion`  
-/// Timestamp: `Thu, 19 Jun 2025 19:41:12 +053`  
+/// Timestamp: `Sat, 09 Aug 2025 18:25:21 +0530`
 
 // Definition for singly-linked list.
 struct ListNode {
   int val;
   struct ListNode *next;
 };
+typedef struct ListNode *Node;
 
-bool isPalindrome(struct ListNode* head) {
-  if (head == NULL || head->next == NULL) {
+Node lowerMiddleNode(Node head);
+Node reverseList(Node head);
+
+bool isPalindrome(Node head) {
+  if (head->next == NULL) {
     return true;
   }
 
-  struct ListNode *fast, *slow, *prev;
+  Node l1, l2;
+  l1 = head;
 
+  // Break the list into two halves from the middle
+  Node middle = lowerMiddleNode(head);
+  l2 = middle->next;
+  middle->next = NULL;
+
+  // Reverse the second half
+  l2 = reverseList(l2);
+
+  // Check the first half with reversed second half
+  Node node1, node2;
   for (
-    fast = head, slow = fast, prev = NULL;
-    fast != NULL && fast->next != NULL;
-    fast = fast->next->next
+      node1 = l1, node2 = l2;
+      node1 && node2;
+      node1 = node1->next, node2 = node2->next
   ) {
-    prev = slow;
-    slow = slow->next;
-  }
-
-  // Break the list at prev -> slow
-  prev->next = NULL;
-
-  struct ListNode *cur, *next;
-
-  // Reverse the list from slow to last node
-  for (
-    prev = NULL, cur = slow, next = NULL;
-    cur != NULL;
-    cur = next
-  ) {
-    next = cur->next;
-    cur->next = prev;
-    prev = cur;
-  }
-
-  // Compare the two broken lists
-  struct ListNode *cur1, *cur2;
-
-  for (
-    cur1 = head, cur2 = prev;
-    cur1 != NULL && cur2 != NULL;
-    cur1 = cur1->next, cur2 = cur2->next
-  ) {
-    if (cur1->val != cur2->val) {
+    if (node1->val != node2->val) {
       return false;
     }
   }
 
   return true;
+}
+
+Node lowerMiddleNode(Node head) {
+  Node fast, slow, prev;
+  for (
+      fast = slow = head, prev = NULL;
+      fast && fast->next;
+      prev = slow, slow = slow->next, fast = fast->next->next
+  ) { }
+  return prev;
+}
+
+Node reverseList(Node head) {
+  Node prev, cur, next;
+  for (
+      prev = next = NULL, cur = head;
+      cur;
+      prev = cur, cur = next
+  ) {
+    next = cur->next;
+    cur->next = prev;
+  }
+  return prev;
 }
 
 /// }}
