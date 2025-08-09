@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sat, 09 Aug 2025 19:06:52 +0530"
+Last Edited: "Sat, 09 Aug 2025 19:22:33 +0530"
 ---
 
 Solutions to solved leetcode problems organized by topic/category.
@@ -82,7 +82,8 @@ Difficulty; Topics
 
 1. [**876. Middle of the Linked List**](https://leetcode.com/problems/middle-of-the-linked-list/)  
   `Easy`; `linked-list`, `two-pointers`  
-  [C](./linked-lists/876-middle-of-the-linked-list/c/solution.c)
+  [C](./linked-lists/876-middle-of-the-linked-list/c/solution.c),
+  [Javascript](./linked-lists/876-middle-of-the-linked-list/js/solution.js)
 
 1. [**2181. Merge Nodes in Between Zeros**](https://leetcode.com/problems/merge-nodes-in-between-zeros/)  
   `Medium`; `linked-list`, `simulation`  
