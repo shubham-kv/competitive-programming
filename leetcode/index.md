@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sat, 09 Aug 2025 19:22:33 +0530"
+Last Edited: "Sun, 10 Aug 2025 22:36:59 +0530"
 ---
 
 Solutions to solved leetcode problems organized by topic/category.
@@ -78,7 +78,8 @@ Difficulty; Topics
 
 1. [**707. Design Linked List**](https://leetcode.com/problems/design-linked-list/)  
   `Medium`; `linked-list`, `design`  
-  [C](./linked-lists/707-design-linked-list/c/solution.c)
+  [C](./linked-lists/707-design-linked-list/c/solution.c),
+  [Javascript](./linked-lists/707-design-linked-list/js/solution.js)
 
 1. [**876. Middle of the Linked List**](https://leetcode.com/problems/middle-of-the-linked-list/)  
   `Easy`; `linked-list`, `two-pointers`  
