@@ -51,3 +51,26 @@ Node mergeNodes(Node head) {
 
 /// }}
 
+
+/// {{
+/// Problem: 237. Delete Node in a Linked List
+/// Difficulty: `Medium`
+/// Links: https://leetcode.com/problems/delete-node-in-a-linked-list
+/// Topics: `linked-list`
+/// Timestamp: `Mon, 11 Aug 2025 18:06:51 +0530`
+
+// Definition for singly-linked list.
+// struct ListNode {
+//   int val;
+//   struct ListNode *next;
+// };
+
+typedef struct ListNode *Node;
+
+void deleteNode(Node node) {
+  node->val = node->next->val;
+  node->next = node->next->next;
+}
+
+/// }}
+

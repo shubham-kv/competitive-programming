@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Mon, 11 Aug 2025 18:04:26 +0530"
+Last Edited: "Mon, 11 Aug 2025 18:25:39 +0530"
 ---
 
 Solutions to solved leetcode problems organized by topic/category.
@@ -74,7 +74,8 @@ Difficulty; Topics
 
 1. [**237. Delete Node in a Linked List**](https://leetcode.com/problems/delete-node-in-a-linked-list/)  
   `Medium`; `linked-list`  
-  [C](./linked-lists/237-delete-node-in-a-linked-list/c/solution.c)
+  [C](./linked-lists/237-delete-node-in-a-linked-list/c/solution.c),
+  [Javascript](./linked-lists/237-delete-node-in-a-linked-list/js/solution.js)
 
 1. [**707. Design Linked List**](https://leetcode.com/problems/design-linked-list/)  
   `Medium`; `linked-list`, `design`  

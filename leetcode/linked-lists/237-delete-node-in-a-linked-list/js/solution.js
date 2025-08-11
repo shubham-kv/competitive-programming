@@ -1,5 +1,3 @@
-#include <stdlib.h>
-
 /// {{
 /// Problem: 237. Delete Node in a Linked List
 /// Difficulty: `Medium`
@@ -8,16 +6,18 @@
 /// Timestamp: `Mon, 11 Aug 2025 18:06:51 +0530`
 
 // Definition for singly-linked list.
-struct ListNode {
-  int val;
-  struct ListNode *next;
-};
+function ListNode(val) {
+  this.val = val;
+  this.next = null;
+}
 
-typedef struct ListNode *Node;
-
-void deleteNode(Node node) {
-  node->val = node->next->val;
-  node->next = node->next->next;
+/**
+ * @param {ListNode} node
+ * @return {void} Do not return anything, modify node in-place instead.
+ */
+function deleteNode(node) {
+  node.val = node.next.val;
+  node.next = node.next.next;
 }
 
 /// }}
