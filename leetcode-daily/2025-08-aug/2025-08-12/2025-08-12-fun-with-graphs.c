@@ -1,3 +1,8 @@
+// Title: Fun with Graphs
+// Date: 2025-08-12
+// Created: `Tue, 12 Aug 2025 18:27:30 +0530`
+// Tags: [graphs, daily-practice]
+
 #include <memory.h>
 #include <stdbool.h>
 #include <stdlib.h>
@@ -21,6 +26,7 @@ void QuickUnion_Init(UF uf, int n);
 void QuickUnion_Clear(UF uf);
 void QuickUnion_Union(UF uf, int p, int q);
  int QuickUnion_Find(UF uf, int p);
+bool QuickUnion_Connected(UF uf, int p, int q);
  int QuickUnion_Count(UF uf);
 
 void QuickUnion_Init(UF uf, int n) {
@@ -68,6 +74,10 @@ int QuickUnion_Find(UF uf, int p) {
     p = uf->entries[p];
   }
   return p;
+}
+
+inline bool QuickUnion_Connected(UF uf, int p, int q) {
+  return QuickUnion_Find(uf, p) == QuickUnion_Find(uf, q);
 }
 
 inline int QuickUnion_Count(UF uf) {

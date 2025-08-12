@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Mon, 11 Aug 2025 18:25:39 +0530"
+Last Edited: "Tue, 12 Aug 2025 21:51:47 +0530"
 ---
 
 Solutions to solved leetcode problems organized by topic/category.
@@ -211,7 +211,9 @@ Difficulty; Topics
 
 1. [**547. Number of Provinces**](https://leetcode.com/problems/number-of-provinces/)  
   `Medium`; `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
-  [C](./graphs/547-number-of-provinces/c/solution.c), [Typescript](./graphs/547-number-of-provinces/ts/number-of-provinces.ts)  
+  [C](./graphs/547-number-of-provinces/c/solution.c),
+  [Javascript](./graphs/547-number-of-provinces/js/solution.js),
+  [Typescript](./graphs/547-number-of-provinces/ts/number-of-provinces.ts)  
 
 1. [**684. Redundant Connection**](https://leetcode.com/problems/redundant-connection/)  
   `Medium`; `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
