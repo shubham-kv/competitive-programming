@@ -35,8 +35,7 @@ Checkout [Leetcode Index](./leetcode/index.md) for the list of leetcode solution
 
 ## Contributions / Feedback
 
-This repository is personal, but I'm always open to discussion, suggestions!
-
-Feel free to reach out via issues.
+I'm open to feedback, suggestions or contributions. Feel free to raise an issue
+or a PR for a leetcode solution.
 
 Cheers!
