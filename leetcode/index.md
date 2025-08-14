@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Tue, 12 Aug 2025 21:51:47 +0530"
+Last Edited: "Thu, 14 Aug 2025 20:12:50 +0530"
 ---
 
 Solutions to solved leetcode problems organized by topic/category.
@@ -217,7 +217,9 @@ Difficulty; Topics
 
 1. [**684. Redundant Connection**](https://leetcode.com/problems/redundant-connection/)  
   `Medium`; `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
-  [C](./graphs/684-redundant-connection/c/redundant_connection.c), [Typescript](./graphs/684-redundant-connection/ts/redundant-connection.ts)  
+  [C](./graphs/684-redundant-connection/c/redundant_connection.c),
+  [Javascript](./graphs/684-redundant-connection/js/solution.js),
+  [Typescript](./graphs/684-redundant-connection/ts/redundant-connection.ts)  
 
 1. [**695. Max Area of Island**](https://leetcode.com/problems/max-area-of-island/)  
   `Medium`; `array`, `depth-first-search`, `breadth-first-search`, `union-find`, `matrix`  
