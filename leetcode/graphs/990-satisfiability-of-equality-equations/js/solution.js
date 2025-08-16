@@ -3,26 +3,35 @@
 /// Difficulty: `Medium`
 /// Links: https://leetcode.com/problems/satisfiability-of-equality-equations/
 /// Topics: `array`, `string`, `union-find`, `graph`
-/// Timestamp: `Sat, 16 Aug 2025 21:54:06 +0530`
+/// Timestamp: `Sat, 16 Aug 2025 21:18:53 +0530`
 
 class QuickUnion {
-  #entries: number[];
-  #sizes: number[];
+  /** @type {number[]} */
+  #entries;
 
-  constructor(n: number) {
-    this.#entries = Array(n).fill(0).map((_, i) => i);
+  /** @type {number[]} */
+  #sizes;
+
+  /** @param {number} n  */
+  constructor(n) {
+    this.#entries = Array(n).fill(1).map((_, i) => i);
     this.#sizes = Array(n).fill(1);
   }
 
-  #find(p: number): number {
-    while (this.#entries[p] !== p) {
+  /** @param {number} p  */
+  #find(p) {
+    while (this.#entries[p] != p) {
       this.#entries[p] = this.#entries[this.#entries[p]];
       p = this.#entries[p];
     }
     return p;
   }
 
-  union(p: number, q: number): void {
+  /**
+    * @param {number} p
+    * @param {number} q
+    */
+  union(p, q) {
     const rootP = this.#find(p);
     const rootQ = this.#find(q);
 
@@ -42,17 +51,26 @@ class QuickUnion {
     }
   }
 
-  connected(p: number, q: number): boolean {
+  /**
+    * @param {number} p
+    * @param {number} q
+    * @returns {boolean}
+    */
+  connected(p, q) {
     return this.#find(p) === this.#find(q);
   }
 }
 
-function equationsPossible(equations: string[]): boolean {
+/**
+ * @param {string[]} equations
+ * @return {boolean}
+ */
+function equationsPossible(equations) {
   const capacity = 'z'.charCodeAt(0) - 'a'.charCodeAt(0) + 1;
   const quickUnion = new QuickUnion(capacity);
 
   for (const equation of equations) {
-    if (equation[1] === '=') {
+    if (equation.charAt(1) === '=') {
       const p = equation.charCodeAt(0) - 'a'.charCodeAt(0);
       const q = equation.charCodeAt(3) - 'a'.charCodeAt(0);
       quickUnion.union(p, q);
@@ -60,7 +78,7 @@ function equationsPossible(equations: string[]): boolean {
   }
 
   for (const equation of equations) {
-    if (equation[1] === '!') {
+    if (equation.charAt(1) === '!') {
       const p = equation.charCodeAt(0) - 'a'.charCodeAt(0);
       const q = equation.charCodeAt(3) - 'a'.charCodeAt(0);
 
@@ -74,3 +92,4 @@ function equationsPossible(equations: string[]): boolean {
 }
 
 /// }}
+

@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Thu, 14 Aug 2025 20:12:50 +0530"
+Last Edited: "Sat, 16 Aug 2025 21:46:40 +0530"
 ---
 
 Solutions to solved leetcode problems organized by topic/category.
@@ -227,7 +227,9 @@ Difficulty; Topics
 
 1. [**990. Satisfiability of Equality Equations**](https://leetcode.com/problems/satisfiability-of-equality-equations/)  
   `Medium`; `array`, `string`, `union-find`, `graph`  
-  [C](./graphs/990-satisfiability-of-equality-equations/c/solution.c), [Typescript](./graphs/990-satisfiability-of-equality-equations/ts/solution.ts)  
+  [C](./graphs/990-satisfiability-of-equality-equations/c/solution.c),
+  [Javascript](./graphs/990-satisfiability-of-equality-equations/js/solution.js),
+  [Typescript](./graphs/990-satisfiability-of-equality-equations/ts/solution.ts)  
 
 1. [**1267. Count Servers that Communicate**](https://leetcode.com/problems/count-servers-that-communicate/)  
   `Medium`; `array`, `depth-first-search`, `breadth-first-search`, `union-find`, `matrix`, `counting`  

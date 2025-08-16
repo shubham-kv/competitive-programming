@@ -1,3 +1,8 @@
+// Title: Fun with Graphs
+// Date: 2025-08-16
+// Created: `Sat, 16 Aug 2025 21:54:06 +0530`
+// Tags: [graphs, daily-practice]
+
 /// {{
 /// Problem: 990. Satisfiability of Equality Equations
 /// Difficulty: `Medium`
@@ -74,3 +79,4 @@ function equationsPossible(equations: string[]): boolean {
 }
 
 /// }}
+
