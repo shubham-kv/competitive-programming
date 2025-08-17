@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sat, 16 Aug 2025 21:46:40 +0530"
+Last Edited: "Sun, 17 Aug 2025 16:42:10 +0530"
 ---
 
 Solutions to solved leetcode problems organized by topic/category.
@@ -209,36 +209,39 @@ Difficulty; Topics
 
 ### Graphs
 
+#### Union Find Solutions
+
 1. [**547. Number of Provinces**](https://leetcode.com/problems/number-of-provinces/)  
   `Medium`; `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
-  [C](./graphs/547-number-of-provinces/c/solution.c),
-  [Javascript](./graphs/547-number-of-provinces/js/solution.js),
-  [Typescript](./graphs/547-number-of-provinces/ts/number-of-provinces.ts)  
+           [C](./graphs/uf/547-number-of-provinces/c/solution.c),
+  [Javascript](./graphs/uf/547-number-of-provinces/js/solution.js),
+  [Typescript](./graphs/uf/547-number-of-provinces/ts/number-of-provinces.ts)  
 
 1. [**684. Redundant Connection**](https://leetcode.com/problems/redundant-connection/)  
   `Medium`; `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
-  [C](./graphs/684-redundant-connection/c/redundant_connection.c),
-  [Javascript](./graphs/684-redundant-connection/js/solution.js),
-  [Typescript](./graphs/684-redundant-connection/ts/redundant-connection.ts)  
+           [C](./graphs/uf/684-redundant-connection/c/redundant_connection.c),
+  [Javascript](./graphs/uf/684-redundant-connection/js/solution.js),
+  [Typescript](./graphs/uf/684-redundant-connection/ts/redundant-connection.ts)  
 
 1. [**695. Max Area of Island**](https://leetcode.com/problems/max-area-of-island/)  
   `Medium`; `array`, `depth-first-search`, `breadth-first-search`, `union-find`, `matrix`  
-  [C](./graphs/695-max-area-of-island/c/solution.c), [Javascript](./graphs/695-max-area-of-island/js/solution.js)  
+           [C](./graphs/uf/695-max-area-of-island/c/solution.c),
+  [Javascript](./graphs/uf/695-max-area-of-island/js/solution.js)  
 
 1. [**990. Satisfiability of Equality Equations**](https://leetcode.com/problems/satisfiability-of-equality-equations/)  
   `Medium`; `array`, `string`, `union-find`, `graph`  
-  [C](./graphs/990-satisfiability-of-equality-equations/c/solution.c),
-  [Javascript](./graphs/990-satisfiability-of-equality-equations/js/solution.js),
-  [Typescript](./graphs/990-satisfiability-of-equality-equations/ts/solution.ts)  
+           [C](./graphs/uf/990-satisfiability-of-equality-equations/c/solution.c),
+  [Javascript](./graphs/uf/990-satisfiability-of-equality-equations/js/solution.js),
+  [Typescript](./graphs/uf/990-satisfiability-of-equality-equations/ts/solution.ts)  
 
 1. [**1267. Count Servers that Communicate**](https://leetcode.com/problems/count-servers-that-communicate/)  
   `Medium`; `array`, `depth-first-search`, `breadth-first-search`, `union-find`, `matrix`, `counting`  
-  [Javascript](./graphs/1267-count-servers-that-communicate/js/solution.js)  
+  [Javascript](./graphs/uf/1267-count-servers-that-communicate/js/solution.js)  
 
 1. [**1971. Find if Path Exists in Graph**](https://leetcode.com/problems/find-if-path-exists-in-graph/)  
   `Easy`; `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
-  [C](./graphs/1971-find-if-path-exists-in-graph/c/solution.c),
-  [Typescript](./graphs/1971-find-if-path-exists-in-graph/ts/solution.ts)  
+           [C](./graphs/uf/1971-find-if-path-exists-in-graph/c/solution.c),
+  [Typescript](./graphs/uf/1971-find-if-path-exists-in-graph/ts/solution.ts)  
 
 ### Trees
 
