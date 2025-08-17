@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sun, 17 Aug 2025 18:40:03 +0530"
+Last Edited: "Sun, 17 Aug 2025 19:26:19 +0530"
 ---
 
 Solutions to solved leetcode problems organized by topic/category.
@@ -248,7 +248,8 @@ Difficulty; Topics
 1. [**1971. Find if Path Exists in Graph**](https://leetcode.com/problems/find-if-path-exists-in-graph/)  
   `Easy`; `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
            [C](./graphs/uf/1971-find-if-path-exists-in-graph/c/solution.c),
-  [Typescript](./graphs/uf/1971-find-if-path-exists-in-graph/ts/solution.ts)  
+  [Javascript](./graphs/uf/1971-find-if-path-exists-in-graph/js/solution.js),
+  [Typescript](./graphs/uf/1971-find-if-path-exists-in-graph/ts/solution.ts)
 
 ### Trees
 

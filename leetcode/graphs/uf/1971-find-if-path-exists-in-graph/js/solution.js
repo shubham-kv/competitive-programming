@@ -3,26 +3,26 @@
 /// Difficulty: `Easy`
 /// Links: https://leetcode.com/problems/find-if-path-exists-in-graph/
 /// Topics: `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
-/// Timestamp: `Sun, 17 Aug 2025 19:18:38 +0530`
+/// Timestamp: `Sun, 17 Aug 2025 19:05:23 +0530`
 
 class QuickUnion {
-  #entries: number[];
-  #sizes: number[];
+  /** @type {number[]} */ #entries;
+  /** @type {number[]} */ #sizes;
 
-  constructor(n: number) {
-    this.#entries = Array(n).fill(0).map((_, i) => i);
+  constructor(/** @type {number} */ n) {
+    this.#entries = Array(n).fill(1).map((_, i) => i);
     this.#sizes = Array(n).fill(1);
   }
 
-  #find(p: number): number {
-    while (this.#entries[p] !== p) {
+  #find(/** @type {number} */ p) {
+    while (this.#entries[p] != p) {
       this.#entries[p] = this.#entries[this.#entries[p]];
       p = this.#entries[p];
     }
     return p;
   }
 
-  union(p: number, q: number): void {
+  union(/** @type {number} */ p, /** @type {number} */ q) {
     const rootP = this.#find(p);
     const rootQ = this.#find(q);
 
@@ -42,18 +42,20 @@ class QuickUnion {
     }
   }
 
-  connected(p: number, q: number): boolean {
+  /** @returns {boolean} */
+  connected(/** @type {number} */ p, /** @type {number} */ q) {
     return this.#find(p) === this.#find(q);
   }
 }
 
-function validPath(
-  n: number,
-  edges: number[][],
-  source: number,
-  destination: number
-): boolean {
-
+/**
+ * @param {number} n
+ * @param {number[][]} edges
+ * @param {number} source
+ * @param {number} destination
+ * @return {boolean}
+ */
+function validPath(n, edges, source, destination) {
   const quickUnion = new QuickUnion(n);
 
   for (const edge of edges) {
@@ -61,6 +63,6 @@ function validPath(
   }
 
   return quickUnion.connected(source, destination);
-};
+}
 
 /// }}

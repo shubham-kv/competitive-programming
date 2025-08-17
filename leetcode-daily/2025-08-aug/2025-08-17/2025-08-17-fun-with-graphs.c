@@ -1,3 +1,8 @@
+// Title: Fun with Graphs
+// Date: 2025-08-17
+// Created: `Sun, 17 Aug 2025 18:44:27 +0530`
+// Tags: [graphs, daily-practice]
+
 #include <stdbool.h>
 #include <stdlib.h>
 

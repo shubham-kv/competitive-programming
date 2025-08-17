@@ -90,3 +90,72 @@ function equationsPossible(equations: string[]): boolean {
 }
 
 /// }}
+
+
+/// {{
+/// Problem: 1971. Find if Path Exists in Graph
+/// Difficulty: `Easy`
+/// Links: https://leetcode.com/problems/find-if-path-exists-in-graph/
+/// Topics: `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
+/// Timestamp: `Sun, 17 Aug 2025 19:18:38 +0530`
+
+class QuickUnion {
+  #entries: number[];
+  #sizes: number[];
+
+  constructor(n: number) {
+    this.#entries = Array(n).fill(0).map((_, i) => i);
+    this.#sizes = Array(n).fill(1);
+  }
+
+  #find(p: number): number {
+    while (this.#entries[p] !== p) {
+      this.#entries[p] = this.#entries[this.#entries[p]];
+      p = this.#entries[p];
+    }
+    return p;
+  }
+
+  union(p: number, q: number): void {
+    const rootP = this.#find(p);
+    const rootQ = this.#find(q);
+
+    if (rootP === rootQ) {
+      return;
+    }
+
+    const sizeP = this.#sizes[rootP];
+    const sizeQ = this.#sizes[rootQ];
+
+    if (sizeP < sizeQ) {
+      this.#entries[rootP] = rootQ;
+      this.#sizes[rootQ] += sizeP;
+    } else {
+      this.#entries[rootQ] = rootP;
+      this.#sizes[rootP] += sizeQ;
+    }
+  }
+
+  connected(p: number, q: number): boolean {
+    return this.#find(p) === this.#find(q);
+  }
+}
+
+function validPath(
+  n: number,
+  edges: number[][],
+  source: number,
+  destination: number
+): boolean {
+
+  const quickUnion = new QuickUnion(n);
+
+  for (const edge of edges) {
+    quickUnion.union(edge[0], edge[1]);
+  }
+
+  return quickUnion.connected(source, destination);
+};
+
+/// }}
+
