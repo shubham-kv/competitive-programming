@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sun, 17 Aug 2025 16:42:10 +0530"
+Last Edited: "Sun, 17 Aug 2025 18:40:03 +0530"
 ---
 
 Solutions to solved leetcode problems organized by topic/category.
@@ -208,6 +208,13 @@ Difficulty; Topics
   [C](./heap/215-kth-largest-element-in-an-array/c/solution.c)
 
 ### Graphs
+
+#### DFS Solutions
+
+1. [**990. Satisfiability of Equality Equations**](https://leetcode.com/problems/satisfiability-of-equality-equations/)  
+  `Medium`; `array`, `string`, `union-find`, `graph`  
+  [Javascript](./graphs/dfs/990-satisfiability-of-equality-equations/js/solution.js),
+  [Typescript](./graphs/dfs/990-satisfiability-of-equality-equations/ts/solution.ts)  
 
 #### Union Find Solutions
 
