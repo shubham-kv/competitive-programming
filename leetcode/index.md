@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Thu, 21 Aug 2025 23:35:09 +0530"
+Last Edited: "Fri, 22 Aug 2025 00:32:27 +0530"
 ---
 
 Solutions to solved leetcode problems organized by topic/category.
@@ -130,7 +130,9 @@ Difficulty; Topics
 
 1. [**234. Palindrome Linked List**](https://leetcode.com/problems/palindrome-linked-list/)  
   `Easy`; `linked-list`, `two-pointers`, `stack`, `recursion`  
-  [C](./stacks/234-palindrome-linked-list/c/palindrome_validator.c)  
+  [C](./stacks/234-palindrome-linked-list/c/solution.c),
+  [Javascript](./stacks/234-palindrome-linked-list/js/solution.js),
+  [Typescript](./stacks/234-palindrome-linked-list/ts/solution.ts)
 
 1. [**682. Baseball Game**](https://leetcode.com/problems/baseball-game/)  
   `Easy`; `array`, `stack`, `simulation`  
