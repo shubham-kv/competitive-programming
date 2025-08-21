@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Thu, 21 Aug 2025 23:14:21 +0530"
+Last Edited: "Thu, 21 Aug 2025 23:35:09 +0530"
 ---
 
 Solutions to solved leetcode problems organized by topic/category.
@@ -115,7 +115,8 @@ Difficulty; Topics
 
 1. [**155. Min Stack**](https://leetcode.com/problems/min-stack/)  
   `Medium`; `stack`, `design`  
-  [C](./stacks/155-min-stack/c/solution.c)  
+  [C](./stacks/155-min-stack/c/solution.c),
+  [Javascript](./stacks/155-min-stack/js/solution.js)  
 
 1. [**227. Basic Calculator II**](https://leetcode.com/problems/basic-calculator-ii/)  
   `Medium`; `math`, `string`, `stack`  
