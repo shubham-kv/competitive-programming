@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sun, 17 Aug 2025 19:26:19 +0530"
+Last Edited: "Thu, 21 Aug 2025 23:14:21 +0530"
 ---
 
 Solutions to solved leetcode problems organized by topic/category.
@@ -96,7 +96,8 @@ Difficulty; Topics
 
 1. [**20. Valid Parentheses**](https://leetcode.com/problems/valid-parentheses/)  
   `Easy`; `string`, `stack`  
-  [C](./stacks/20-valid-parentheses/c/solution.c)  
+  [C](./stacks/20-valid-parentheses/c/solution.c),
+  [Javascript](./stacks/20-valid-parentheses/js/solution.js)  
 
 1. [**71. Simplify Path**](https://leetcode.com/problems/simplify-path/)  
   `Medium`; `string`, `stack`  
