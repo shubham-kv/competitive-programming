@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sun, 24 Aug 2025 15:51:40 +0530"
+Last Edited: "Sun, 24 Aug 2025 16:26:55 +0530"
 ---
 
 Solutions to solved leetcode problems organized by topic/category.
@@ -220,6 +220,10 @@ Difficulty; Topics
   `Medium`; `array`, `string`, `union-find`, `graph`  
   [Javascript](./graphs/dfs/990-satisfiability-of-equality-equations/js/solution.js),
   [Typescript](./graphs/dfs/990-satisfiability-of-equality-equations/ts/solution.ts)  
+
+1. [**1971. Find if Path Exists in Graph**](https://leetcode.com/problems/find-if-path-exists-in-graph/)  
+  `Easy`; `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
+  [Javascript](./graphs/dfs/1971-find-if-path-exists-in-graph/js/solution.js)
 
 #### Union Find Solutions
 
