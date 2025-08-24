@@ -1,3 +1,8 @@
+// Title: Fun with Stacks
+// Date: 2025-08-24
+// Created: `Sun, 24 Aug 2025 15:01:11 +0530`
+// Tags: [stacks, daily-practice]
+
 #include <stdlib.h>
 
 /// {{

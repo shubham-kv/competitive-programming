@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Fri, 22 Aug 2025 00:32:27 +0530"
+Last Edited: "Sun, 24 Aug 2025 15:51:40 +0530"
 ---
 
 Solutions to solved leetcode problems organized by topic/category.
@@ -105,7 +105,8 @@ Difficulty; Topics
 
 1. [**143. Reorder List**](https://leetcode.com/problems/reorder-list/)  
   `Medium`; `linked-list`, `two-pointers`, `stack`, `recursion`  
-  [C](./stacks/143-reorder-list/c/solution.c)  
+  [C](./stacks/143-reorder-list/c/solution.c),
+  [Javascript](./stacks/143-reorder-list/js/solution.js)
 
 1. [**150. Evaluate Reverse Polish Notation**](https://leetcode.com/problems/evaluate-reverse-polish-notation/)  
   `Medium`; `array`, `math`, `stack`  
