@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sun, 24 Aug 2025 16:26:55 +0530"
+Last Edited: "Fri, 29 Aug 2025 16:54:12 +0530"
 ---
 
 Solutions to solved leetcode problems organized by topic/category.
@@ -224,6 +224,10 @@ Difficulty; Topics
 1. [**1971. Find if Path Exists in Graph**](https://leetcode.com/problems/find-if-path-exists-in-graph/)  
   `Easy`; `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
   [Javascript](./graphs/dfs/1971-find-if-path-exists-in-graph/js/solution.js)
+
+1. [785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)  
+  `Medium`; `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
+  [Javascript](./graphs/dfs/785-is-graph-bipartite/js/solution.js)
 
 #### Union Find Solutions
 
