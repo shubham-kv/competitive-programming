@@ -1,16 +1,17 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Mon, 01 Sep 2025 15:51:39 +0530"
+Last Edited: "Mon, 01 Sep 2025 16:01:30 +0530"
 ---
 
-Solutions to solved leetcode problems organized by topic/category.
+My solutions to solved leetcode problems organized by topic/category. It
+also contains multiple solutions to a problem based on DS/Algo used.
 
 Each list item has the following format:  
 
-[Leetcode Problem Link](#)  
-Difficulty; Topics  
-[Solution 1](#), [Solution 2](#), ...
+> [Leetcode Problem Link](#)  
+> Difficulty; Topics  
+> [Solution 1](#), [Solution 2](#), ...
 
 ### Array
 
@@ -221,6 +222,10 @@ Difficulty; Topics
   [Javascript](./graphs/dfs/547-number-of-provinces/js/solution.js),
   [Typescript](./graphs/dfs/547-number-of-provinces/ts/solution.ts)  
 
+1. [**785. Is Graph Bipartite?**](https://leetcode.com/problems/is-graph-bipartite/)  
+  `Medium`; `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
+  [Javascript](./graphs/dfs/785-is-graph-bipartite/js/solution.js)
+
 1. [**990. Satisfiability of Equality Equations**](https://leetcode.com/problems/satisfiability-of-equality-equations/)  
   `Medium`; `array`, `string`, `union-find`, `graph`  
   [Javascript](./graphs/dfs/990-satisfiability-of-equality-equations/js/solution.js),
@@ -229,10 +234,6 @@ Difficulty; Topics
 1. [**1971. Find if Path Exists in Graph**](https://leetcode.com/problems/find-if-path-exists-in-graph/)  
   `Easy`; `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
   [Javascript](./graphs/dfs/1971-find-if-path-exists-in-graph/js/solution.js)
-
-1. [785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)  
-  `Medium`; `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
-  [Javascript](./graphs/dfs/785-is-graph-bipartite/js/solution.js)
 
 #### Union Find Solutions
 
