@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Fri, 29 Aug 2025 16:54:12 +0530"
+Last Edited: "Mon, 01 Sep 2025 15:51:39 +0530"
 ---
 
 Solutions to solved leetcode problems organized by topic/category.
@@ -215,6 +215,11 @@ Difficulty; Topics
 ### Graphs
 
 #### DFS Solutions
+
+1. [**547. Number of Provinces**](https://leetcode.com/problems/number-of-provinces/)  
+  `Medium`; `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
+  [Javascript](./graphs/dfs/547-number-of-provinces/js/solution.js),
+  [Typescript](./graphs/dfs/547-number-of-provinces/ts/solution.ts)  
 
 1. [**990. Satisfiability of Equality Equations**](https://leetcode.com/problems/satisfiability-of-equality-equations/)  
   `Medium`; `array`, `string`, `union-find`, `graph`  
