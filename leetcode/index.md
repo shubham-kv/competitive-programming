@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Mon, 01 Sep 2025 16:01:30 +0530"
+Last Edited: "Tue, 02 Sep 2025 13:44:37 +0530"
 ---
 
 My solutions to solved leetcode problems organized by topic/category. It
@@ -233,7 +233,8 @@ Each list item has the following format:
 
 1. [**1971. Find if Path Exists in Graph**](https://leetcode.com/problems/find-if-path-exists-in-graph/)  
   `Easy`; `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
-  [Javascript](./graphs/dfs/1971-find-if-path-exists-in-graph/js/solution.js)
+  [Javascript](./graphs/dfs/1971-find-if-path-exists-in-graph/js/solution.js),
+  [Typescript](./graphs/dfs/1971-find-if-path-exists-in-graph/ts/solution.ts)
 
 #### Union Find Solutions
 

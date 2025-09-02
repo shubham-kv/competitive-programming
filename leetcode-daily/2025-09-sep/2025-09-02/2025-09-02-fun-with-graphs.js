@@ -1,3 +1,8 @@
+// Title: Fun with graphs
+// Date: 2025-09-02
+// Created: `Tue, 02 Sep 2025 12:56:22 +0530`
+// Tags: [graphs, daily-practice]
+
 /// {{
 /// Problem: 1971. Find if Path Exists in Graph
 /// Difficulty: `Easy`
