@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Tue, 02 Sep 2025 13:44:37 +0530"
+Last Edited: "Fri, 05 Sep 2025 11:01:15 +0530"
 ---
 
 My solutions to solved leetcode problems organized by topic/category. It
@@ -224,7 +224,8 @@ Each list item has the following format:
 
 1. [**785. Is Graph Bipartite?**](https://leetcode.com/problems/is-graph-bipartite/)  
   `Medium`; `depth-first-search`, `breadth-first-search`, `union-find`, `graph`  
-  [Javascript](./graphs/dfs/785-is-graph-bipartite/js/solution.js)
+  [Javascript](./graphs/dfs/785-is-graph-bipartite/js/solution.js),
+  [Typescript](./graphs/dfs/785-is-graph-bipartite/ts/solution.ts)
 
 1. [**990. Satisfiability of Equality Equations**](https://leetcode.com/problems/satisfiability-of-equality-equations/)  
   `Medium`; `array`, `string`, `union-find`, `graph`  
