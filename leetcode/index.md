@@ -213,6 +213,10 @@ Each list item has the following format:
   `Medium`; `array`, `divide-and-conquer`, `sorting`, `heap-(priority-queue)`, `quickselect`  
   [C](./heap/215-kth-largest-element-in-an-array/c/solution.c)
 
+1. [**506. Relative Ranks**](https://leetcode.com/problems/relative-ranks/)  
+  `Easy`; `array`, `sorting`, `heap-(priority-queue)`  
+  [C](./heap/506-relative-ranks/c/solution.c)
+
 ### Graphs
 
 #### DFS Solutions
