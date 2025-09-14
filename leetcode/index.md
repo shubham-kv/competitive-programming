@@ -218,6 +218,11 @@ Each list item has the following format:
   [Javascript](./heap/347-top-k-frequent-elements/js/solution.js),
   [Typescript](./heap/347-top-k-frequent-elements/ts/solution.ts)
 
+1. [**378. Kth Smallest Element in a Sorted Matrix**](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)  
+  `Medium`; `array`, `binary search`, `sorting`, `heap-(priority-queue)`, `matrix`  
+  [Javascript](./heap/378-kth-smallest-element-in-a-sorted-matrix/js/solution.js),
+  [Typescript](./heap/378-kth-smallest-element-in-a-sorted-matrix/ts/solution.ts)
+
 1. [**506. Relative Ranks**](https://leetcode.com/problems/relative-ranks/)  
   `Easy`; `array`, `sorting`, `heap-(priority-queue)`  
   [C](./heap/506-relative-ranks/c/solution.c)
