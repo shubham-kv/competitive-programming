@@ -213,6 +213,11 @@ Each list item has the following format:
   `Medium`; `array`, `divide-and-conquer`, `sorting`, `heap-(priority-queue)`, `quickselect`  
   [C](./heap/215-kth-largest-element-in-an-array/c/solution.c)
 
+1. [**347. Top K Frequent Elements**](https://leetcode.com/problems/top-k-frequent-elements/)  
+  `Medium`; `array`, `hash-table`, `divide-and-conquer`, `sorting`, `heap-(priority-queue)`, `quickselect`  
+  [Javascript](./heap/347-top-k-frequent-elements/js/solution.js),
+  [Typescript](./heap/347-top-k-frequent-elements/ts/solution.ts)
+
 1. [**506. Relative Ranks**](https://leetcode.com/problems/relative-ranks/)  
   `Easy`; `array`, `sorting`, `heap-(priority-queue)`  
   [C](./heap/506-relative-ranks/c/solution.c)
