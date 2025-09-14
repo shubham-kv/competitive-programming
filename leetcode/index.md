@@ -232,6 +232,11 @@ Each list item has the following format:
   [Javascript](./heap/703-kth-largest-element-in-a-stream/js/solution.js),
   [Typescript](./heap/703-kth-largest-element-in-a-stream/ts/solution.ts)
 
+1. [**973. K Closest Points to Origin**](https://leetcode.com/problems/k-closest-points-to-origin/)  
+  `Medium`; `array`, `math`, `divide-and-conquer`, `geometry`, `sorting`, `heap-(priority-queue)`, `matrix`, `quickselect`  
+  [Javascript](./heap/973-k-closest-points-to-origin/js/solution.js),
+  [Typescript](./heap/973-k-closest-points-to-origin/ts/solution.ts)
+
 ### Graphs
 
 #### DFS Solutions

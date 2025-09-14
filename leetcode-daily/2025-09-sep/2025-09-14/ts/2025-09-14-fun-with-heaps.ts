@@ -109,7 +109,7 @@ function topKFrequent(nums: number[], k: number): number[] {
   const minPQ: MinPQ<Item> = new MinPQ(itemCmp);
 
   for (const [key, count] of keyToCountMap.entries()) {
-    minPQ.insert({key, count});
+    minPQ.insert({ key, count });
 
     if (minPQ.size() > k) {
       minPQ.delMin();
@@ -278,3 +278,40 @@ function kthSmallest(matrix: number[][], k: number): number {
 
 /// }}
 
+
+/// {{
+/// Problem: 973. K Closest Points to Origin
+/// Difficulty: `Medium`
+/// Links: https://leetcode.com/problems/k-closest-points-to-origin/
+/// Topics: `array`, `math`, `divide-and-conquer`, `geometry`, `sorting`, `heap-(priority-queue)`, `matrix`, `quickselect`
+/// Timestamp: `Sun, 14 Sep 2025 21:33:48 +0530`
+
+type Point = {
+  coords: { x: number; y: number; }
+  dist: number
+}
+
+function kClosest(points: number[][], k: number): number[][] {
+  const maxPQ: MaxPQ<Point> = new MaxPQ(
+    (a, b) => a.dist < b.dist ? -1 : a.dist > b.dist ? 1 : 0,
+  );
+
+  for (const [x, y] of points) {
+    maxPQ.insert({coords: {x, y}, dist: Math.sqrt(x * x + y * y)});
+
+    if (maxPQ.size() > k) {
+      maxPQ.delMax();
+    }
+  }
+
+  const closestPoints: [number, number][] = [];
+
+  while (!maxPQ.isEmpty()) {
+    const entry = maxPQ.delMax()!;
+    closestPoints.push([entry.coords.x, entry.coords.y]);
+  }
+
+  return closestPoints;
+}
+
+/// }}

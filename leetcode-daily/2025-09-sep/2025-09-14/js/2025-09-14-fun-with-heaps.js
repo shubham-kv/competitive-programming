@@ -332,3 +332,45 @@ function kthSmallest(matrix, k) {
 
 /// }}
 
+
+/// {{
+/// Problem: 973. K Closest Points to Origin
+/// Difficulty: `Medium`
+/// Links: https://leetcode.com/problems/k-closest-points-to-origin/
+/// Topics: `array`, `math`, `divide-and-conquer`, `geometry`, `sorting`, `heap-(priority-queue)`, `matrix`, `quickselect`
+/// Timestamp: `Sun, 14 Sep 2025 21:23:01 +0530`
+
+/**
+ * @typedef {{coords: {x: number; y: number}; dist: number}} Point
+ */
+
+/**
+ * @param {number[][]} points
+ * @param {number} k
+ * @return {number[][]}
+ */
+function kClosest(points, k) {
+  /** @type {MaxPQ<Point>} */
+  const maxPQ = new MaxPQ((a, b) => a.dist < b.dist ? -1 : a.dist > b.dist ? 1 : 0);
+
+  for (const [x, y] of points) {
+    maxPQ.insert({coords: {x, y}, dist: Math.sqrt(x * x + y * y)});
+
+    if (maxPQ.size() > k) {
+      maxPQ.delMax();
+    }
+  }
+
+  /** @type {[number, number][]} */
+  const closestPoints = [];
+
+  while (!maxPQ.isEmpty()) {
+    const entry = maxPQ.delMax();
+    closestPoints.push([entry.coords.x, entry.coords.y]);
+  }
+
+  return closestPoints;
+}
+
+/// }}
+
