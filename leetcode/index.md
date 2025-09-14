@@ -222,6 +222,11 @@ Each list item has the following format:
   `Easy`; `array`, `sorting`, `heap-(priority-queue)`  
   [C](./heap/506-relative-ranks/c/solution.c)
 
+1. [**703. Kth Largest Element in a Stream**](https://leetcode.com/problems/kth-largest-element-in-a-stream/)  
+  `Easy`; `tree`, `design`, `binary-search-tree`, `heap-(priority-queue)`, `binary-tree`, `data-stream`  
+  [Javascript](./heap/703-kth-largest-element-in-a-stream/js/solution.js),
+  [Typescript](./heap/703-kth-largest-element-in-a-stream/ts/solution.ts)
+
 ### Graphs
 
 #### DFS Solutions

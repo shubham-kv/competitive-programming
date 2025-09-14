@@ -1,8 +1,3 @@
-// Title: Fun with heaps
-// Date: 2025-09-14
-// Created: `Sun, 14 Sep 2025 13:04:41 +0530`
-// Tags: [heaps, daily-practice]
-
 /**
  * @template T
  * @typedef {(a: T, b: T) => number} ComparatorFn
@@ -106,55 +101,6 @@ class MinPQ {
     return this.size() === 0;
   }
 }
-
-/// {{
-/// Problem: 347. Top K Frequent Elements
-/// Difficulty: `Medium`
-/// Links: https://leetcode.com/problems/top-k-frequent-elements/
-/// Topics: `array`, `hash-table`, `divide-and-conquer`, `sorting`, `heap-(priority-queue)`, `quickselect`
-/// Timestamp: `Sun, 14 Sep 2025 13:04:41 +0530`
-
-/**
- * @param {number[]} nums
- * @param {number} k
- * @return {number[]}
- */
-function topKFrequent(nums, k) {
-  /** @type {Map<number, number>} */
-  const keyToCountMap = new Map();
-
-  for (const key of nums) {
-    if (keyToCountMap.has(key)) {
-      keyToCountMap.set(key, keyToCountMap.get(key) + 1);
-    } else {
-      keyToCountMap.set(key, 1);
-    }
-  }
-
-  /** @type {MinPQ<{key: number; count: number}>} */
-  const minPq = new MinPQ((a, b) => a.count < b.count ? -1 : a.count > b.count ? 1 : 0);
-
-  for (const [key, count] of keyToCountMap.entries()) {
-    minPq.insert({key, count});
-
-    if (minPq.size() > k) {
-      minPq.delMin();
-    }
-  }
-
-  /** @type {number[]} */
-  const kFrequent = [];
-
-  while (!minPq.isEmpty()) {
-    const {key} = minPq.delMin();
-    kFrequent.push(key);
-  }
-
-  return kFrequent;
-}
-
-/// }}
-
 
 /// {{
 /// Problem: 703. Kth Largest Element in a Stream
