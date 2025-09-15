@@ -211,7 +211,9 @@ Each list item has the following format:
 
 1. [**215. Kth Largest Element in an Array**](https://leetcode.com/problems/kth-largest-element-in-an-array/)  
   `Medium`; `array`, `divide-and-conquer`, `sorting`, `heap-(priority-queue)`, `quickselect`  
-  [C](./heap/215-kth-largest-element-in-an-array/c/solution.c)
+  [C](./heap/215-kth-largest-element-in-an-array/c/solution.c),
+  [Javascript](./heap/215-kth-largest-element-in-an-array/js/solution.js),
+  [Typescript](./heap/215-kth-largest-element-in-an-array/ts/solution.ts)
 
 1. [**347. Top K Frequent Elements**](https://leetcode.com/problems/top-k-frequent-elements/)  
   `Medium`; `array`, `hash-table`, `divide-and-conquer`, `sorting`, `heap-(priority-queue)`, `quickselect`  
