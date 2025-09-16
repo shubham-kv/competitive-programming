@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Pre-commit hook to update 'Last Edited' in staged Markdown files
+
+# Get current timestamp in the same format
+NOW=$(date +"%a, %d %b %Y %H:%M:%S %z")
+
+# Get all staged markdown files
+FILES=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.md$')
+
+if [ -z "$FILES" ]; then
+  exit 0
+fi
+
+# Update Last Edited in each file
+for FILE in $FILES; do
+  # Only update if file exists
+  if [ -f "$FILE" ]; then
+    # Use sed to replace Last Edited line
+    sed -i.bak -E "s/(Last Edited: \").*(\"$)/\1$NOW\2/" "$FILE"
+    rm "$FILE.bak"
+
+    # Stage the updated file
+    git add "$FILE"
+  fi
+done
+
+exit 0
+
