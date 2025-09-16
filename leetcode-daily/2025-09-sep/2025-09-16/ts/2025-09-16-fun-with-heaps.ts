@@ -163,6 +163,8 @@ class MaxPQ<T> {
   }
 }
 
+const cmpNumber = (a: number, b: number) => a < b ? -1 : a > b ? 1 : 0
+
 /// {{
 /// Problem: 1337. The K Weakest Rows in a Matrix
 /// Difficulty: `Easy`
@@ -174,8 +176,6 @@ type Item = {
   index: number;
   count: number;
 }
-
-const cmpNumber = (a: number, b: number) => a < b ? -1 : a > b ? 1 : 0
 
 function kWeakestRows(mat: number[][], k: number): number[] {
   const maxPQ: MaxPQ<Item> = new MaxPQ((a, b) => {
@@ -209,6 +209,45 @@ function kWeakestRows(mat: number[][], k: number): number[] {
 
   return kWeakestIndices;
 }
+
+/// }}
+
+
+/// {{
+/// Problem: 658. Find K Closest Elements
+/// Difficulty: `Medium`
+/// Links: https://leetcode.com/problems/find-k-closest-elements/
+/// Topics: -
+/// Timestamp: `Tue, 16 Sep 2025 12:17:37 +0530`
+
+function findClosestElements(arr: number[], k: number, x: number): number[] {
+  const minPQ: MinPQ<number> = new MinPQ((a, b) => {
+    const distA = Math.abs(a - x);
+    const distB = Math.abs(b - x);
+    const cmpDistAandB = cmpNumber(distA, distB);
+    if (cmpDistAandB !== 0) {
+      return cmpDistAandB;
+    }
+    return cmpNumber(a, b);
+  });
+
+  for (const num of arr) {
+    minPQ.insert(num);
+
+    if (minPQ.size() > k) {
+      minPQ.delMin();
+    }
+  }
+
+  const kClosest: number[] = [];
+
+  while (!minPQ.isEmpty()) {
+    const num = minPQ.delMin();
+    kClosest.push(num);
+  }
+
+  return kClosest;
+};
 
 /// }}
 
