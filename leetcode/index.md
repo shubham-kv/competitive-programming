@@ -239,6 +239,11 @@ Each list item has the following format:
   [Javascript](./heap/973-k-closest-points-to-origin/js/solution.js),
   [Typescript](./heap/973-k-closest-points-to-origin/ts/solution.ts)
 
+1. [**1337. The K Weakest Rows in a Matrix**](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)  
+  `Easy`; `array`, `binary-search`, `sorting`, `heap-(priority-queue)`, `matrix`  
+  [Javascript](./heap/1337-the-k-weakest-rows-in-a-matrix/js/solution.js),
+  [Typescript](./heap/1337-the-k-weakest-rows-in-a-matrix/ts/solution.ts)
+
 ### Graphs
 
 #### DFS Solutions
