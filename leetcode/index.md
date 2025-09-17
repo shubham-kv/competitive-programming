@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Wed, 17 Sep 2025 16:35:33 +0530"
+Last Edited: "Wed, 17 Sep 2025 17:00:40 +0530"
 ---
 
 My solutions to solved leetcode problems organized by topic/category. It
@@ -34,7 +34,8 @@ Each list item has the following format:
 1. [**21. Merge Two Sorted Lists**](https://leetcode.com/problems/merge-two-sorted-lists/)  
   `Easy`; `linked-list`, `recursion`  
   [C](./linked-lists/21-merge-two-sorted-lists/c/solution.c),
-  [Javascript](./linked-lists/21-merge-two-sorted-lists/js/solution.js)
+  [Javascript](./linked-lists/21-merge-two-sorted-lists/js/solution.js),
+  [Typescript](./linked-lists/21-merge-two-sorted-lists/ts/solution.ts)
 
 1. [**23. Merge k Sorted Lists**](https://leetcode.com/problems/merge-k-sorted-lists/)  
   `Hard`; `linked-list`, `divide-and-conquer`, `heap-(priority-queue)`, `merge-sort`  

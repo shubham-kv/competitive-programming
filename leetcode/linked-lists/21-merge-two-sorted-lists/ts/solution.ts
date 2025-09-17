@@ -3,22 +3,24 @@
 /// Difficulty: `Medium`
 /// Links: https://leetcode.com/problems/merge-two-sorted-lists/
 /// Topics: `linked-lsit`, `recursion`
-/// Timestamp: `Wed, 17 Sep 2025 16:40:07 +0530`
+/// Timestamp: `Wed, 17 Sep 2025 16:49:58 +0530`
 
 // Definition for singly-linked list.
-function ListNode(val, next) {
-  this.val = val === undefined ? 0 : val;
-  this.next = next === undefined ? null : next;
+class ListNode {
+  val: number
+  next: ListNode | null
+  constructor(val?: number, next?: ListNode | null) {
+    this.val = (val === undefined ? 0 : val)
+    this.next = (next === undefined ? null : next)
+  }
 }
 
-/**
- * @param {ListNode} list1
- * @param {ListNode} list2
- * @return {ListNode}
- */
-function mergeTwoLists(list1, list2) {
-  const list3 = new ListNode();
-  let n1 = list1, n2 = list2, n3 = list3;
+function mergeTwoLists(
+  list1: ListNode | null,
+  list2: ListNode | null,
+): ListNode | null {
+  const l3 = new ListNode();
+  let n1 = list1, n2 = list2, n3 = l3;
 
   for (; ;) {
     if (n1 === null) {
@@ -38,7 +40,7 @@ function mergeTwoLists(list1, list2) {
     }
   }
 
-  return list3.next;
+  return l3.next;
 }
 
 /// }}
