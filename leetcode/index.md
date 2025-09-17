@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Fri, 05 Sep 2025 11:01:15 +0530"
+Last Edited: "Wed, 17 Sep 2025 12:35:37 +0530"
 ---
 
 My solutions to solved leetcode problems organized by topic/category. It
@@ -239,10 +239,16 @@ Each list item has the following format:
   [Javascript](./heap/973-k-closest-points-to-origin/js/solution.js),
   [Typescript](./heap/973-k-closest-points-to-origin/ts/solution.ts)
 
+1. [**1046. Last Stone Weight**](https://leetcode.com/problems/last-stone-weight/)  
+  `Easy`; `array`, `heap-(priority-queue)`  
+  [Javascript](./heap/1046-last-stone-weight/js/solution.js),
+  [Typescript](./heap/1046-last-stone-weight/ts/solution.ts)
+
 1. [**1337. The K Weakest Rows in a Matrix**](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)  
   `Easy`; `array`, `binary-search`, `sorting`, `heap-(priority-queue)`, `matrix`  
   [Javascript](./heap/1337-the-k-weakest-rows-in-a-matrix/js/solution.js),
   [Typescript](./heap/1337-the-k-weakest-rows-in-a-matrix/ts/solution.ts)
+
 
 ### Graphs
 

@@ -206,15 +206,15 @@ class MaxPQ {
   }
 }
 
+/** @type {(a: number, b: number) => number} */
+const cmpNumber = (a, b) => a < b ? -1 : a > b ? 1 : 0;
+
 /// {{
 /// Problem: 658. Find K Closest Elements
 /// Difficulty: `Medium`
 /// Links: https://leetcode.com/problems/find-k-closest-elements/
 /// Topics: `array`, `two-pointers`, `binary-search`, `sliding-window`, `sorting`, `heap-(priority-queue)`
 /// Timestamp: `Wed, 17 Sep 2025 11:25:48 +0530`
-
-/** @type {(a: number, b: number) => number} */
-const cmpNumber = (a, b) => a < b ? -1 : a > b ? 1 : 0;
 
 /**
  * @param {number[]} arr
@@ -265,6 +265,43 @@ function findClosestElements (arr, k, x) {
 //
 // #todo, #needs-improvement
 // 
+
+/// }}
+
+
+/// {{
+/// Problem: 1046. Last Stone Weight
+/// Difficulty: `Easy`
+/// Links: https://leetcode.com/problems/last-stone-weight/
+/// Topics: `array`, `heap-(priority-queue)`
+/// Timestamp: `Wed, 17 Sep 2025 12:13:27 +0530`
+
+/**
+ * @param {number[]} stones
+ * @return {number}
+ */
+function lastStoneWeight(stones) {
+  /** @type {MaxPQ<number>} */
+  const maxPQ = new MaxPQ(cmpNumber);
+
+  for (const stoneWight of stones) {
+    maxPQ.insert(stoneWight);
+  }
+
+  while (maxPQ.size() > 1) {
+    const stoneXWeight = maxPQ.delMax();
+    const stoneYWeight = maxPQ.delMax();
+
+    if (stoneXWeight === stoneYWeight) {
+      // No OP
+    } else {
+      const stoneXNewWeight = stoneXWeight - stoneYWeight;
+      maxPQ.insert(stoneXNewWeight);
+    }
+  }
+
+  return !maxPQ.isEmpty() ? maxPQ.delMax() : 0;
+}
 
 /// }}
 
