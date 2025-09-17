@@ -1,15 +1,28 @@
+// Title: Fun with linked list
+// Date: 2025-09-17
+// Created: `Wed, 17 Sep 2025 15:57:28 +0530`
+// Tags: [linked-list, daily-practice]
+
+// Definition for singly-linked list.
+class ListNode {
+  /**
+   * @param {number} [val]
+   * @param {undefined} [next]
+   */
+  constructor(val, next) {
+    this.val = (val === undefined ? 0 : val);
+
+    /** @type {ListNode} */
+    this.next = (next === undefined ? null : next);
+  }
+}
+
 /// {{
 /// Problem: 2. Add Two Numbers
 /// Difficulty: `Medium`
 /// Links: https://leetcode.com/problems/add-two-numbers/
 /// Topics: `linked-list`, `math`, `recursion`  
-/// Timestamp: `Fri, 08 Aug 2025 14:38:44 +0530`
-
-// Definition for singly-linked list.
-function ListNode(val, next) {
-   this.val = (val===undefined ? 0 : val)
-   this.next = (next===undefined ? null : next)
-}
+/// Timestamp: `Wed, 17 Sep 2025 16:03:49 +0530`
 
 /**
  * @param {ListNode} l1

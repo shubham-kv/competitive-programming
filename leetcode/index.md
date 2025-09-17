@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Wed, 17 Sep 2025 12:35:37 +0530"
+Last Edited: "Wed, 17 Sep 2025 16:35:33 +0530"
 ---
 
 My solutions to solved leetcode problems organized by topic/category. It
@@ -28,7 +28,8 @@ Each list item has the following format:
 1. [**2. Add Two Numbers**](https://leetcode.com/problems/add-two-numbers/)  
   `Medium`; `linked-list`, `math`, `recursion`  
   [C](./linked-lists/2-add-two-numbers/c/solution.c),
-  [Javascript](./linked-lists/2-add-two-numbers/js/solution.js)
+  [Javascript](./linked-lists/2-add-two-numbers/js/solution.js),
+  [Typescript](./linked-lists/2-add-two-numbers/ts/solution.ts)
 
 1. [**21. Merge Two Sorted Lists**](https://leetcode.com/problems/merge-two-sorted-lists/)  
   `Easy`; `linked-list`, `recursion`  
