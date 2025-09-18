@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Thu, 18 Sep 2025 20:10:54 +0530"
+Last Edited: "Thu, 18 Sep 2025 20:58:10 +0530"
 ---
 
 My solutions to solved leetcode problems organized by topic/category. It
@@ -60,7 +60,8 @@ Each list item has the following format:
 1. [**143. Reorder List**](https://leetcode.com/problems/reorder-list/)  
   `Medium`; `linked-list`, `two-pointers`, `stack`, `recursion`  
   [C](./linked-lists/143-reorder-list/c/solution.c),
-  [Javascript](./linked-lists/143-reorder-list/js/solution.js)  
+  [Javascript](./linked-lists/143-reorder-list/js/solution.js),
+  [Typescript](./linked-lists/143-reorder-list/ts/solution.ts)
 
 1. [**160. Intersection of Two Linked Lists**](https://leetcode.com/problems/intersection-of-two-linked-lists/)  
   `Easy`; `hash-table`, `linked-list`, `two-pointers`  

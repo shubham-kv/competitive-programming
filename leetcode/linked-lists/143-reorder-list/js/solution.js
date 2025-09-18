@@ -2,8 +2,7 @@
 /// Problem: 143. Reorder List
 /// Difficulty: `Medium`
 /// Links: https://leetcode.com/problems/reorder-list/
-/// Topics: `linked-list`, `two-pointers`, `stack`, `recursion`
-/// Timestamp: `Sat, 09 Aug 2025 15:51:25 +0530`
+/// Timestamp: `Thu, 18 Sep 2025 20:15:24 +0530`
 
 // Definition for singly-linked list.
 function ListNode(val, next) {
@@ -16,54 +15,50 @@ function ListNode(val, next) {
  * @return {void} Do not return anything, modify head in-place instead.
  */
 function reorderList(head) {
-  /** @type {(ListNode|null)[]} */
-  let [l1, l2] = [head, null];
+  if (!head) {
+    return null;
+  }
 
-  // Divide the list into two sub-lists from middle
   const middle = middleNode(head);
-  l2 = middle.next;
+  const next = middle.next;
   middle.next = null;
 
-  // Reverse the second half of the list
-  l2 = reverseList(l2);
+  const head2 = reverseList(next);
 
-  /** @type {(ListNode|null)[]} */
-  let [node1, node2, node1Next, node2Next] = Array(4).fill(null);
+  for (let n1 = head, n2 = head2; n1 && n2;) {
+    const savedNext1 = n1.next;
+    const savedNext2 = n2.next;
 
-  // Reorder as needed
-  for (
-    node1 = l1, node2 = l2;
-    node1 && node2;
-    node1 = node1Next, node2 = node2Next
-  ) {
-    node1Next = node1.next;
-    node2Next = node2.next;
-    node1.next = node2;
-    node2.next = node1Next;
+    n1.next = n2;
+    n2.next = savedNext1;
+
+    n1 = savedNext1;
+    n2 = savedNext2;
   }
 }
 
 /** @returns {ListNode | null} */
-function middleNode(/** @type {ListNode | null} */ head) {
-  /** @type {(ListNode|null)[]} */
-  let [fast, slow] = [null, null];
-  for (
-    fast = slow = head;
-    fast && fast.next;
-    slow = slow.next, fast = fast.next.next
-  ) { }
+function middleNode(
+  /** @type {ListNode} */ head
+) {
+  let slow = head, fast = head;
+  for (; fast && fast.next;) {
+    slow = slow.next;
+    fast = fast.next.next;
+  }
   return slow;
 }
 
 /** @returns {ListNode | null} */
-function reverseList(/** @type {ListNode | null} */ head) {
-  /** @type {(ListNode|null)[]} */
-  let [prev, cur, next] = [null, null, null];
-  for (
-    prev = next = null, cur = head;
-    cur;
-    prev = cur, cur = next
-  ) {
+function reverseList(
+  /** @type {ListNode} */ head
+) {
+  if (!head) {
+    return null;
+  }
+  /** @type {(ListNode | null)[]} */
+  let [prev, cur, next] = [null, head, head.next];
+  for (; cur; prev = cur, cur = next) {
     next = cur.next;
     cur.next = prev;
   }
