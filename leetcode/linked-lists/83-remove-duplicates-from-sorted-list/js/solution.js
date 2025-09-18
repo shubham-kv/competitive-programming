@@ -1,14 +1,13 @@
 /// {{
-/// Problem: 83. Remove Duplicates from Sorted List  
-/// Difficulty: Easy  
-/// Links: https://leetcode.com/problems/remove-duplicates-from-sorted-list/  
-/// Topics: `linked-list`  
-/// Timestamp: `Fri, 08 Aug 2025 16:56:45 +0530`  
+/// Problem: 83. Remove Duplicates from Sorted List
+/// Difficulty: `Easy`
+/// Links: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+/// Timestamp: `Thu, 18 Sep 2025 19:29:25 +0530`
 
 // Definition for singly-linked list.
 function ListNode(val, next) {
-    this.val = (val===undefined ? 0 : val)
-    this.next = (next===undefined ? null : next)
+  this.val = (val === undefined ? 0 : val)
+  this.next = (next === undefined ? null : next)
 }
 
 /**
@@ -16,18 +15,21 @@ function ListNode(val, next) {
  * @return {ListNode}
  */
 function deleteDuplicates(head) {
-  /** @type {(ListNode | null)[]} */
-  let [prev, cur, next] = [head, head?.next ?? null, null];
+  if (!head || !head.next) {
+    return head;
+  }
 
-  for (; prev && cur; cur = next) {
+  /** @type {(ListNode | null)[]} */
+  let [prevUnique, cur, next] = [head, head.next, null];
+  prevUnique.next = null; // break link
+
+  for (; cur; cur = next) {
     next = cur.next;
 
-    if (prev.val < cur.val) {
-      prev.next = cur;
+    if (cur.val > prevUnique.val) {
       cur.next = null;
-      prev = cur;
-    } else {
-      prev.next = null;
+      prevUnique.next = cur;
+      prevUnique = prevUnique.next;
     }
   }
 

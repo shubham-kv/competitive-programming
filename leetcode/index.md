@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Thu, 18 Sep 2025 12:24:55 +0530"
+Last Edited: "Thu, 18 Sep 2025 20:10:54 +0530"
 ---
 
 My solutions to solved leetcode problems organized by topic/category. It
@@ -50,7 +50,8 @@ Each list item has the following format:
 1. [**83. Remove Duplicates from Sorted List**](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)  
   `Easy`; `linked-list`  
   [C](./linked-lists/83-remove-duplicates-from-sorted-list/c/solution.c),
-  [Javascript](./linked-lists/83-remove-duplicates-from-sorted-list/js/solution.js)
+  [Javascript](./linked-lists/83-remove-duplicates-from-sorted-list/js/solution.js),
+  [Typescript](./linked-lists/83-remove-duplicates-from-sorted-list/ts/solution.ts)
 
 1. [**138. Copy List with Random Pointer**](https://leetcode.com/problems/copy-list-with-random-pointer/)  
   `Medium`; `linked-list`, `hash-table`  
