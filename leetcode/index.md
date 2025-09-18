@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Wed, 17 Sep 2025 17:00:40 +0530"
+Last Edited: "Thu, 18 Sep 2025 12:24:55 +0530"
 ---
 
 My solutions to solved leetcode problems organized by topic/category. It
@@ -44,7 +44,8 @@ Each list item has the following format:
 1. [**24. Swap Nodes in Pairs**](https://leetcode.com/problems/swap-nodes-in-pairs/)  
   `Medium`; `linked-list`, `recursion`  
   [C](./linked-lists/24-swap-nodes-in-pairs/c/solution.c),
-  [Javascript](./linked-lists/24-swap-nodes-in-pairs/js/solution.js)
+  [Javascript](./linked-lists/24-swap-nodes-in-pairs/js/solution.js),
+  [Typescript](./linked-lists/24-swap-nodes-in-pairs/ts/solution.ts)
 
 1. [**83. Remove Duplicates from Sorted List**](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)  
   `Easy`; `linked-list`  

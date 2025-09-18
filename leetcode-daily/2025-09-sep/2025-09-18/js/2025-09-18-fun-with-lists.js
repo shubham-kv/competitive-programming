@@ -1,3 +1,8 @@
+// Title: Fun with linked list
+// Date: 2025-09-18
+// Created: `Thu, 18 Sep 2025 11:13:28 +0530`
+// Tags: [linked-list, daily-practice]
+
 /// {{
 /// Problem: 24. Swap Nodes in Pairs
 /// Difficulty: `Medium`
