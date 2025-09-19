@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Fri, 19 Sep 2025 12:13:52 +0530"
+Last Edited: "Fri, 19 Sep 2025 12:33:35 +0530"
 ---
 
 My solutions to solved leetcode problems organized by topic/category. It
@@ -72,7 +72,8 @@ Each list item has the following format:
 1. [**206. Reverse Linked List**](https://leetcode.com/problems/reverse-linked-list/)  
   `Easy`; `linked-list`, `recursion`  
   [C](./linked-lists/206-reverse-linked-list/c/solution.c),
-  [Javascript](./linked-lists/206-reverse-linked-list/js/solution.js)
+  [Javascript](./linked-lists/206-reverse-linked-list/js/solution.js),
+  [Typescript](./linked-lists/206-reverse-linked-list/ts/solution.ts)
 
 1. [**234. Palindrome Linked List**](https://leetcode.com/problems/palindrome-linked-list/)  
   `Easy`; `linked-list`, `two-pointers`, `stack`, `recursion`  

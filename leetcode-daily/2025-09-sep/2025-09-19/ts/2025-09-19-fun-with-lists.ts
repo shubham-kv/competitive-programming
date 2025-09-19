@@ -79,3 +79,27 @@ function ithNode(head: ListNode, index: number): ListNode | null {
 }
 
 /// }}
+
+
+/// {{
+/// Problem: 206. Reverse Linked List
+/// Difficulty: `Easy`
+/// Links: https://leetcode.com/problems/reverse-linked-list/
+/// Timestamp: `Fri, 19 Sep 2025 12:18:49 +0530`
+
+function reverseList(head: ListNode | null): ListNode | null {
+  if (!head) { return null; }
+
+  let [prev, cur, next]: (ListNode | null)[] = [null, head, null];
+
+  for (; cur; cur = next) {
+    next = cur.next;
+    cur.next = prev;
+    prev = cur;
+  }
+
+  return prev;
+}
+
+/// }}
+

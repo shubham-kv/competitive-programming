@@ -5,23 +5,19 @@
 /// Timestamp: `Fri, 19 Sep 2025 12:18:49 +0530`
 
 // Definition for singly-linked list.
-function ListNode(val) {
-  /** @type {number} */
-  this.val = val;
-
-  /** @type {ListNode | null} */
-  this.next = null;
+class ListNode {
+  val: number
+  next: ListNode | null
+  constructor(val?: number, next?: ListNode | null) {
+    this.val = (val === undefined ? 0 : val)
+    this.next = (next === undefined ? null : next)
+  }
 }
 
-/**
- * @param {ListNode | null} head
- * @return {ListNode | null}
- */
-function reverseList(head) {
+function reverseList(head: ListNode | null): ListNode | null {
   if (!head) { return null; }
 
-  /** @type {(ListNode | null)[]} */
-  let [prev, cur, next] = [null, head, null];
+  let [prev, cur, next]: (ListNode | null)[] = [null, head, null];
 
   for (; cur; cur = next) {
     next = cur.next;

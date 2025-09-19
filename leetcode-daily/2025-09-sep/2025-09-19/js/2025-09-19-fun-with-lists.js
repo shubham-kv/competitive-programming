@@ -3,12 +3,6 @@
 // Created: `Fri, 19 Sep 2025 11:21:56 +0530`
 // Tags: [linked-list, daily-practice]
 
-/// {{
-/// Problem: 160. Intersection of Two Linked Lists
-/// Difficulty: `Easy`
-/// Links: https://leetcode.com/problems/intersection-of-two-linked-lists/
-/// Timestamp: `Fri, 19 Sep 2025 11:23:07 +0530`
-
 // Definition for singly-linked list.
 function ListNode(val) {
   /** @type {number} */
@@ -17,6 +11,12 @@ function ListNode(val) {
   /** @type {ListNode | null} */
   this.next = null;
 }
+
+/// {{
+/// Problem: 160. Intersection of Two Linked Lists
+/// Difficulty: `Easy`
+/// Links: https://leetcode.com/problems/intersection-of-two-linked-lists/
+/// Timestamp: `Fri, 19 Sep 2025 11:23:07 +0530`
 
 /**
  * @param {ListNode} headA
@@ -80,6 +80,34 @@ function ithNode(
     }
   }
   return node;
+}
+
+/// }}
+
+
+/// {{
+/// Problem: 206. Reverse Linked List
+/// Difficulty: `Easy`
+/// Links: https://leetcode.com/problems/reverse-linked-list/
+/// Timestamp: `Fri, 19 Sep 2025 12:18:49 +0530`
+
+/**
+ * @param {ListNode | null} head
+ * @return {ListNode | null}
+ */
+function reverseList(head) {
+  if (!head) { return null; }
+
+  /** @type {(ListNode | null)[]} */
+  let [prev, cur, next] = [null, head, null];
+
+  for (; cur; cur = next) {
+    next = cur.next;
+    cur.next = prev;
+    prev = cur;
+  }
+
+  return prev;
 }
 
 /// }}
