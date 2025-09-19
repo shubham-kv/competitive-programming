@@ -2,31 +2,30 @@
 /// Problem: 160. Intersection of Two Linked Lists
 /// Difficulty: `Easy`
 /// Links: https://leetcode.com/problems/intersection-of-two-linked-lists/
-/// Timestamp: `Fri, 19 Sep 2025 11:23:07 +0530`
+/// Timestamp: `Fri, 19 Sep 2025 11:52:47 +0530`
 
 // Definition for singly-linked list.
-function ListNode(val) {
-  /** @type {number} */
-  this.val = val;
-
-  /** @type {ListNode | null} */
-  this.next = null;
+class ListNode {
+  val: number
+  next: ListNode | null
+  constructor(val?: number, next?: ListNode | null) {
+    this.val = (val === undefined ? 0 : val)
+    this.next = (next === undefined ? null : next)
+  }
 }
 
-/**
- * @param {ListNode} headA
- * @param {ListNode} headB
- * @return {ListNode | null}
- */
-function getIntersectionNode(headA, headB) {
+function getIntersectionNode(
+  headA: ListNode | null,
+  headB: ListNode | null,
+): ListNode | null {
   if (!(headA && headB)) {
     return null;
   }
 
-  const {tail: tailA, size: sizeA} = processList(headA);
-  const {tail: tailB, size: sizeB} = processList(headB);
+  const { tail: tailA, size: sizeA } = processList(headA);
+  const { tail: tailB, size: sizeB } = processList(headB);
 
-  if (tailA !== tailB) {
+  if (!(tailA !== null && tailB !== null && tailA === tailB)) {
     return null;
   }
 
@@ -50,10 +49,9 @@ function getIntersectionNode(headA, headB) {
   return null;
 }
 
-/** @returns {{tail: ListNode; size: number} | null} */
 function processList(
-  /** @type {ListNode | null} */ head
-) {
+  head: ListNode | null,
+): { tail: ListNode; size: number } | null {
   if (!head) { return null; }
   let node = head;
   let size = 1;
@@ -61,15 +59,13 @@ function processList(
   return { tail: node, size };
 }
 
-/** @returns {ListNode | null} */
-function ithNode(
-  /** @type {ListNode | null} */ head,
-  /** @type {number} */ index
-) {
+function ithNode(head: ListNode, index: number): ListNode | null {
+  if (!head) { return null; }
+  if (!(0 <= index)) { return null; }
   let node = head;
   for (let i = 1; i <= index; i++) {
-    if (node && node.next) {
-      node = node.next
+    if (node?.next) {
+      node = node.next;
     } else {
       return null;
     }

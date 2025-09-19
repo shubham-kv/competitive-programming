@@ -1,3 +1,8 @@
+// Title: Fun with linked list
+// Date: 2025-09-19
+// Created: `Fri, 19 Sep 2025 11:21:56 +0530`
+// Tags: [linked-list, daily-practice]
+
 /// {{
 /// Problem: 160. Intersection of Two Linked Lists
 /// Difficulty: `Easy`
