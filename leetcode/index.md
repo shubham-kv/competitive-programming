@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sat, 20 Sep 2025 12:04:10 +0530"
+Last Edited: "Sat, 20 Sep 2025 14:00:05 +0530"
 ---
 
 My solutions to solved leetcode problems organized by topic/category. It
@@ -89,7 +89,8 @@ Each list item has the following format:
 1. [**707. Design Linked List**](https://leetcode.com/problems/design-linked-list/)  
   `Medium`; `linked-list`, `design`  
   [C](./linked-lists/707-design-linked-list/c/solution.c),
-  [Javascript](./linked-lists/707-design-linked-list/js/solution.js)
+  [Javascript](./linked-lists/707-design-linked-list/js/solution.js),
+  [Typescript](./linked-lists/707-design-linked-list/ts/solution.ts)
 
 1. [**876. Middle of the Linked List**](https://leetcode.com/problems/middle-of-the-linked-list/)  
   `Easy`; `linked-list`, `two-pointers`  

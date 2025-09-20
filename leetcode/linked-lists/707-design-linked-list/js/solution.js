@@ -2,44 +2,53 @@
 /// Problem: 707. Design Linked List
 /// Difficulty: `Medium`
 /// Links: https://leetcode.com/problems/design-linked-list/
-/// Topics: `linked-list`, `design`
-/// Timestamp: `Sun, 10 Aug 2025 22:12:24 +0530`
+/// Timestamp: `Sat, 20 Sep 2025 12:08:33 +0530`
 
-/** @typedef {{next: ListNode | null; data: number}} ListNode */
+function _Node(
+  /** @type {number} */ val,
+  /** @type {_Node | null | undefined} */ prev = null,
+  /** @type {_Node | null | undefined} */ next = null
+) {
+  /** @type {number} */
+  this.val = val;
+
+  /** @type {_Node | null} */
+  this.prev = prev ?? null;
+
+  /** @type {_Node | null} */
+  this.next = next ?? null;
+}
 
 function MyLinkedList() {
-  /** @type {ListNode | null} */
+  /** @type {_Node | null} */
   this.first = null;
+
+  /** @type {_Node | null} */
+  this.last = null;
 
   /** @type {number} */
   this.size = 0;
-};
+}
 
-/**
- * @param {MyLinkedList} list 
- * @param {number} index
- * @returns {ListNode | null}
- */
-function getNodeAt(list, index) {
-  if (!list || !(0 <= index && index < list.size)) {
+/** @returns {_Node | null} */
+function _ithNode(
+  /** @type {MyLinkedList} */ list,
+  /** @type {number} */ index
+) {
+  if (!list) { return null; }
+
+  const n = list.size;
+  if (!(0 <= index && index < n)) {
     return null;
   }
-
-  if (index === 0) {
-    return list.first;
-  }
-
-  /** @type {ListNode | null} */
   let node = list.first;
-
-  for (let i = 1; i < (index + 1); i++) {
-    if (node.next) {
+  for (let i = 1; i <= index; i++) {
+    if (node && node.next) {
       node = node.next;
     } else {
-      return null;
+      throw new Error('Failed! Invalid list state');
     }
   }
-
   return node;
 }
 
@@ -48,8 +57,8 @@ function getNodeAt(list, index) {
  * @return {number}
  */
 MyLinkedList.prototype.get = function(index) {
-  const node = getNodeAt(this, index);
-  return node ? node.data : -1;
+  const node = _ithNode(this, index);
+  return node?.val ?? -1;
 };
 
 /** 
@@ -57,7 +66,15 @@ MyLinkedList.prototype.get = function(index) {
  * @return {void}
  */
 MyLinkedList.prototype.addAtHead = function(val) {
-  this.addAtIndex(0, val);
+  const node = new _Node(val, null, this.first);
+  if (this.first) {
+    this.first.prev = node;
+  }
+  if (!this.last) {
+    this.last = node;
+  }
+  this.first = node;
+  this.size++;
 };
 
 /** 
@@ -65,7 +82,15 @@ MyLinkedList.prototype.addAtHead = function(val) {
  * @return {void}
  */
 MyLinkedList.prototype.addAtTail = function(val) {
-  this.addAtIndex(this.size, val);
+  const node = new _Node(val, this.last, null);
+  if (this.last) {
+    this.last.next = node;
+  }
+  if (!this.first) {
+    this.first = node;
+  }
+  this.last = node;
+  this.size++;
 };
 
 /** 
@@ -74,22 +99,26 @@ MyLinkedList.prototype.addAtTail = function(val) {
  * @return {void}
  */
 MyLinkedList.prototype.addAtIndex = function(index, val) {
-  if (!(0 <= index && index <= this.size)) {
+  const n = this.size;
+  if (!(0 <= index && index <= n)) {
     return;
   }
 
-  /** @type {ListNode} */
-  const newNode = { next: null, data: val };
-  const prev = getNodeAt(this, index - 1);
-
-  if (prev) {
-    const next = prev.next;
-    prev.next = newNode;
-    newNode.next = next;
-    this.size++;
+  if (index === 0) {
+    this.addAtHead(val);
+  } else if (index === n) {
+    this.addAtTail(val);
   } else {
-    newNode.next = this.first;
-    this.first = newNode;
+    const ithNode = _ithNode(this, index);
+    if (!ithNode) {
+      throw new Error('Failed to get ithnode');
+    }
+
+    const newNode = new _Node(val, ithNode.prev, ithNode);
+    if (ithNode.prev) {
+      ithNode.prev.next = newNode;
+    }
+    ithNode.prev = newNode;
     this.size++;
   }
 };
@@ -99,24 +128,29 @@ MyLinkedList.prototype.addAtIndex = function(index, val) {
  * @return {void}
  */
 MyLinkedList.prototype.deleteAtIndex = function(index) {
-  if (!(0 <= index && index < this.size)) {
+  const n = this.size;
+  if (!(0 <= index && index < n)) {
     return;
   }
 
-  const prev = getNodeAt(this, index - 1);
-
-  if (prev) {
-    if (prev.next) {
-      const next = prev.next.next;
-      prev.next = next;
-      this.size--;
-    }
+  if (index === 0) {
+    this.first = this.first?.next ?? null;
+  } else if (index === n - 1) {
+    this.last = this.last?.prev ?? null;
   } else {
-    if (this.first) {
-      this.first = this.first.next;
-      this.size--;
+    const ithNode = _ithNode(this, index);
+    if (!ithNode) {
+      throw new Error('Failed to get ithnode');
     }
+
+    const {prev, next} = ithNode;
+    (prev) && (prev.next = next);
+    ithNode.prev = null;
+
+    (next) && (next.prev = prev);
+    ithNode.next = null;
   }
+  this.size--;
 };
 
 /** 
