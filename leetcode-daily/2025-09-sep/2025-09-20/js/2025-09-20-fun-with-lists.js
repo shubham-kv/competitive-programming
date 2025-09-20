@@ -1,3 +1,8 @@
+// Title: Fun with linked list
+// Date: 2025-09-20
+// Created: `Sat, 20 Sep 2025 11:24:07 +0530`
+// Tags: [linked-list, daily-practice]
+
 /// {{
 /// Problem: 234. Palindrome Linked List
 /// Difficulty: `Easy`
@@ -68,4 +73,3 @@ function reverseList(
 }
 
 /// }}
-

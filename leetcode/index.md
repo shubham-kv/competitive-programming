@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Fri, 19 Sep 2025 12:33:35 +0530"
+Last Edited: "Sat, 20 Sep 2025 12:04:10 +0530"
 ---
 
 My solutions to solved leetcode problems organized by topic/category. It
@@ -78,7 +78,8 @@ Each list item has the following format:
 1. [**234. Palindrome Linked List**](https://leetcode.com/problems/palindrome-linked-list/)  
   `Easy`; `linked-list`, `two-pointers`, `stack`, `recursion`  
   [C](./linked-lists/234-palindrome-linked-list/c/solution.c),
-  [Javascript](./linked-lists/234-palindrome-linked-list/js/solution.js)
+  [Javascript](./linked-lists/234-palindrome-linked-list/js/solution.js),
+  [Typescript](./linked-lists/234-palindrome-linked-list/ts/solution.ts)
 
 1. [**237. Delete Node in a Linked List**](https://leetcode.com/problems/delete-node-in-a-linked-list/)  
   `Medium`; `linked-list`  
