@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Mon, 22 Sep 2025 12:01:42 +0530"
+Last Edited: "Mon, 22 Sep 2025 12:47:12 +0530"
 ---
 
 My solutions to solved leetcode problems organized by topic/category. It
@@ -101,7 +101,8 @@ Each list item has the following format:
 1. [**2181. Merge Nodes in Between Zeros**](https://leetcode.com/problems/merge-nodes-in-between-zeros/)  
   `Medium`; `linked-list`, `simulation`  
   [C](./linked-lists/2181-merge-nodes-in-between-zeros/c/solution.c),
-  [Javascript](./linked-lists/2181-merge-nodes-in-between-zeros/js/solution.js)
+  [Javascript](./linked-lists/2181-merge-nodes-in-between-zeros/js/solution.js),
+  [Typescript](./linked-lists/2181-merge-nodes-in-between-zeros/ts/solution.ts)
 
 ### Stacks
 
