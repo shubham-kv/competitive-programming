@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Sat, 20 Sep 2025 14:00:05 +0530"
+Last Edited: "Mon, 22 Sep 2025 12:01:42 +0530"
 ---
 
 My solutions to solved leetcode problems organized by topic/category. It
@@ -95,7 +95,8 @@ Each list item has the following format:
 1. [**876. Middle of the Linked List**](https://leetcode.com/problems/middle-of-the-linked-list/)  
   `Easy`; `linked-list`, `two-pointers`  
   [C](./linked-lists/876-middle-of-the-linked-list/c/solution.c),
-  [Javascript](./linked-lists/876-middle-of-the-linked-list/js/solution.js)
+  [Javascript](./linked-lists/876-middle-of-the-linked-list/js/solution.js),
+  [Typescript](./linked-lists/876-middle-of-the-linked-list/ts/solution.ts)
 
 1. [**2181. Merge Nodes in Between Zeros**](https://leetcode.com/problems/merge-nodes-in-between-zeros/)  
   `Medium`; `linked-list`, `simulation`  

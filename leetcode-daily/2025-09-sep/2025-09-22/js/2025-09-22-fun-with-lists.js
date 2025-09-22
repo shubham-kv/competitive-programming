@@ -1,3 +1,8 @@
+// Title: Fun with linked list
+// Date: 2025-09-22
+// Created: `Mon, 22 Sep 2025 11:35:58 +0530`
+// Tags: [linked-list, daily-practice]
+
 /// {{
 /// Problem: 876. Middle of the Linked List
 /// Link: https://leetcode.com/problems/middle-of-the-linked-list/
@@ -36,4 +41,3 @@ function middleNode(head) {
 }
 
 /// }}
-
