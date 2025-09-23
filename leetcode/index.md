@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Mon, 22 Sep 2025 12:47:12 +0530"
+Last Edited: "Tue, 23 Sep 2025 12:26:48 +0530"
 ---
 
 My solutions to solved leetcode problems organized by topic/category. It
@@ -109,7 +109,8 @@ Each list item has the following format:
 1. [**20. Valid Parentheses**](https://leetcode.com/problems/valid-parentheses/)  
   `Easy`; `string`, `stack`  
   [C](./stacks/20-valid-parentheses/c/solution.c),
-  [Javascript](./stacks/20-valid-parentheses/js/solution.js)  
+  [Javascript](./stacks/20-valid-parentheses/js/solution.js),
+  [Typescript](./stacks/20-valid-parentheses/ts/solution.ts)
 
 1. [**71. Simplify Path**](https://leetcode.com/problems/simplify-path/)  
   `Medium`; `string`, `stack`  

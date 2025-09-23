@@ -1,3 +1,8 @@
+// Title: Fun with stacks
+// Date: 2025-09-23
+// Created: `Tue, 23 Sep 2025 11:05:03 +0530`
+// Tags: [stacks, daily-practice]
+
 /// {{
 /// Problem: 20. Valid Parentheses
 /// Difficulty: `Easy`
