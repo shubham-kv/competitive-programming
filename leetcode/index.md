@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Tue, 23 Sep 2025 12:26:48 +0530"
+Last Edited: "Wed, 24 Sep 2025 12:30:00 +0530"
 ---
 
 My solutions to solved leetcode problems organized by topic/category. It
@@ -114,7 +114,9 @@ Each list item has the following format:
 
 1. [**71. Simplify Path**](https://leetcode.com/problems/simplify-path/)  
   `Medium`; `string`, `stack`  
-  [C](./stacks/71-simplify-path/c/solution.c)
+  [C](./stacks/71-simplify-path/c/solution.c),
+  [Javascript](./stacks/71-simplify-path/js/solution.js),
+  [Typescript](./stacks/71-simplify-path/ts/solution.ts)
 
 1. [**143. Reorder List**](https://leetcode.com/problems/reorder-list/)  
   `Medium`; `linked-list`, `two-pointers`, `stack`, `recursion`  
