@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Wed, 24 Sep 2025 12:30:00 +0530"
+Last Edited: "Thu, 25 Sep 2025 10:48:38 +0530"
 ---
 
 My solutions to solved leetcode problems organized by topic/category. It
@@ -121,7 +121,8 @@ Each list item has the following format:
 1. [**143. Reorder List**](https://leetcode.com/problems/reorder-list/)  
   `Medium`; `linked-list`, `two-pointers`, `stack`, `recursion`  
   [C](./stacks/143-reorder-list/c/solution.c),
-  [Javascript](./stacks/143-reorder-list/js/solution.js)
+  [Javascript](./stacks/143-reorder-list/js/solution.js),
+  [Typescript](./stacks/143-reorder-list/ts/solution.ts)
 
 1. [**150. Evaluate Reverse Polish Notation**](https://leetcode.com/problems/evaluate-reverse-polish-notation/)  
   `Medium`; `array`, `math`, `stack`  
