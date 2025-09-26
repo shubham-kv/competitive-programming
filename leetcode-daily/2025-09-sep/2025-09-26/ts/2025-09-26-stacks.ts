@@ -1,3 +1,8 @@
+// Title: Fun with stacks
+// Date: 2025-09-26
+// Created: `Fri, 26 Sep 2025 10:21:10 +0530`
+// Tags: [stacks, daily-practice]
+
 /// {{
 /// Problem: 150. Evaluate Reverse Polish Notation
 /// Difficulty: `Medium`
