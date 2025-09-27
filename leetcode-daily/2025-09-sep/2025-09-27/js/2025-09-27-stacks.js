@@ -1,3 +1,8 @@
+// Title: Fun with stacks
+// Date: 2025-09-27
+// Created: `Sat, 27 Sep 2025 10:12:37 +0530`
+// Tags: [stacks, daily-practice]
+
 /// {{
 /// Problem: 155. Min Stack
 /// Difficulty: Medium  

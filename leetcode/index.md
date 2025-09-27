@@ -1,7 +1,7 @@
 ---
 Title: LeetCode Problem Index
 Created: "Mon, 19 May 2025 11:24:58 +0530"
-Last Edited: "Thu, 25 Sep 2025 10:48:38 +0530"
+Last Edited: "Sat, 27 Sep 2025 10:11:42 +0530"
 ---
 
 My solutions to solved leetcode problems organized by topic/category. It
@@ -133,7 +133,8 @@ Each list item has the following format:
 1. [**155. Min Stack**](https://leetcode.com/problems/min-stack/)  
   `Medium`; `stack`, `design`  
   [C](./stacks/155-min-stack/c/solution.c),
-  [Javascript](./stacks/155-min-stack/js/solution.js)  
+  [Javascript](./stacks/155-min-stack/js/solution.js),
+  [Typescript](./stacks/155-min-stack/ts/solution.ts)
 
 1. [**227. Basic Calculator II**](https://leetcode.com/problems/basic-calculator-ii/)  
   `Medium`; `math`, `string`, `stack`  
