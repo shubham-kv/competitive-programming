@@ -1,3 +1,6 @@
+// Timestamp: `Fri, 24 Apr 2026 10:14:40 +0530`
+// Tags: [search, daily-practice]
+
 #include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
