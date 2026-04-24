@@ -1,4 +1,3 @@
-#include <memory.h>
 #include <stdbool.h>
 #include <stdlib.h>
 
@@ -7,126 +6,140 @@
 /// Difficulty: Easy
 /// Links: https://leetcode.com/problems/implement-queue-using-stacks/
 /// Topics: `stack`, `design`, `queue`
-/// Timestamp: `Mon, 21 Jul 2025 12:07:13 +0530`
+/// Timestamp: `Fri, 24 Apr 2026 10:40:58 +0530`
 
-struct Node {
-  struct Node *next;
-  int data;
+#ifndef __stack_h
+#define __stack_h
+
+struct StackNode;
+struct Stack;
+
+typedef struct StackNode *STACK_NODE;
+typedef struct Stack *STACK;
+
+STACK Stack_Create();
+ void Stack_Delete(STACK stack);
+ void Stack_Push(STACK stack, int val);
+  int Stack_Pop(STACK stack);
+  int Stack_Peek(STACK stack);
+  int Stack_Size(STACK stack);
+ bool Stack_IsEmpty(STACK stack);
+
+#endif // __stack_h
+
+
+struct StackNode {
+  int val;
+  struct StackNode *next;
 };
 
 struct Stack {
-  struct Node *top;
+  struct StackNode *top;
+  size_t size;
 };
 
-const int NODE_WIDTH = sizeof(struct Node);
-const int STACK_WIDTH = sizeof(struct Stack);
-
-struct Stack *Stack_create();
-void Stack_free(struct Stack *stack);
-void Stack_push(struct Stack *stack, int data);
-int Stack_pop(struct Stack *stack);
-
-#define IS_STACK_EMPTY(stack) (((struct Stack *) stack)->top == NULL)
-#define STACK_PEEK(stack) (IS_STACK_EMPTY(stack) ? -1 : ((struct Stack *) stack)->top->data)
-
-
-inline struct Stack *Stack_create() {
-  return calloc(1, STACK_WIDTH);
+STACK Stack_Create() {
+  STACK stack = calloc(1, sizeof(*stack));
+  return stack;
 }
 
-void Stack_free(struct Stack *stack) {
-  while (!IS_STACK_EMPTY(stack)) {
-    Stack_pop(stack);
+void Stack_Delete(STACK stack) {
+  while (!Stack_IsEmpty(stack)) {
+    Stack_Pop(stack);
   }
-  free(stack);
+  free(stack), (stack = NULL);
 }
 
-void Stack_push(struct Stack *stack, int data) {
-  struct Node *node = calloc(1, NODE_WIDTH);
-  node->data = data;
+void Stack_Push(STACK stack, int val) {
+  STACK_NODE node = calloc(1, sizeof(*node));
+  node->val = val;
   node->next = stack->top;
+
   stack->top = node;
+  stack->size++;
 }
 
-int Stack_pop(struct Stack *stack) {
-  if (IS_STACK_EMPTY(stack)) {
+int Stack_Pop(STACK stack) {
+  if (Stack_IsEmpty(stack)) {
     return -1;
   }
 
-  int data = stack->top->data;
-  struct Node *next = stack->top->next;
+  int val = stack->top->val;
+  STACK_NODE next = stack->top->next;
+
   free(stack->top), (stack->top = NULL);
   stack->top = next;
+  stack->size--;
 
-  return data;
+  return val;
+}
+
+inline int Stack_Peek(STACK stack) {
+  return Stack_IsEmpty(stack) ? -1 : stack->top->val;
+}
+
+inline int Stack_Size(STACK stack) {
+  return stack->size;
+}
+
+inline bool Stack_IsEmpty(STACK stack) {
+  return Stack_Size(stack) == 0;
 }
 
 
 
 typedef struct {
-  void *stack1;
-  void *stack2;
+  STACK stack1;
+  STACK stack2;
 } MyQueue;
 
-const int MY_QUEUE_WIDTH = sizeof(MyQueue);
+typedef MyQueue *QUEUE;
 
-MyQueue *myQueueCreate();
-void myQueueFree(MyQueue *queue);
-void myQueuePush(MyQueue *queue, int x);
-int myQueuePop(MyQueue *queue);
-int myQueuePeek(MyQueue *queue);
-bool myQueueEmpty(MyQueue *queue);
+QUEUE myQueueCreate();
+ void myQueueFree(QUEUE queue);
+ void myQueuePush(QUEUE queue, int x);
+  int myQueuePop(QUEUE queue);
+  int myQueuePeek(QUEUE queue);
+ bool myQueueEmpty(QUEUE queue);
 
-MyQueue *myQueueCreate() {
-  MyQueue *queue = calloc(1, MY_QUEUE_WIDTH);
-  queue->stack1 = Stack_create();
-  queue->stack2 = Stack_create();
+
+QUEUE myQueueCreate() {
+  QUEUE queue = calloc(1, sizeof(*queue));
+  queue->stack1 = Stack_Create();
+  queue->stack2 = Stack_Create();
   return queue;
 }
 
-void myQueueFree(MyQueue *queue) {
-  Stack_free(queue->stack1);
-  Stack_free(queue->stack2);
-  memset(queue, 0, MY_QUEUE_WIDTH);
-  free(queue);
+void myQueueFree(QUEUE queue) {
+  Stack_Delete(queue->stack1), (queue->stack1 = NULL);
+  Stack_Delete(queue->stack2), (queue->stack2 = NULL);
+  free(queue), (queue = NULL);
 }
 
-void myQueuePush(MyQueue *queue, int x) {
-  while (!IS_STACK_EMPTY(queue->stack1)) {
-    Stack_push(queue->stack2, Stack_pop(queue->stack1));
+void myQueuePush(QUEUE queue, int x) {
+  while (!Stack_IsEmpty(queue->stack1)) {
+    Stack_Push(queue->stack2, Stack_Pop(queue->stack1));
   }
-
-  Stack_push(queue->stack2, x);
+  Stack_Push(queue->stack2, x);
 }
 
-int myQueuePop(MyQueue *queue) {
-  while (!IS_STACK_EMPTY(queue->stack2)) {
-    Stack_push(queue->stack1, Stack_pop(queue->stack2));
+int myQueuePop(QUEUE queue) {
+  while (!Stack_IsEmpty(queue->stack2)) {
+    Stack_Push(queue->stack1, Stack_Pop(queue->stack2));
   }
-
-  return Stack_pop(queue->stack1);
+  return Stack_Pop(queue->stack1);
 }
 
-int myQueuePeek(MyQueue *queue) {
-  while (!IS_STACK_EMPTY(queue->stack2)) {
-    Stack_push(queue->stack1, Stack_pop(queue->stack2));
+int myQueuePeek(QUEUE queue) {
+  while (!Stack_IsEmpty(queue->stack2)) {
+    Stack_Push(queue->stack1, Stack_Pop(queue->stack2));
   }
-
-  return STACK_PEEK(queue->stack1);
+  return Stack_Peek(queue->stack1);
 }
 
-inline bool myQueueEmpty(MyQueue *queue) {
-  return IS_STACK_EMPTY(queue->stack1) && IS_STACK_EMPTY(queue->stack2);
+bool myQueueEmpty(QUEUE queue) {
+  return Stack_IsEmpty(queue->stack1) && Stack_IsEmpty(queue->stack2);
 }
 
-/**
- * Your MyQueue struct will be instantiated and called as such:
- * MyQueue* queue = myQueueCreate();
- * myQueuePush(queue, x);
- * int param_2 = myQueuePop(queue);
- * int param_3 = myQueuePeek(queue);
- * bool param_4 = myQueueEmpty(queue);
- * myQueueFree(queue);
-*/
 
 /// }}
