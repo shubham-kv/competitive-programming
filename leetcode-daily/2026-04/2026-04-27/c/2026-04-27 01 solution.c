@@ -1,6 +1,6 @@
 
-#include <stdbool.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
 /// {{
 /// Problem: 225. Implement Stack using Queues
