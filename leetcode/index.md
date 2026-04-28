@@ -176,7 +176,8 @@ Each list item has the following format:
 
 1. [**641. Design Circular Deque**](https://leetcode.com/problems/design-circular-deque/)  
   `Medium`; `array`, `linked-list`, `design`, `queue`  
-  [C](./queues/641-design-circular-deque/c/solution.c),
+  [C | Linked List](./queues/641-design-circular-deque/c/01%20linked-list%20solution.c),
+  [C | Array](./queues/641-design-circular-deque/c/02%20array%20solution.c),
   [Rust](./queues/641-design-circular-deque/rust/main.rs),
   [Javascript](./queues/641-design-circular-deque/js/solution.js),
   [Typescript](./queues/641-design-circular-deque/ts/linked-list-deque.ts)  
