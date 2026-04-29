@@ -1,3 +1,4 @@
+#include <assert.h>
 #include <stdlib.h>
 
 /// {{
@@ -5,29 +6,9 @@
 /// Difficulty: `Easy`
 /// Links: https://leetcode.com/problems/binary-search/
 /// Topics: `array`, `binary-search`
-/// Timestamp: `Fri, 04 Jul 2025 16:15:57 +0530`
+/// Timestamp: `Wed, 29 Apr 2026 21:28:51 +0530`
 
-// Solution 1: Iterative
-
-int search(int *nums, int n, int target) {
-  int low = 0, high = n - 1;
-
-  while (low <= high) {
-    const int mid = (low + high) / 2;
-
-    if (target < nums[mid]) {
-      high = mid - 1;
-    } else if (target > nums[mid]) {
-      low = mid + 1;
-    } else {
-      return mid;
-    }
-  }
-
-  return -1;
-}
-
-// Solution 2: Recursive
+// Recursive Binary Search
 
 int search_recursive(int *arr, int target, int low, int high) {
   if (!(low <= high)) {
@@ -48,7 +29,6 @@ int search_recursive(int *arr, int target, int low, int high) {
 int search(int *nums, int n, int target) {
   const int low = 0, high = n - 1;
   return search_recursive(nums, target, low, high);
-}
 }
 
 /// }}
