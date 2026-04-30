@@ -8,40 +8,6 @@
 /// Topics: `array`, `binary-search`, `matrix`
 /// Timestamp: `Thu, 30 Apr 2026 10:58:42 +0530`
 
-/**
- * matrix = [
- *   [0][0], [0][1], [0][2],
- *   [1][0], [1][1], [1][2],
- *   [2][0], [2][1], [2][2],
- * ]
- *
- * matrix = [
- *   [0], [1], [2],
- *   [3], [4], [5],
- *   [6], [7], [8],
- * ]
- *
- * rowIndex = mid / cols = 1 / 3 = 0
- * colIndex = mid % cols = 1 % 3 = 1
-
- * rowIndex = mid / cols = 4 / 3 = 1
- * colIndex = mid % cols = 4 % 3 = 1
- *
- * matrix = [
- *   [0][0], [0][1],
- * ]
- *
- * matrix = [
- *   0, 1
- * ]
- *
- * rowIndex = mid / cols = 0 / 2 = 0
- * colIndex = mid % cols = 0 % 2 = 0
- *
- * rowIndex = mid / cols = 1 / 2 = 0
- * colIndex = mid % cols = 1 % 2 = 1
- */
-
 bool searchMatrix(int **matrix, int matrixSize, int *matrixColSize,
                   int target) {
   const int rows = matrixSize, cols = *matrixColSize;
